@@ -1,0 +1,296 @@
+[
+  {
+    "region": "Finland",
+    "label": "AI Engineering",
+    "count": 11,
+    "denominator": 31,
+    "percentage": 35.483870967741936,
+    "job_ids": [
+      "F03",
+      "F07",
+      "F08",
+      "F12",
+      "F18",
+      "F20",
+      "F21",
+      "F23",
+      "F24",
+      "F25",
+      "F27"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "Machine Learning Engineering",
+    "count": 6,
+    "denominator": 31,
+    "percentage": 19.35483870967742,
+    "job_ids": [
+      "F01",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "Data Engineering",
+    "count": 5,
+    "denominator": 31,
+    "percentage": 16.129032258064516,
+    "job_ids": [
+      "F04",
+      "F09",
+      "F10",
+      "F22",
+      "F29"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "Data Science",
+    "count": 4,
+    "denominator": 31,
+    "percentage": 12.903225806451612,
+    "job_ids": [
+      "F06",
+      "F11",
+      "F19",
+      "F28"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "AI Platform / Infrastructure",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "F26"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "Data & Analytics",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "F30"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "GenAI / LLM",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "F02"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "MLOps / ML Platform",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "F05"
+    ]
+  },
+  {
+    "region": "Finland",
+    "label": "Other emerging AI",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "F31"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "Data Science",
+    "count": 8,
+    "denominator": 25,
+    "percentage": 32,
+    "job_ids": [
+      "E06",
+      "E08",
+      "E10",
+      "E13",
+      "E14",
+      "E15",
+      "E17",
+      "E24"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "Machine Learning Engineering",
+    "count": 7,
+    "denominator": 25,
+    "percentage": 28,
+    "job_ids": [
+      "E01",
+      "E04",
+      "E07",
+      "E11",
+      "E12",
+      "E16",
+      "E20"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "AI Engineering",
+    "count": 4,
+    "denominator": 25,
+    "percentage": 16,
+    "job_ids": [
+      "E02",
+      "E19",
+      "E21",
+      "E22"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "AI Platform / Infrastructure",
+    "count": 3,
+    "denominator": 25,
+    "percentage": 12,
+    "job_ids": [
+      "E03",
+      "E18",
+      "E25"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "Analytics Engineering",
+    "count": 1,
+    "denominator": 25,
+    "percentage": 4,
+    "job_ids": [
+      "E23"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "Data Engineering",
+    "count": 1,
+    "denominator": 25,
+    "percentage": 4,
+    "job_ids": [
+      "E05"
+    ]
+  },
+  {
+    "region": "Rest of Europe",
+    "label": "GenAI / LLM",
+    "count": 1,
+    "denominator": 25,
+    "percentage": 4,
+    "job_ids": [
+      "E09"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "Machine Learning Engineering",
+    "count": 11,
+    "denominator": 31,
+    "percentage": 35.483870967741936,
+    "job_ids": [
+      "U01",
+      "U02",
+      "U03",
+      "U05",
+      "U06",
+      "U09",
+      "U10",
+      "U11",
+      "U12",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "Data Science",
+    "count": 7,
+    "denominator": 31,
+    "percentage": 22.580645161290324,
+    "job_ids": [
+      "U08",
+      "U17",
+      "U20",
+      "U24",
+      "U27",
+      "U29",
+      "U30"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "AI Engineering",
+    "count": 6,
+    "denominator": 31,
+    "percentage": 19.35483870967742,
+    "job_ids": [
+      "U04",
+      "U14",
+      "U16",
+      "U18",
+      "U22",
+      "U25"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "Data Engineering",
+    "count": 3,
+    "denominator": 31,
+    "percentage": 9.67741935483871,
+    "job_ids": [
+      "U13",
+      "U19",
+      "U23"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "AI Platform / Infrastructure",
+    "count": 2,
+    "denominator": 31,
+    "percentage": 6.451612903225806,
+    "job_ids": [
+      "U07",
+      "U15"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "Agentic AI",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "U26"
+    ]
+  },
+  {
+    "region": "USA",
+    "label": "MLOps / ML Platform",
+    "count": 1,
+    "denominator": 31,
+    "percentage": 3.225806451612903,
+    "job_ids": [
+      "U21"
+    ]
+  }
+]

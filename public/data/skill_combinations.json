@@ -1,0 +1,340 @@
+[
+  {
+    "label": "ML + SWE",
+    "skill_codes": [
+      "ML",
+      "SWE"
+    ],
+    "count": 29,
+    "denominator": 87,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F01",
+      "F05",
+      "F07",
+      "F08",
+      "F14",
+      "F16",
+      "F17",
+      "F21",
+      "E01",
+      "E04",
+      "E06",
+      "E07",
+      "E08",
+      "E16",
+      "E19",
+      "E20",
+      "U01",
+      "U04",
+      "U05",
+      "U10",
+      "U11",
+      "U12",
+      "U14",
+      "U16",
+      "U22",
+      "U25",
+      "U28",
+      "U29",
+      "U31"
+    ]
+  },
+  {
+    "label": "GEN + AGT",
+    "skill_codes": [
+      "GEN",
+      "AGT"
+    ],
+    "count": 19,
+    "denominator": 87,
+    "percentage": 21.839080459770116,
+    "job_ids": [
+      "F02",
+      "F03",
+      "F07",
+      "F11",
+      "F12",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "E10",
+      "E21",
+      "E22",
+      "U01",
+      "U07",
+      "U09",
+      "U17",
+      "U18",
+      "U22",
+      "U26"
+    ]
+  },
+  {
+    "label": "GEN + API",
+    "skill_codes": [
+      "GEN",
+      "API"
+    ],
+    "count": 14,
+    "denominator": 87,
+    "percentage": 16.091954022988507,
+    "job_ids": [
+      "F02",
+      "F03",
+      "F12",
+      "F25",
+      "F27",
+      "E02",
+      "E22",
+      "U05",
+      "U10",
+      "U14",
+      "U16",
+      "U22",
+      "U25",
+      "U26"
+    ]
+  },
+  {
+    "label": "PY + CLOUD",
+    "skill_codes": [
+      "PY",
+      "CLOUD"
+    ],
+    "count": 13,
+    "denominator": 87,
+    "percentage": 14.942528735632184,
+    "job_ids": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F13",
+      "F19",
+      "F20",
+      "F24",
+      "F25",
+      "E23",
+      "U05",
+      "U21"
+    ]
+  },
+  {
+    "label": "SWE + CLOUD",
+    "skill_codes": [
+      "SWE",
+      "CLOUD"
+    ],
+    "count": 13,
+    "denominator": 87,
+    "percentage": 14.942528735632184,
+    "job_ids": [
+      "F01",
+      "F02",
+      "F03",
+      "F05",
+      "F20",
+      "F25",
+      "E03",
+      "E18",
+      "E21",
+      "U05",
+      "U19",
+      "U21",
+      "U23"
+    ]
+  },
+  {
+    "label": "PY + SQL",
+    "skill_codes": [
+      "PY",
+      "SQL"
+    ],
+    "count": 13,
+    "denominator": 87,
+    "percentage": 14.942528735632184,
+    "job_ids": [
+      "F01",
+      "F13",
+      "F27",
+      "F29",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E17",
+      "E23",
+      "E24",
+      "U22",
+      "U24"
+    ]
+  },
+  {
+    "label": "GEN + RAG",
+    "skill_codes": [
+      "GEN",
+      "RAG"
+    ],
+    "count": 12,
+    "denominator": 87,
+    "percentage": 13.793103448275861,
+    "job_ids": [
+      "F02",
+      "F07",
+      "F11",
+      "F12",
+      "F24",
+      "F26",
+      "F27",
+      "E21",
+      "E22",
+      "U01",
+      "U22",
+      "U26"
+    ]
+  },
+  {
+    "label": "AGT + EVAL",
+    "skill_codes": [
+      "AGT",
+      "EVAL"
+    ],
+    "count": 12,
+    "denominator": 87,
+    "percentage": 13.793103448275861,
+    "job_ids": [
+      "F02",
+      "F03",
+      "F11",
+      "F12",
+      "F19",
+      "F24",
+      "F26",
+      "E22",
+      "U01",
+      "U09",
+      "U12",
+      "U26"
+    ]
+  },
+  {
+    "label": "AGT + OBS",
+    "skill_codes": [
+      "AGT",
+      "OBS"
+    ],
+    "count": 10,
+    "denominator": 87,
+    "percentage": 11.494252873563218,
+    "job_ids": [
+      "F03",
+      "F18",
+      "F19",
+      "F20",
+      "F26",
+      "F27",
+      "U07",
+      "U09",
+      "U12",
+      "U26"
+    ]
+  },
+  {
+    "label": "DE + CLOUD",
+    "skill_codes": [
+      "DE",
+      "CLOUD"
+    ],
+    "count": 9,
+    "denominator": 87,
+    "percentage": 10.344827586206897,
+    "job_ids": [
+      "F03",
+      "F04",
+      "F05",
+      "F11",
+      "E18",
+      "E23",
+      "U05",
+      "U19",
+      "U23"
+    ]
+  },
+  {
+    "label": "AGT + SEC",
+    "skill_codes": [
+      "AGT",
+      "SEC"
+    ],
+    "count": 9,
+    "denominator": 87,
+    "percentage": 10.344827586206897,
+    "job_ids": [
+      "F02",
+      "F24",
+      "F25",
+      "F26",
+      "E21",
+      "E22",
+      "U18",
+      "U19",
+      "U26"
+    ]
+  },
+  {
+    "label": "GEN + RAG + EVAL",
+    "skill_codes": [
+      "GEN",
+      "RAG",
+      "EVAL"
+    ],
+    "count": 8,
+    "denominator": 87,
+    "percentage": 9.195402298850574,
+    "job_ids": [
+      "F02",
+      "F11",
+      "F12",
+      "F24",
+      "F26",
+      "E22",
+      "U01",
+      "U26"
+    ]
+  },
+  {
+    "label": "AGT + TOOL",
+    "skill_codes": [
+      "AGT",
+      "TOOL"
+    ],
+    "count": 5,
+    "denominator": 87,
+    "percentage": 5.747126436781609,
+    "job_ids": [
+      "F03",
+      "F11",
+      "F12",
+      "F20",
+      "F26"
+    ]
+  },
+  {
+    "label": "ML + CLOUD + MLOPS",
+    "skill_codes": [
+      "ML",
+      "CLOUD",
+      "MLOPS"
+    ],
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "F05",
+      "F13"
+    ]
+  }
+]
