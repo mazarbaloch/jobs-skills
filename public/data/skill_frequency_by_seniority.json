@@ -1,0 +1,6034 @@
+[
+  {
+    "seniority_group": "Mid",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 8,
+    "denominator": 9,
+    "percentage": 88.88888888888889,
+    "job_ids": [
+      "F01",
+      "F04",
+      "F09",
+      "E05",
+      "E10",
+      "U12",
+      "U13",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 6,
+    "denominator": 9,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F04",
+      "F09",
+      "E05",
+      "E10",
+      "U13",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 6,
+    "denominator": 9,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F01",
+      "F04",
+      "E10",
+      "U12",
+      "U13",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 5,
+    "denominator": 9,
+    "percentage": 55.55555555555556,
+    "job_ids": [
+      "F01",
+      "F21",
+      "E10",
+      "U12",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 5,
+    "denominator": 9,
+    "percentage": 55.55555555555556,
+    "job_ids": [
+      "F01",
+      "F09",
+      "E05",
+      "E10",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 4,
+    "denominator": 9,
+    "percentage": 44.44444444444444,
+    "job_ids": [
+      "F04",
+      "F09",
+      "E05",
+      "U13"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 4,
+    "denominator": 9,
+    "percentage": 44.44444444444444,
+    "job_ids": [
+      "F01",
+      "F21",
+      "U12",
+      "U13"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 3,
+    "denominator": 9,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F01",
+      "F04",
+      "E05"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 3,
+    "denominator": 9,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F09",
+      "E05",
+      "E10"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 3,
+    "denominator": 9,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F04",
+      "F09",
+      "E05"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "E10",
+      "U12"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F01",
+      "F04"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "U13",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F01",
+      "F04"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F21",
+      "U12"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "E10",
+      "U12"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "E05",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F01",
+      "F04"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "U12",
+      "U13"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "E10",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F09",
+      "E10"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 2,
+    "denominator": 9,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "E10",
+      "U24"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "F04"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "F01"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E10"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "U12"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "U12"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E10"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E05"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 1,
+    "denominator": 9,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "F04"
+    ]
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Mid",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 0,
+    "denominator": 9,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 16,
+    "denominator": 20,
+    "percentage": 80,
+    "job_ids": [
+      "F18",
+      "F27",
+      "F28",
+      "F29",
+      "E02",
+      "E03",
+      "E08",
+      "E17",
+      "E18",
+      "E21",
+      "E23",
+      "U04",
+      "U05",
+      "U08",
+      "U14",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 13,
+    "denominator": 20,
+    "percentage": 65,
+    "job_ids": [
+      "F02",
+      "F12",
+      "E02",
+      "E03",
+      "E08",
+      "E18",
+      "E21",
+      "U01",
+      "U04",
+      "U05",
+      "U06",
+      "U14",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 12,
+    "denominator": 20,
+    "percentage": 60,
+    "job_ids": [
+      "F02",
+      "F12",
+      "F27",
+      "E02",
+      "E03",
+      "E21",
+      "U01",
+      "U04",
+      "U05",
+      "U06",
+      "U08",
+      "U14"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 12,
+    "denominator": 20,
+    "percentage": 60,
+    "job_ids": [
+      "F02",
+      "F18",
+      "F27",
+      "F28",
+      "F29",
+      "E08",
+      "E17",
+      "E23",
+      "U01",
+      "U05",
+      "U06",
+      "U14"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 9,
+    "denominator": 20,
+    "percentage": 45,
+    "job_ids": [
+      "F12",
+      "F27",
+      "F29",
+      "E08",
+      "E18",
+      "E23",
+      "U05",
+      "U14",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 9,
+    "denominator": 20,
+    "percentage": 45,
+    "job_ids": [
+      "F27",
+      "F28",
+      "E08",
+      "E17",
+      "U01",
+      "U04",
+      "U05",
+      "U08",
+      "U14"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 7,
+    "denominator": 20,
+    "percentage": 35,
+    "job_ids": [
+      "F02",
+      "F12",
+      "F18",
+      "F27",
+      "E02",
+      "U05",
+      "U14"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 7,
+    "denominator": 20,
+    "percentage": 35,
+    "job_ids": [
+      "F02",
+      "E03",
+      "E18",
+      "E21",
+      "E23",
+      "U05",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 7,
+    "denominator": 20,
+    "percentage": 35,
+    "job_ids": [
+      "F02",
+      "F12",
+      "E08",
+      "U01",
+      "U05",
+      "U06",
+      "U14"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 6,
+    "denominator": 20,
+    "percentage": 30,
+    "job_ids": [
+      "F02",
+      "F12",
+      "F18",
+      "F27",
+      "E21",
+      "U01"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 6,
+    "denominator": 20,
+    "percentage": 30,
+    "job_ids": [
+      "F02",
+      "F18",
+      "F27",
+      "F29",
+      "E03",
+      "E21"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 6,
+    "denominator": 20,
+    "percentage": 30,
+    "job_ids": [
+      "F27",
+      "F29",
+      "E08",
+      "E17",
+      "E23",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 5,
+    "denominator": 20,
+    "percentage": 25,
+    "job_ids": [
+      "F02",
+      "F18",
+      "U04",
+      "U05",
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 5,
+    "denominator": 20,
+    "percentage": 25,
+    "job_ids": [
+      "F02",
+      "F12",
+      "F27",
+      "E21",
+      "U01"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 5,
+    "denominator": 20,
+    "percentage": 25,
+    "job_ids": [
+      "F02",
+      "F29",
+      "E21",
+      "U04",
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 4,
+    "denominator": 20,
+    "percentage": 20,
+    "job_ids": [
+      "F02",
+      "F18",
+      "U04",
+      "U05"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 4,
+    "denominator": 20,
+    "percentage": 20,
+    "job_ids": [
+      "F02",
+      "F18",
+      "F27",
+      "F29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 4,
+    "denominator": 20,
+    "percentage": 20,
+    "job_ids": [
+      "F18",
+      "F27",
+      "E02",
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 4,
+    "denominator": 20,
+    "percentage": 20,
+    "job_ids": [
+      "F27",
+      "F28",
+      "E03",
+      "E18"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 4,
+    "denominator": 20,
+    "percentage": 20,
+    "job_ids": [
+      "E03",
+      "U01",
+      "U04",
+      "U05"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 3,
+    "denominator": 20,
+    "percentage": 15,
+    "job_ids": [
+      "U01",
+      "U05",
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 3,
+    "denominator": 20,
+    "percentage": 15,
+    "job_ids": [
+      "F29",
+      "E23",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 3,
+    "denominator": 20,
+    "percentage": 15,
+    "job_ids": [
+      "F18",
+      "F27",
+      "E03"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 3,
+    "denominator": 20,
+    "percentage": 15,
+    "job_ids": [
+      "F28",
+      "E08",
+      "E17"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 3,
+    "denominator": 20,
+    "percentage": 15,
+    "job_ids": [
+      "F02",
+      "F18",
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 3,
+    "denominator": 20,
+    "percentage": 15,
+    "job_ids": [
+      "F29",
+      "E23",
+      "U23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "E17",
+      "E23"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "E18",
+      "U05"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F02",
+      "U01"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "E08",
+      "E17"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "U01",
+      "U04"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F02",
+      "E08"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F02",
+      "F18"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "U01",
+      "U08"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F28",
+      "E08"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F02",
+      "F12"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F29",
+      "E08"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 2,
+    "denominator": 20,
+    "percentage": 10,
+    "job_ids": [
+      "F02",
+      "U01"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "F29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "F02"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "E21"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "F02"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "F18"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "U06"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "U01"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 1,
+    "denominator": 20,
+    "percentage": 5,
+    "job_ids": [
+      "F12"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Mid/Senior",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 0,
+    "denominator": 20,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 24,
+    "denominator": 33,
+    "percentage": 72.72727272727273,
+    "job_ids": [
+      "F03",
+      "F06",
+      "F07",
+      "F08",
+      "F10",
+      "F14",
+      "F19",
+      "F22",
+      "F24",
+      "F31",
+      "E01",
+      "E06",
+      "E07",
+      "E11",
+      "E24",
+      "U03",
+      "U07",
+      "U10",
+      "U15",
+      "U17",
+      "U21",
+      "U22",
+      "U25",
+      "U30"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 22,
+    "denominator": 33,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F07",
+      "F08",
+      "F14",
+      "F15",
+      "F20",
+      "F23",
+      "E01",
+      "E06",
+      "E07",
+      "E09",
+      "E25",
+      "U02",
+      "U03",
+      "U07",
+      "U10",
+      "U15",
+      "U17",
+      "U21",
+      "U22",
+      "U25"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 18,
+    "denominator": 33,
+    "percentage": 54.54545454545455,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F06",
+      "F13",
+      "F19",
+      "F20",
+      "F23",
+      "F24",
+      "E01",
+      "E09",
+      "E11",
+      "E24",
+      "U02",
+      "U15",
+      "U17",
+      "U21",
+      "U22",
+      "U25"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 17,
+    "denominator": 33,
+    "percentage": 51.515151515151516,
+    "job_ids": [
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F13",
+      "F14",
+      "F19",
+      "F31",
+      "E01",
+      "E06",
+      "E07",
+      "E11",
+      "E24",
+      "U10",
+      "U22",
+      "U25",
+      "U30"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 16,
+    "denominator": 33,
+    "percentage": 48.484848484848484,
+    "job_ids": [
+      "F03",
+      "F07",
+      "F08",
+      "F11",
+      "F15",
+      "F24",
+      "F31",
+      "E01",
+      "E09",
+      "U02",
+      "U03",
+      "U07",
+      "U10",
+      "U17",
+      "U22",
+      "U25"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 12,
+    "denominator": 33,
+    "percentage": 36.36363636363637,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F10",
+      "F11",
+      "F14",
+      "F22",
+      "E06",
+      "E09",
+      "E11",
+      "U10",
+      "U25",
+      "U30"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 11,
+    "denominator": 33,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F06",
+      "F11",
+      "F13",
+      "F19",
+      "F20",
+      "F22",
+      "F23",
+      "F24",
+      "U25"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 11,
+    "denominator": 33,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F03",
+      "F06",
+      "F11",
+      "F13",
+      "F15",
+      "F19",
+      "F24",
+      "E09",
+      "E11",
+      "U02",
+      "U03"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 11,
+    "denominator": 33,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F06",
+      "F13",
+      "F14",
+      "F24",
+      "E01",
+      "E07",
+      "E11",
+      "E25",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 11,
+    "denominator": 33,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F06",
+      "F13",
+      "F14",
+      "F19",
+      "F20",
+      "E07",
+      "U07",
+      "U15",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 10,
+    "denominator": 33,
+    "percentage": 30.303030303030305,
+    "job_ids": [
+      "F03",
+      "F07",
+      "F11",
+      "F19",
+      "F20",
+      "F23",
+      "F24",
+      "U07",
+      "U17",
+      "U22"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 10,
+    "denominator": 33,
+    "percentage": 30.303030303030305,
+    "job_ids": [
+      "F05",
+      "F06",
+      "F15",
+      "E01",
+      "E09",
+      "E24",
+      "U02",
+      "U03",
+      "U07",
+      "U17"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 9,
+    "denominator": 33,
+    "percentage": 27.272727272727273,
+    "job_ids": [
+      "F06",
+      "F11",
+      "F13",
+      "F19",
+      "E06",
+      "E11",
+      "E24",
+      "U22",
+      "U30"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 8,
+    "denominator": 33,
+    "percentage": 24.242424242424242,
+    "job_ids": [
+      "F03",
+      "F11",
+      "F13",
+      "F19",
+      "F20",
+      "F22",
+      "F23",
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 8,
+    "denominator": 33,
+    "percentage": 24.242424242424242,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F11",
+      "F13",
+      "F19",
+      "F20",
+      "F24",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 8,
+    "denominator": 33,
+    "percentage": 24.242424242424242,
+    "job_ids": [
+      "F03",
+      "F05",
+      "F06",
+      "F11",
+      "F19",
+      "F20",
+      "F22",
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 8,
+    "denominator": 33,
+    "percentage": 24.242424242424242,
+    "job_ids": [
+      "F03",
+      "F08",
+      "F20",
+      "F22",
+      "F31",
+      "U03",
+      "U17",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 7,
+    "denominator": 33,
+    "percentage": 21.21212121212121,
+    "job_ids": [
+      "F03",
+      "F20",
+      "U10",
+      "U15",
+      "U21",
+      "U22",
+      "U25"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 7,
+    "denominator": 33,
+    "percentage": 21.21212121212121,
+    "job_ids": [
+      "F15",
+      "E07",
+      "E09",
+      "U02",
+      "U07",
+      "U15",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 6,
+    "denominator": 33,
+    "percentage": 18.181818181818183,
+    "job_ids": [
+      "F05",
+      "E01",
+      "E09",
+      "E24",
+      "U02",
+      "U10"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 6,
+    "denominator": 33,
+    "percentage": 18.181818181818183,
+    "job_ids": [
+      "F07",
+      "F13",
+      "E09",
+      "E11",
+      "E24",
+      "U22"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 5,
+    "denominator": 33,
+    "percentage": 15.151515151515152,
+    "job_ids": [
+      "F13",
+      "F20",
+      "F23",
+      "F24",
+      "U15"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 5,
+    "denominator": 33,
+    "percentage": 15.151515151515152,
+    "job_ids": [
+      "F11",
+      "F15",
+      "E06",
+      "E07",
+      "U07"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 5,
+    "denominator": 33,
+    "percentage": 15.151515151515152,
+    "job_ids": [
+      "F05",
+      "F22",
+      "F24",
+      "U15",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 4,
+    "denominator": 33,
+    "percentage": 12.121212121212121,
+    "job_ids": [
+      "F05",
+      "F15",
+      "E09",
+      "E24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 4,
+    "denominator": 33,
+    "percentage": 12.121212121212121,
+    "job_ids": [
+      "F07",
+      "F11",
+      "F24",
+      "U22"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 3,
+    "denominator": 33,
+    "percentage": 9.090909090909092,
+    "job_ids": [
+      "F13",
+      "F22",
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 3,
+    "denominator": 33,
+    "percentage": 9.090909090909092,
+    "job_ids": [
+      "U07",
+      "U15",
+      "U21"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 3,
+    "denominator": 33,
+    "percentage": 9.090909090909092,
+    "job_ids": [
+      "F13",
+      "F20",
+      "U15"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 3,
+    "denominator": 33,
+    "percentage": 9.090909090909092,
+    "job_ids": [
+      "F03",
+      "F15",
+      "E09"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 3,
+    "denominator": 33,
+    "percentage": 9.090909090909092,
+    "job_ids": [
+      "F14",
+      "E01",
+      "U10"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 3,
+    "denominator": 33,
+    "percentage": 9.090909090909092,
+    "job_ids": [
+      "F03",
+      "F11",
+      "F20"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "F10",
+      "F22"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "F23",
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "F20",
+      "U15"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "U07",
+      "U17"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "F13",
+      "F22"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "E09",
+      "E24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 2,
+    "denominator": 33,
+    "percentage": 6.0606060606060606,
+    "job_ids": [
+      "F20",
+      "U15"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "U10"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F20"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F11"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "E24"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "U07"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F13"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "E01"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 1,
+    "denominator": 33,
+    "percentage": 3.0303030303030303,
+    "job_ids": [
+      "F22"
+    ]
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Senior",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 33,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 3,
+    "denominator": 3,
+    "percentage": 100,
+    "job_ids": [
+      "F16",
+      "F17",
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 3,
+    "denominator": 3,
+    "percentage": 100,
+    "job_ids": [
+      "F16",
+      "F17",
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 2,
+    "denominator": 3,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F16",
+      "F17"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 2,
+    "denominator": 3,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F16",
+      "F17"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 2,
+    "denominator": 3,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F16",
+      "F17"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 2,
+    "denominator": 3,
+    "percentage": 66.66666666666667,
+    "job_ids": [
+      "F16",
+      "F17"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F16"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 1,
+    "denominator": 3,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "U19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Senior/Lead",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 0,
+    "denominator": 3,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 17,
+    "denominator": 18,
+    "percentage": 94.44444444444444,
+    "job_ids": [
+      "F25",
+      "F26",
+      "E04",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E22",
+      "U09",
+      "U11",
+      "U16",
+      "U20",
+      "U26",
+      "U27",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 13,
+    "denominator": 18,
+    "percentage": 72.22222222222223,
+    "job_ids": [
+      "F25",
+      "E04",
+      "E12",
+      "E15",
+      "E16",
+      "E22",
+      "U09",
+      "U11",
+      "U16",
+      "U18",
+      "U26",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 11,
+    "denominator": 18,
+    "percentage": 61.111111111111114,
+    "job_ids": [
+      "E04",
+      "E12",
+      "E13",
+      "E16",
+      "U09",
+      "U11",
+      "U16",
+      "U18",
+      "U27",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 10,
+    "denominator": 18,
+    "percentage": 55.55555555555556,
+    "job_ids": [
+      "F25",
+      "F26",
+      "E12",
+      "E15",
+      "E22",
+      "U09",
+      "U11",
+      "U16",
+      "U18",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 9,
+    "denominator": 18,
+    "percentage": 50,
+    "job_ids": [
+      "E04",
+      "E13",
+      "E14",
+      "E16",
+      "U11",
+      "U16",
+      "U27",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 8,
+    "denominator": 18,
+    "percentage": 44.44444444444444,
+    "job_ids": [
+      "F26",
+      "E04",
+      "E14",
+      "E15",
+      "E22",
+      "U09",
+      "U26",
+      "U27"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 8,
+    "denominator": 18,
+    "percentage": 44.44444444444444,
+    "job_ids": [
+      "F26",
+      "E13",
+      "E15",
+      "E16",
+      "U09",
+      "U26",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 7,
+    "denominator": 18,
+    "percentage": 38.888888888888886,
+    "job_ids": [
+      "F25",
+      "F26",
+      "E12",
+      "E14",
+      "E15",
+      "E16",
+      "E22"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 6,
+    "denominator": 18,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F25",
+      "F26",
+      "E22",
+      "U09",
+      "U18",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 6,
+    "denominator": 18,
+    "percentage": 33.333333333333336,
+    "job_ids": [
+      "F25",
+      "E04",
+      "E15",
+      "U09",
+      "U18",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 5,
+    "denominator": 18,
+    "percentage": 27.77777777777778,
+    "job_ids": [
+      "F25",
+      "F26",
+      "E22",
+      "U18",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 4,
+    "denominator": 18,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F25",
+      "E22",
+      "U16",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 4,
+    "denominator": 18,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F25",
+      "E04",
+      "E12",
+      "E14"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 4,
+    "denominator": 18,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "E12",
+      "E16",
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 4,
+    "denominator": 18,
+    "percentage": 22.22222222222222,
+    "job_ids": [
+      "F26",
+      "E16",
+      "E22",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 3,
+    "denominator": 18,
+    "percentage": 16.666666666666668,
+    "job_ids": [
+      "F26",
+      "E16",
+      "E22"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 3,
+    "denominator": 18,
+    "percentage": 16.666666666666668,
+    "job_ids": [
+      "F25",
+      "U16",
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 3,
+    "denominator": 18,
+    "percentage": 16.666666666666668,
+    "job_ids": [
+      "E13",
+      "U20",
+      "U27"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "F26",
+      "E16"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "U20",
+      "U27"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E04",
+      "E14"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E13",
+      "U20"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E16",
+      "E22"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "F26",
+      "E22"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E15",
+      "E22"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E04",
+      "U11"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "U28",
+      "U31"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 2,
+    "denominator": 18,
+    "percentage": 11.11111111111111,
+    "job_ids": [
+      "E16",
+      "E22"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "E13"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "F25"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "E16"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "E16"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "F26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "F26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "F26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "U26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "E04"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "E12"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "E16"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "F26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 1,
+    "denominator": 18,
+    "percentage": 5.555555555555555,
+    "job_ids": [
+      "F26"
+    ]
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Staff / Lead / Principal",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 0,
+    "denominator": 18,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 2,
+    "denominator": 2,
+    "percentage": 100,
+    "job_ids": [
+      "F30",
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "F30"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "F30"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E20"
+    ]
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Entry / Junior",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "COMM",
+    "skill_name": "communication/stakeholder",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: communication/stakeholder.",
+    "count": 2,
+    "denominator": 2,
+    "percentage": 100,
+    "job_ids": [
+      "E19",
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DE",
+    "skill_name": "data engineering/ETL",
+    "origin": "report taxonomy",
+    "skill_group": "Data Engineering",
+    "description": "Meaning preserved from report: data engineering/ETL.",
+    "count": 2,
+    "denominator": 2,
+    "percentage": 100,
+    "job_ids": [
+      "E19",
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "ML",
+    "skill_name": "traditional ML",
+    "origin": "report taxonomy",
+    "skill_group": "Traditional ML",
+    "description": "Meaning preserved from report: traditional ML.",
+    "count": 2,
+    "denominator": 2,
+    "percentage": 100,
+    "job_ids": [
+      "E19",
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SWE",
+    "skill_name": "software engineering",
+    "origin": "report taxonomy",
+    "skill_group": "Software Engineering",
+    "description": "Meaning preserved from report: software engineering.",
+    "count": 2,
+    "denominator": 2,
+    "percentage": 100,
+    "job_ids": [
+      "E19",
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "GEN",
+    "skill_name": "GenAI/LLMs",
+    "origin": "report taxonomy",
+    "skill_group": "GenAI & LLM",
+    "description": "Meaning preserved from report: GenAI/LLMs.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "E19"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "GOV",
+    "skill_name": "governance/responsible AI",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: governance/responsible AI.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SEC",
+    "skill_name": "security/privacy",
+    "origin": "report taxonomy",
+    "skill_group": "Security / Governance",
+    "description": "Meaning preserved from report: security/privacy.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "STAT",
+    "skill_name": "statistics",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: statistics.",
+    "count": 1,
+    "denominator": 2,
+    "percentage": 50,
+    "job_ids": [
+      "U29"
+    ]
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "AGT",
+    "skill_name": "agents",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: agents.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "API",
+    "skill_name": "backend/APIs",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: backend/APIs.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "AWS",
+    "skill_name": "AWS",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: AWS.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "AZ",
+    "skill_name": "Azure",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: Azure.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "BI",
+    "skill_name": "BI/visualisation",
+    "origin": "report taxonomy",
+    "skill_group": "Business / Communication",
+    "description": "Meaning preserved from report: BI/visualisation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "CAUS",
+    "skill_name": "causal inference",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: causal inference.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "CICD",
+    "skill_name": "CI/CD",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: CI/CD.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "CLOUD",
+    "skill_name": "Generic cloud (explicit text)",
+    "origin": "explicit-text extension",
+    "skill_group": "Cloud",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "CV",
+    "skill_name": "computer vision",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: computer vision.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DBT",
+    "skill_name": "dbt",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DBX",
+    "skill_name": "Databricks",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Databricks.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DIST",
+    "skill_name": "distributed systems",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: distributed systems.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DKR",
+    "skill_name": "Docker",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Docker.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DL",
+    "skill_name": "deep learning",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: deep learning.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DM",
+    "skill_name": "data modelling",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: data modelling.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "DOM",
+    "skill_name": "DOM — undefined source code",
+    "origin": "undefined appendix code",
+    "skill_group": "Undefined in report",
+    "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "EMB",
+    "skill_name": "embeddings",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: embeddings.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "EVAL",
+    "skill_name": "evaluation",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: evaluation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "EXP",
+    "skill_name": "experimentation",
+    "origin": "report taxonomy",
+    "skill_group": "Statistics & Experimentation",
+    "description": "Meaning preserved from report: experimentation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "FT",
+    "skill_name": "Fine-tuning",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "GCP",
+    "skill_name": "GCP",
+    "origin": "report taxonomy",
+    "skill_group": "Cloud",
+    "description": "Meaning preserved from report: GCP.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "GRD",
+    "skill_name": "guardrails",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: guardrails.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "IAC",
+    "skill_name": "infrastructure as code",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: infrastructure as code.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "INT",
+    "skill_name": "systems integration",
+    "origin": "report taxonomy",
+    "skill_group": "APIs & Integration",
+    "description": "Meaning preserved from report: systems integration.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "K8S",
+    "skill_name": "Kubernetes",
+    "origin": "report taxonomy",
+    "skill_group": "Deployment & Infrastructure",
+    "description": "Meaning preserved from report: Kubernetes.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "LANGCHAIN",
+    "skill_name": "LangChain",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "LANGGRAPH",
+    "skill_name": "LangGraph",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "LLAMAINDEX",
+    "skill_name": "LlamaIndex",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "LLOPS",
+    "skill_name": "LLMOps / AI Ops",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: LLMOps / AI Ops.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "MAG",
+    "skill_name": "multi-agent",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: multi-agent.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "MCP",
+    "skill_name": "Model Context Protocol",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: Model Context Protocol.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "MLOPS",
+    "skill_name": "MLOps",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: MLOps.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "NLP",
+    "skill_name": "NLP",
+    "origin": "report taxonomy",
+    "skill_group": "Deep Learning",
+    "description": "Meaning preserved from report: NLP.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "OBS",
+    "skill_name": "monitoring/observability",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: monitoring/observability.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "OPT",
+    "skill_name": "optimisation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: optimisation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "PROMPT",
+    "skill_name": "Prompt engineering",
+    "origin": "explicit-text extension",
+    "skill_group": "GenAI & LLM",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "PY",
+    "skill_name": "Python",
+    "origin": "report taxonomy",
+    "skill_group": "Programming",
+    "description": "Meaning preserved from report: Python.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "PYTORCH",
+    "skill_name": "PyTorch",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "R",
+    "skill_name": "R",
+    "origin": "appendix code; explicit R text",
+    "skill_group": "Programming",
+    "description": "Explicit text only; appendix code; explicit R text.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "RAG",
+    "skill_name": "retrieval-augmented generation",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: retrieval-augmented generation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "REC",
+    "skill_name": "ranking/recommendation",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: ranking/recommendation.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SEMANTIC",
+    "skill_name": "Semantic Kernel",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SERV",
+    "skill_name": "model serving",
+    "origin": "report taxonomy",
+    "skill_group": "MLOps / LLMOps",
+    "description": "Meaning preserved from report: model serving.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SNOW",
+    "skill_name": "Snowflake",
+    "origin": "report taxonomy",
+    "skill_group": "Data Platforms",
+    "description": "Meaning preserved from report: Snowflake.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SPARK",
+    "skill_name": "Spark / PySpark",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "SQL",
+    "skill_name": "SQL",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: SQL.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "TENSORFLOW",
+    "skill_name": "TensorFlow",
+    "origin": "explicit-text extension",
+    "skill_group": "Framework / Tool",
+    "description": "Explicit text only; explicit-text extension.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "TEST",
+    "skill_name": "testing",
+    "origin": "report taxonomy",
+    "skill_group": "Testing / Evaluation / Observability",
+    "description": "Meaning preserved from report: testing.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "TOOL",
+    "skill_name": "tool/function calling",
+    "origin": "report taxonomy",
+    "skill_group": "Agentic AI",
+    "description": "Meaning preserved from report: tool/function calling.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "TS",
+    "skill_name": "time series",
+    "origin": "report taxonomy",
+    "skill_group": "Specialised ML",
+    "description": "Meaning preserved from report: time series.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "VEC",
+    "skill_name": "vector search/database",
+    "origin": "report taxonomy",
+    "skill_group": "Retrieval & RAG",
+    "description": "Meaning preserved from report: vector search/database.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  },
+  {
+    "seniority_group": "Ambiguous: Entry/Mid",
+    "skill_code": "WH",
+    "skill_name": "warehouse/lakehouse",
+    "origin": "report taxonomy",
+    "skill_group": "Data & SQL",
+    "description": "Meaning preserved from report: warehouse/lakehouse.",
+    "count": 0,
+    "denominator": 2,
+    "percentage": 0,
+    "job_ids": []
+  }
+]

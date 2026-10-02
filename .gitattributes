@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.csv -text whitespace=cr-at-eol
+report.md -text
+research/original_deep_research_report.md -text
+public/research/original_deep_research_report.md -text
