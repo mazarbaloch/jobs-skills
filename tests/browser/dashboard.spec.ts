@@ -3,7 +3,8 @@ import AxeBuilder from '@axe-core/playwright';
 test('filters, core/preferred, evidence drill-down and all sections', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
-  await page.goto('/');
+  await page.goto('./');
+  await expect(page.getByLabel('Snapshot period')).toBeVisible();
   await page.screenshot({ path: 'test-results/overview-desktop.png' });
   const accessibility = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
   expect(accessibility.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) }))).toEqual(
@@ -47,7 +48,7 @@ test('filters, core/preferred, evidence drill-down and all sections', async ({ p
   expect(errors).toEqual([]);
 });
 test('zero results and preferred filters are meaningful', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('./');
   await page.getByRole('button', { name: 'More filters' }).click();
   await page.getByLabel('Company', { exact: true }).selectOption('Norrin');
   await page.getByLabel('Individual skill', { exact: true }).selectOption('AGT');
@@ -58,7 +59,7 @@ test('zero results and preferred filters are meaningful', async ({ page }) => {
   await expect(page.getByText('No matching evidence').first()).toBeVisible();
 });
 test('static downloads and browser ZIP work from production', async ({ page, request }) => {
-  await page.goto('/');
+  await page.goto('./');
   await page.getByRole('navigation').getByRole('button', { name: 'Data & Downloads', exact: true }).click();
   const links = await page
     .locator('a[download]')
@@ -76,7 +77,7 @@ test('static downloads and browser ZIP work from production', async ({ page, req
 });
 test('responsive layout and keyboard navigation', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('/');
+  await page.goto('./');
   await page.screenshot({ path: 'test-results/overview-mobile.png', fullPage: true });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await page.getByRole('button', { name: 'Open navigation' }).click();

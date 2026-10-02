@@ -20,16 +20,20 @@ import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip } from 'recharts';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { zipSync, strToU8 } from 'fflate';
-import jobsData from '../data/jobs.json';
-import skillsData from '../data/skills.json';
-import rowsData from '../data/job_skills.json';
-import validation from '../data/validation_report.json';
-import manifest from '../data/manifest.json';
-import report from '../research/original_deep_research_report.md?raw';
-import { selectJobs, frequency, distribution, combine, observations, csv, regions } from './analysis.mjs';
+import {
+  selectJobs,
+  frequency,
+  distribution,
+  combine,
+  observations,
+  csv,
+  regions,
+  identity,
+} from './analysis.mjs';
+import { Observatory, Trends, Archive, LongitudinalDownloads, dateLabel, asset } from './observatory';
+import type { Job, Catalog, SnapshotBundle, SelectSnapshot, Navigation } from './types';
 import './style.css';
 
-type Job = (typeof jobsData)[number];
 type Metric = {
   label?: string;
   skill_name?: string;
@@ -41,9 +45,6 @@ type Metric = {
   job_ids: string[];
 };
 type Drill = { title: string; jobs: Job[] };
-const jobs: Job[] = jobsData,
-  skills = skillsData,
-  rows = rowsData;
 const colors: Record<string, string> = { Finland: '#197568', 'Rest of Europe': '#4977ac', USA: '#bd793f' };
 const skillColors: Record<string, string> = {
   Programming: '#48619d',
@@ -68,6 +69,8 @@ const pages = [
   'Skill combinations',
   'Seniority',
   'Job records',
+  'Trends',
+  'Research Archive',
   'Data & Downloads',
   'Data Quality',
   'Original Research Report',
@@ -85,13 +88,6 @@ const emptyFilters: Record<string, string> = {
 };
 const pct = (n: number, d: number) => (d ? `${((n / d) * 100).toFixed(1)}%` : '—');
 const ratio = (r: Metric) => `${r.count} / ${r.denominator} · ${pct(r.count, r.denominator)}`;
-const unique = (key: keyof Job) => [...new Set(jobs.map((j) => String(j[key])))].sort();
-const allRoles = unique('normalized_role_family');
-const labelFor = (code: string) => skills.find((s) => s.skill_code === code)?.skill_name || code;
-const sourceReport = report.replace(
-  /(?:cite|filecite)(.*?)/g,
-  (_, s) => `[Source reference: ${s.split('').join(', ')}]`,
-);
 function Small({ n }: { n: number }) {
   return n < 10 ? (
     <span className="small-sample">
@@ -169,9 +165,35 @@ function Bars({
     </div>
   );
 }
-function App() {
-  const [page, setPage] = useState('Overview'),
-    [filters, setFilters] = useState(emptyFilters),
+function App({
+  bundle,
+  catalog,
+  onSnapshot,
+  navigation,
+}: {
+  bundle: SnapshotBundle;
+  catalog: Catalog;
+  onSnapshot: SelectSnapshot;
+  navigation: Navigation;
+}) {
+  const { jobs, skills, jobSkills: rows, validation, metadata } = bundle;
+  const report = bundle.report || '';
+  useEffect(() => {
+    document.title = `${metadata.label} · Quarterly Labour-Market Observatory`;
+  }, [metadata.label]);
+  const manifest = metadata.downloads;
+  const unique = (key: keyof Job) => [...new Set(jobs.map((j) => String(j[key])))].sort();
+  const allRoles = catalog.role_families
+    .filter((r) => r.introduced_in <= metadata.snapshot_id)
+    .map((r) => r.name)
+    .sort();
+  const labelFor = (code: string) => skills.find((s) => s.skill_code === code)?.skill_name || code;
+  const sourceReport = report.replace(
+    /(?:cite|filecite)(.*?)/g,
+    (_, s) => `[Source reference: ${s.split('').join(', ')}]`,
+  );
+  const [page, setPage] = useState(navigation.page || 'Overview'),
+    [filters, setFilters] = useState({ ...emptyFilters, ...navigation.filters }),
     [expanded, setExpanded] = useState(false),
     [navOpen, setNavOpen] = useState(false);
   const [drill, setDrill] = useState<Drill | null>(null),
@@ -185,10 +207,20 @@ function App() {
     [sort, setSort] = useState('job_id'),
     [reverse, setReverse] = useState(false);
   const [titleFamily, setTitleFamily] = useState('');
+  useEffect(() => {
+    setPage(navigation.page || 'Overview');
+    setFilters({ ...emptyFilters, ...navigation.filters });
+    setSearch('');
+    setDrill(null);
+    setDetail(null);
+  }, [navigation]);
   const dialog = useRef<HTMLDialogElement>(null);
-  const selected = useMemo(() => selectJobs(jobs, rows, filters) as Job[], [filters]);
+  const selected = useMemo(() => selectJobs(jobs, rows, filters) as Job[], [filters, jobs, rows]);
   const type = filters.requirement_type;
-  const freq = useMemo(() => frequency(selected, rows, skills, type) as Metric[], [selected, type]);
+  const freq = useMemo(
+    () => frequency(selected, rows, skills, type) as Metric[],
+    [selected, type, rows, skills],
+  );
   const activeCount = Object.entries(filters).filter(([k, v]) => v && k !== 'requirement_type').length;
   useEffect(() => {
     if (drill || detail) {
@@ -197,14 +229,14 @@ function App() {
   }, [drill, detail]);
   function drillIds(title: string, ids: string[]) {
     setSearch('');
-    setDrill({ title, jobs: selected.filter((j) => ids.includes(j.job_id)) });
+    setDrill({ title, jobs: selected.filter((j) => ids.includes(identity(j))) });
     setDetail(null);
   }
   const drillMetric = (r: Metric) => drillIds(`${r.skill_name || r.label} · ${ratio(r)}`, r.job_ids);
   const counts = (subset: Job[]) => frequency(subset, rows, skills, type) as Metric[];
   const subsetSkill = (code: string, subset = selected) =>
     subset.filter((j) =>
-      observations(rows, type).some((r) => r.job_id === j.job_id && r.skill_code === code),
+      observations(rows, type).some((r) => identity(r) === identity(j) && r.skill_code === code),
     );
   function changePage(p: string) {
     setPage(p);
@@ -239,18 +271,26 @@ function App() {
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
-  async function downloadZip() {
+  async function downloadZip(all = false) {
     setZipStatus('Preparing download…');
     try {
       const files: Record<string, Uint8Array> = {};
       await Promise.all(
-        manifest.map(async (name) => {
+        (all ? catalog.downloads : manifest).map(async (name) => {
           const r = await fetch(`${import.meta.env.BASE_URL}data/${name}`);
           if (!r.ok) throw Error(name);
           files[name] = new Uint8Array(await r.arrayBuffer());
         }),
       );
       files['original_deep_research_report.md'] = strToU8(report);
+      if (all)
+        await Promise.all(
+          catalog.snapshots.map(async (s) => {
+            const response = await fetch(asset(s.report_path));
+            if (!response.ok) throw Error(s.report_path);
+            files[`${s.snapshot_id}/report.md`] = new Uint8Array(await response.arrayBuffer());
+          }),
+        );
       download(zipSync(files), 'job-market-evidence.zip', 'application/zip');
       setZipStatus('ZIP downloaded');
     } catch {
@@ -333,7 +373,7 @@ function App() {
               </thead>
               <tbody>
                 {filtered.map((j) => (
-                  <tr key={j.job_id} onClick={() => setDetail(j)}>
+                  <tr key={identity(j)} onClick={() => setDetail(j)}>
                     <td className="mono">{j.job_id}</td>
                     <td>
                       <button className="title-link" onClick={() => setDetail(j)}>
@@ -467,8 +507,8 @@ function App() {
         const ids = [
           ...new Set(
             observations(rows, type)
-              .filter((r) => r.skill_group === label && subset.some((j) => j.job_id === r.job_id))
-              .map((r) => r.job_id),
+              .filter((r) => r.skill_group === label && subset.some((j) => identity(j) === identity(r)))
+              .map((r) => identity(r)),
           ),
         ];
         return {
@@ -553,7 +593,7 @@ function App() {
           <span>
             LABOUR MARKET
             <strong>
-              Observatory<span className="brand-year"> / 2026</span>
+              Observatory<span className="brand-year"> / quarterly</span>
             </strong>
           </span>
         </a>
@@ -585,11 +625,11 @@ function App() {
         <div className="sidebar-note">
           <span className="live-dot" /> SOURCE-BOUND ANALYSIS
           <p>
-            One research report.
+            {catalog.snapshots.length} published snapshot(s).
             <br />
             Every observation traceable.
           </p>
-          <span>Retrieved 02 OCT 2026</span>
+          <span>Retrieved {dateLabel(metadata.retrieval_date)}</span>
         </div>
       </aside>
       <div className="workspace">
@@ -609,14 +649,14 @@ function App() {
           </button>
         </header>
         <main>
-          <div className="eyebrow">EMPLOYER-POSTING EVIDENCE · 2026 EDITION</div>
+          <div className="eyebrow">EMPLOYER-POSTING EVIDENCE · {metadata.snapshot_id}</div>
           <div className="hero">
             <div>
               <h1>
                 {page === 'Overview' ? (
                   <>
                     Data, Analytics, Machine Learning
-                    <br className="desktop-break" /> & AI Job Market 2026
+                    <br className="desktop-break" /> & AI Job Market {metadata.snapshot_id.slice(0, 4)}
                   </>
                 ) : (
                   page
@@ -627,7 +667,7 @@ function App() {
               </p>
             </div>
             <div className="edition">
-              COLLECTED / RECHECKED<strong>2 October 2026</strong>
+              COLLECTED / RECHECKED<strong>{dateLabel(metadata.retrieval_date)}</strong>
               <span>Descriptive sample analysis</span>
             </div>
           </div>
@@ -642,6 +682,33 @@ function App() {
             </button>
           </div>
           <section className="filter-panel" aria-label="Global filters">
+            <div className="snapshot-controls">
+              <label className="filter-field">
+                <span>Snapshot period</span>
+                <select
+                  aria-label="Snapshot period"
+                  value={metadata.snapshot_id}
+                  onChange={(e) => onSnapshot(e.target.value)}
+                >
+                  {[...catalog.snapshots].reverse().map((s) => (
+                    <option key={s.snapshot_id} value={s.snapshot_id}>
+                      {s.label}
+                      {s.snapshot_id === catalog.latest_snapshot_id ? ' · Latest' : ''}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <div>
+                <strong>Snapshot: {metadata.label}</strong>
+                <span>
+                  N = {jobs.length} · {metadata.snapshot_id}
+                </span>
+                <small>
+                  Latest: {catalog.latest_snapshot_id} · Taxonomy v{metadata.taxonomy_version} · Methodology v
+                  {metadata.methodology_version}
+                </small>
+              </div>
+            </div>
             <div className="filter-title">
               <span>
                 <SlidersHorizontal size={16} /> Global filters{' '}
@@ -1053,7 +1120,7 @@ function App() {
           {page === 'AI Engineering' && (
             <>
               <div className="narrative">
-                <h2>What does AI Engineer mean in this 2026 sample?</h2>
+                <h2>What does AI Engineer mean in this quarterly sample?</h2>
                 <p>
                   AI Engineering is heterogeneous. Read these titles through their competency bundles:
                   software, models, data, integration and operations. All results below come from records
@@ -1091,7 +1158,7 @@ function App() {
                           : 0,
                         job_ids: selected
                           .filter((j) => /agentic ai/i.test(j.exact_title))
-                          .map((j) => j.job_id),
+                          .map((j) => identity(j)),
                       },
                     ]}
                     onDrill={drillMetric}
@@ -1277,20 +1344,26 @@ function App() {
               {records(selected)}
             </Panel>
           )}
+          {page === 'Trends' && <Trends catalog={catalog} filters={filters} onSelect={onSnapshot} />}
+          {page === 'Research Archive' && <Archive catalog={catalog} onSelect={onSnapshot} />}
           {page === 'Data & Downloads' && (
             <>
               <div className="section-lead">
                 <div>
                   <h2>Reusable, inspectable evidence</h2>
                   <p>
-                    Source datasets and aggregates below cover the full report, independent of global filters.
+                    Downloads below cover the selected snapshot, independent of global filters. Longitudinal
+                    downloads preserve separate quarterly observations.
                   </p>
                 </div>
-                <button className="primary" onClick={downloadZip}>
+                <button className="primary" onClick={() => downloadZip()}>
                   <Download size={16} /> Download all as ZIP
                 </button>
               </div>
               <p role="status">{zipStatus}</p>
+              <button className="secondary" onClick={() => downloadZip(true)}>
+                Download every snapshot as ZIP <Download size={16} />
+              </button>
               <Panel
                 title="Export the current selection"
                 subtitle={`${selected.length} selected job records`}
@@ -1328,13 +1401,10 @@ function App() {
                   </a>
                 ))}
               </div>
-              <a
-                className="secondary"
-                href={`${import.meta.env.BASE_URL}research/original_deep_research_report.md`}
-                download
-              >
+              <a className="secondary" href={asset(metadata.report_path)} download>
                 Download unchanged research report <Download size={16} />
               </a>
+              <LongitudinalDownloads catalog={catalog} />
             </>
           )}
           {page === 'Data Quality' && (
@@ -1394,7 +1464,7 @@ function App() {
                           <td>{r.stated}</td>
                           <td>{r.calculated}</td>
                           <td>
-                            {r.difference > 0 ? '+' : ''}
+                            {r.difference !== null && r.difference > 0 ? '+' : ''}
                             {r.difference}
                           </td>
                           <td>{r.reason}</td>
@@ -1436,13 +1506,38 @@ function App() {
                       onDrill={(r) =>
                         setDrill({
                           title: `Full source · ${r.label}`,
-                          jobs: jobs.filter((j) => r.job_ids.includes(j.job_id)),
+                          jobs: jobs.filter((j) => r.job_ids.includes(identity(j))),
                         })
                       }
                     />
                   </Panel>
                 ))}
               </div>
+              <Panel
+                title="Snapshot publication checks"
+                subtitle={`${validation.errors} errors · ${validation.warnings} warnings. Errors block publication.`}
+              >
+                <div className="table-scroll">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Severity</th>
+                        <th>Check</th>
+                        <th>Finding</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {validation.issues.map((issue, i) => (
+                        <tr key={i}>
+                          <th>{issue.severity}</th>
+                          <td>{issue.code}</td>
+                          <td>{issue.message}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </Panel>
               <Panel title="Provenance and interpretation">
                 <ul>
                   {validation.notes.map((n) => (
@@ -1459,11 +1554,7 @@ function App() {
                 This is the original research source. Its prose statistics are retained even where the
                 appendix audit finds a difference. Charts elsewhere use calculated data.
               </div>
-              <a
-                className="secondary"
-                href={`${import.meta.env.BASE_URL}research/original_deep_research_report.md`}
-                download
-              >
+              <a className="secondary" href={asset(metadata.report_path)} download>
                 Download original Markdown <Download size={16} />
               </a>
               <article className="report panel">
@@ -1476,19 +1567,20 @@ function App() {
               <div className="eyebrow">READING THIS RESEARCH</div>
               <h2>Methodology & Limitations</h2>
               <p>
-                This dashboard derives from one supplied Deep Research report. Its {jobs.length} unique
+                This snapshot derives from its archived Deep Research report. Its {jobs.length} unique
                 employer vacancies comprise{' '}
                 {regions.map((r) => `${jobs.filter((j) => j.region === r).length} ${r}`).join(', ')}. All
-                records were retrieved or rechecked on 2 October 2026. No new jobs or external posting URLs
-                were added.
+                records were retrieved or rechecked on {dateLabel(metadata.retrieval_date)}. No new jobs or
+                external posting URLs were added.
               </p>
               <h3>Purposive sampling, not market prevalence</h3>
               <p>
-                The intended research target was 250–300 postings; the report assembled 87 high-confidence
-                records. Employer career sites and ATS sources were preferred. Multi-location vacancies count
-                once. The sample overrepresents large technology companies, consultancies, finance and
-                AI-intensive employers. Regional differences depend on employer and role mix. Four recently
-                closed 2026 vacancies are retained, with source status preserved.
+                The archive retains each quarter as a separate purposive sample. Consult its original report
+                for the research target and collection decisions. Employer career sites and ATS sources were
+                preferred. Multi-location vacancies count once. The sample overrepresents large technology
+                companies, consultancies, finance and AI-intensive employers. Regional differences depend on
+                employer and role mix. Posting status is preserved exactly, including any recently closed
+                vacancies.
               </p>
               <h3>From evidence to observations</h3>
               <p>
@@ -1542,6 +1634,13 @@ function App() {
               </p>
               <h3>Labour-Market Findings</h3>
               <p>
+                Each archived quarter is a separate purposive sample. Longitudinal changes can reflect actual
+                labour-market changes, sample composition, employer mix, role mix, seniority mix, regional
+                mix, posting detail or methodology changes. Comparability checks flag composition changes
+                without assigning a representativeness score. Methodology and taxonomy versions remain visible
+                for every snapshot.
+              </p>
+              <p>
                 In the analysed postings, titles overlap while competencies form distinct bundles. Use counts,
                 denominators and the supporting job evidence to interpret these descriptive signals. This
                 dashboard makes no educational or curriculum recommendations.
@@ -1549,7 +1648,7 @@ function App() {
             </article>
           )}
           <footer>
-            <span>JOB MARKET OBSERVATORY / 2026</span>
+            <span>JOB MARKET OBSERVATORY / {metadata.snapshot_id}</span>
             <p>Labour-market evidence. Source-bound, reproducible, and open to inspection.</p>
             <button className="text-button" onClick={() => changePage('Methodology & Limitations')}>
               Methodology & Limitations <ExternalLink size={13} />
@@ -1622,7 +1721,7 @@ function App() {
             <h3>Normalized observations</h3>
             <div className="observation-list">
               {rows
-                .filter((r) => r.job_id === detail.job_id)
+                .filter((r) => identity(r) === identity(detail))
                 .map((r) => (
                   <div key={`${r.skill_code}-${r.requirement_type}`}>
                     <strong>
@@ -1664,6 +1763,16 @@ function App() {
 }
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <Observatory>
+      {(bundle, catalog, onSnapshot, navigation) => (
+        <App
+          key={bundle.metadata.snapshot_id}
+          bundle={bundle}
+          catalog={catalog}
+          onSnapshot={onSnapshot}
+          navigation={navigation}
+        />
+      )}
+    </Observatory>
   </React.StrictMode>,
 );

@@ -1,0 +1,26 @@
+{
+  "regions": [
+    "Finland",
+    "Rest of Europe",
+    "USA"
+  ],
+  "seniority": {
+    "Mid": "Mid",
+    "Senior": "Senior",
+    "Junior": "Entry / Junior",
+    "Entry/Graduate": "Entry / Junior",
+    "Staff": "Staff / Lead / Principal",
+    "Lead": "Staff / Lead / Principal",
+    "Principal": "Staff / Lead / Principal",
+    "Staff/Principal": "Staff / Lead / Principal",
+    "Lead/VP": "Staff / Lead / Principal",
+    "Senior/VP": "Senior",
+    "Mid/Senior": "Ambiguous: Mid/Senior",
+    "Senior/Lead": "Ambiguous: Senior/Lead",
+    "Entry/Mid": "Ambiguous: Entry/Mid"
+  },
+  "composition_warning_percentage_points": 10,
+  "sample_size_warning_fraction": 0.25,
+  "composition_warning_relative_fraction": 0.5,
+  "composition_warning_min_pp": 3
+}

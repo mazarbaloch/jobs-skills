@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Machine Learning Engineering",
+    "aliases": [
+      "ML Engineering"
+    ],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "GenAI / LLM",
+    "aliases": [
+      "GenAI/LLM"
+    ],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "AI Engineering",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "Data Engineering",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "MLOps / ML Platform",
+    "aliases": [
+      "MLOps/ML Platform"
+    ],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "Data Science",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "AI Platform / Infrastructure",
+    "aliases": [
+      "AI Platform/Infrastructure"
+    ],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "Data & Analytics",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "Other emerging AI",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "Analytics Engineering",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "name": "Agentic AI",
+    "aliases": [],
+    "introduced_in": "2026-Q4",
+    "deprecated_in": null,
+    "taxonomy_version": "1.0"
+  }
+]

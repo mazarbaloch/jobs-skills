@@ -1441,3 +1441,86 @@ dt,
     transition: none !important;
   }
 }
+.snapshot-controls {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 17px 18px;
+  border-bottom: 1px solid #e0e7df;
+  background: #f0f5ef;
+  border-radius: 7px 7px 0 0;
+}
+.snapshot-controls label {
+  width: 240px;
+}
+.snapshot-controls strong,
+.snapshot-controls span,
+.snapshot-controls small {
+  display: block;
+}
+.snapshot-controls strong {
+  font-size: 13px;
+}
+.snapshot-controls span {
+  font-size: 11px;
+  color: #466450;
+}
+.snapshot-controls small {
+  font-size: 10px;
+  color: #566b5f;
+  margin-top: 4px;
+}
+.block {
+  display: block;
+}
+.trend-empty {
+  padding: 25px 0;
+  font-size: 16px !important;
+}
+.trend-controls {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.trend-track {
+  width: 110px;
+  height: 6px;
+  background: #e7eee6;
+  margin-top: 6px;
+}
+.trend-track span {
+  height: 100%;
+  display: block;
+  background: #28796d;
+}
+.trend-table .small-sample {
+  display: block;
+  margin-top: 6px;
+}
+.composition-warnings {
+  font-size: 12px;
+  line-height: 1.8;
+}
+summary {
+  cursor: pointer;
+  color: #22614e;
+  margin: 15px 0;
+}
+.panel > .actions {
+  margin-top: 20px;
+}
+@media (max-width: 760px) {
+  .snapshot-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .snapshot-controls label {
+    width: 100%;
+  }
+  .snapshot-controls small {
+    line-height: 1.8;
+  }
+  .trend-controls {
+    grid-template-columns: 1fr;
+  }
+}

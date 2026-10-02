@@ -1,14 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { parseReport, seniority } from '../scripts/parse_report.mjs';
-import { validate } from '../scripts/validate_data.mjs';
+import { prepareBuild, runBuild } from '../scripts/pipeline.mjs';
+import { seniority as normalizeSeniority } from '../scripts/normalize.mjs';
 import { aggregates } from '../scripts/generate_aggregates.mjs';
 import { selectJobs, frequency, combine, csv } from '../src/analysis.mjs';
 const raw = readFileSync('research/original_deep_research_report.md', 'utf8');
-const parsed = parseReport(raw),
+const build = prepareBuild();
+const parsed = build.snapshots.find((s) => s.metadata.snapshot_id === '2026-Q4'),
   { jobs, skills, jobSkills } = parsed;
-const report = validate(parsed);
+const report = parsed.validation;
+const seniority = (raw) => normalizeSeniority(raw, build.taxonomy.config);
 test('source is byte-identical to supplied report and downloadable copy', () => {
   assert.deepEqual(readFileSync('report.md'), readFileSync('research/original_deep_research_report.md'));
   assert.deepEqual(
@@ -124,7 +126,7 @@ test('every generated aggregate has valid counts, denominators and supporting ID
 });
 test('JSON exports preserve source strings and regenerate exactly', () => {
   for (const [name, value] of Object.entries({ jobs, skills, job_skills: jobSkills }))
-    assert.deepEqual(JSON.parse(readFileSync(`data/${name}.json`)), value);
+    assert.deepEqual(JSON.parse(readFileSync(`data/snapshots/2026-Q4/${name}.json`)), value);
   assert.ok(jobs.every((j) => raw.split(/\r?\n/)[j.source_line - 1] === j.source_row));
 });
 function parseCSV(text) {
@@ -158,11 +160,11 @@ test('CSV round trip handles commas, quotes, Unicode and multiline evidence', ()
     ['a', 'b', 'c'],
     ['A, B', 'Said "yes"\nTwo lines', 'Espoo · Europe'],
   ]);
-  const exported = parseCSV(readFileSync('data/jobs.csv', 'utf8'));
+  const exported = parseCSV(readFileSync('data/snapshots/2026-Q4/jobs.csv', 'utf8'));
   assert.equal(exported.length, 88);
   const titleIndex = exported[0].indexOf('exact_title');
   assert.equal(exported[1][titleIndex], jobs[0].exact_title);
-  const skillExport = parseCSV(readFileSync('data/job_skills.csv', 'utf8'));
+  const skillExport = parseCSV(readFileSync('data/snapshots/2026-Q4/job_skills.csv', 'utf8'));
   assert.equal(skillExport.length, jobSkills.length + 1);
 });
 test('published discrepancies stay visible instead of being forced to match', () => {
@@ -181,6 +183,5 @@ test('published discrepancies stay visible instead of being forced to match', ()
   );
 });
 test('all deployed data assets match generated artifacts', () => {
-  for (const file of readdirSync('data'))
-    assert.deepEqual(readFileSync(`data/${file}`), readFileSync(`public/data/${file}`), file);
+  assert.doesNotThrow(() => runBuild({ check: true }));
 });

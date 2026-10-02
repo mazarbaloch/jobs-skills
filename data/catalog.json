@@ -1,0 +1,1622 @@
+{
+  "schema_version": "1.0",
+  "latest_snapshot_id": "2026-Q4",
+  "taxonomy_version": "1.0",
+  "snapshots": [
+    {
+      "snapshot_id": "2026-Q4",
+      "label": "October 2026",
+      "retrieval_date": "2026-10-02",
+      "status": "published",
+      "methodology_version": "1.0",
+      "taxonomy_version": "1.0",
+      "notes": "Initial baseline labour-market study",
+      "expected_records": 87,
+      "expected_regions": {
+        "Finland": 31,
+        "Rest of Europe": 25,
+        "USA": 31
+      },
+      "source_sha256": "d430a408d9044dcb9b6182c64e095686f93bd066089fab8f94df84d5bfcf96f3",
+      "reported_statistics": [
+        {
+          "category": "records",
+          "label": "All jobs",
+          "stated": 87,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "region",
+          "label": "Finland",
+          "stated": 31,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "region",
+          "label": "Rest of Europe",
+          "stated": 25,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "region",
+          "label": "USA",
+          "stated": 31,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Machine Learning Engineering",
+          "stated": 24,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "AI Engineering",
+          "stated": 21,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Data Science",
+          "stated": 19,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Data Engineering",
+          "stated": 9,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "AI Platform / Infrastructure",
+          "stated": 6,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "GenAI / LLM",
+          "stated": 2,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "MLOps / ML Platform",
+          "stated": 2,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Data & Analytics",
+          "stated": 1,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Analytics Engineering",
+          "stated": 1,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Agentic AI",
+          "stated": 1,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "role",
+          "label": "Other emerging AI",
+          "stated": 1,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "seniority",
+          "label": "Entry / Junior",
+          "stated": 4,
+          "reason": "Mixed labels (e.g. Mid/Senior, Entry/Mid, Senior/Lead) remain ambiguous. They are not forced into a single level."
+        },
+        {
+          "category": "seniority",
+          "label": "Mid",
+          "stated": 9,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "seniority",
+          "label": "Senior",
+          "stated": 52,
+          "reason": "Mixed labels (e.g. Mid/Senior, Entry/Mid, Senior/Lead) remain ambiguous. They are not forced into a single level."
+        },
+        {
+          "category": "seniority",
+          "label": "Staff / Lead / Principal",
+          "stated": 22,
+          "reason": "Mixed labels (e.g. Mid/Senior, Entry/Mid, Senior/Lead) remain ambiguous. They are not forced into a single level."
+        },
+        {
+          "category": "core skill",
+          "label": "COMM",
+          "stated": 76,
+          "reason": "Counts use appendix codes, with preferred-only separation; narrative totals are not substituted."
+        },
+        {
+          "category": "core skill",
+          "label": "SWE",
+          "stated": 58,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "ML",
+          "stated": 45,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "PY",
+          "stated": 43,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "DE",
+          "stated": 42,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "GEN",
+          "stated": 41,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "CLOUD",
+          "stated": 33,
+          "reason": "Generic cloud is counted only when explicitly present in Core evidence. Named providers are separate; the appendix has no CLOUD code."
+        },
+        {
+          "category": "core skill",
+          "label": "EVAL",
+          "stated": 31,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "AGT",
+          "stated": 25,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "OBS",
+          "stated": 24,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "GOV",
+          "stated": 22,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "AWS",
+          "stated": 21,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "DL",
+          "stated": 20,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "API",
+          "stated": 19,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "MLOPS",
+          "stated": 19,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "STAT",
+          "stated": 18,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "SEC",
+          "stated": 17,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "SQL",
+          "stated": 16,
+          "reason": "Counts use appendix codes, with preferred-only separation; narrative totals are not substituted."
+        },
+        {
+          "category": "core skill",
+          "label": "AZ",
+          "stated": 15,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "CICD",
+          "stated": 15,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "SERV",
+          "stated": 15,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "RAG",
+          "stated": 13,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "core skill",
+          "label": "GCP",
+          "stated": 12,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "SWE",
+          "stated": 18,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "GEN",
+          "stated": 17,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "AGT",
+          "stated": 13,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "API",
+          "stated": 12,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "PY",
+          "stated": 11,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "CLOUD",
+          "stated": 11,
+          "reason": "The prose and structured appendix differ; original advertisements were not re-researched."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "ML",
+          "stated": 10,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "AI Engineering",
+          "label": "DE",
+          "stated": 8,
+          "reason": "The published claim differs from the structured appendix."
+        },
+        {
+          "category": "title",
+          "label": "Agentic AI in exact title",
+          "stated": 1,
+          "reason": "The published claim differs from the structured appendix."
+        }
+      ],
+      "records": 87,
+      "errors": 0,
+      "warnings": 9,
+      "report_path": "research/snapshots/2026-Q4/report.md",
+      "bundle_path": "data/snapshots/2026-Q4/dashboard.json",
+      "validation_path": "data/snapshots/2026-Q4/validation_report.json",
+      "downloads": [
+        "snapshots/2026-Q4/jobs.json",
+        "snapshots/2026-Q4/jobs.csv",
+        "snapshots/2026-Q4/job_skills.json",
+        "snapshots/2026-Q4/job_skills.csv",
+        "snapshots/2026-Q4/skills.json",
+        "snapshots/2026-Q4/skills.csv",
+        "snapshots/2026-Q4/skill_frequency_overall.json",
+        "snapshots/2026-Q4/skill_frequency_overall.csv",
+        "snapshots/2026-Q4/skill_frequency_by_region.json",
+        "snapshots/2026-Q4/skill_frequency_by_region.csv",
+        "snapshots/2026-Q4/skill_frequency_by_role.json",
+        "snapshots/2026-Q4/skill_frequency_by_role.csv",
+        "snapshots/2026-Q4/skill_frequency_by_seniority.json",
+        "snapshots/2026-Q4/skill_frequency_by_seniority.csv",
+        "snapshots/2026-Q4/role_frequency_by_region.json",
+        "snapshots/2026-Q4/role_frequency_by_region.csv",
+        "snapshots/2026-Q4/technology_frequency.json",
+        "snapshots/2026-Q4/technology_frequency.csv",
+        "snapshots/2026-Q4/skill_combinations.json",
+        "snapshots/2026-Q4/skill_combinations.csv",
+        "snapshots/2026-Q4/emerging_titles.json",
+        "snapshots/2026-Q4/emerging_titles.csv",
+        "snapshots/2026-Q4/role_frequency.json",
+        "snapshots/2026-Q4/role_frequency.csv",
+        "snapshots/2026-Q4/region_frequency.json",
+        "snapshots/2026-Q4/region_frequency.csv",
+        "snapshots/2026-Q4/country_frequency.json",
+        "snapshots/2026-Q4/country_frequency.csv",
+        "snapshots/2026-Q4/seniority_frequency.json",
+        "snapshots/2026-Q4/seniority_frequency.csv",
+        "snapshots/2026-Q4/company_frequency.json",
+        "snapshots/2026-Q4/company_frequency.csv",
+        "snapshots/2026-Q4/aggregates.json",
+        "snapshots/2026-Q4/validation_report.json",
+        "snapshots/2026-Q4/validation_report.md"
+      ]
+    }
+  ],
+  "downloads": [
+    "aggregates.json",
+    "combined/company_frequency.csv",
+    "combined/company_frequency.json",
+    "combined/comparability_report.json",
+    "combined/country_frequency.csv",
+    "combined/country_frequency.json",
+    "combined/emerging_titles.csv",
+    "combined/emerging_titles.json",
+    "combined/job_skills.csv",
+    "combined/job_skills.json",
+    "combined/jobs.csv",
+    "combined/jobs.json",
+    "combined/region_frequency_by_snapshot.csv",
+    "combined/region_frequency_by_snapshot.json",
+    "combined/role_frequency_by_region.csv",
+    "combined/role_frequency_by_region.json",
+    "combined/role_frequency_by_snapshot.csv",
+    "combined/role_frequency_by_snapshot.json",
+    "combined/seniority_frequency.csv",
+    "combined/seniority_frequency.json",
+    "combined/skill_combinations.csv",
+    "combined/skill_combinations.json",
+    "combined/skill_frequency_by_region.csv",
+    "combined/skill_frequency_by_region.json",
+    "combined/skill_frequency_by_role.csv",
+    "combined/skill_frequency_by_role.json",
+    "combined/skill_frequency_by_seniority.csv",
+    "combined/skill_frequency_by_seniority.json",
+    "combined/skill_frequency_by_snapshot.csv",
+    "combined/skill_frequency_by_snapshot.json",
+    "combined/technology_frequency.csv",
+    "combined/technology_frequency.json",
+    "company_frequency.csv",
+    "company_frequency.json",
+    "country_frequency.csv",
+    "country_frequency.json",
+    "emerging_titles.csv",
+    "emerging_titles.json",
+    "job_skills.csv",
+    "job_skills.json",
+    "jobs.csv",
+    "jobs.json",
+    "migration_validation_report.json",
+    "migration_validation_report.md",
+    "region_frequency.csv",
+    "region_frequency.json",
+    "role_frequency.csv",
+    "role_frequency.json",
+    "role_frequency_by_region.csv",
+    "role_frequency_by_region.json",
+    "seniority_frequency.csv",
+    "seniority_frequency.json",
+    "skill_combinations.csv",
+    "skill_combinations.json",
+    "skill_frequency_by_region.csv",
+    "skill_frequency_by_region.json",
+    "skill_frequency_by_role.csv",
+    "skill_frequency_by_role.json",
+    "skill_frequency_by_seniority.csv",
+    "skill_frequency_by_seniority.json",
+    "skill_frequency_overall.csv",
+    "skill_frequency_overall.json",
+    "skills.csv",
+    "skills.json",
+    "snapshots/2026-Q4/aggregates.json",
+    "snapshots/2026-Q4/company_frequency.csv",
+    "snapshots/2026-Q4/company_frequency.json",
+    "snapshots/2026-Q4/country_frequency.csv",
+    "snapshots/2026-Q4/country_frequency.json",
+    "snapshots/2026-Q4/emerging_titles.csv",
+    "snapshots/2026-Q4/emerging_titles.json",
+    "snapshots/2026-Q4/job_skills.csv",
+    "snapshots/2026-Q4/job_skills.json",
+    "snapshots/2026-Q4/jobs.csv",
+    "snapshots/2026-Q4/jobs.json",
+    "snapshots/2026-Q4/region_frequency.csv",
+    "snapshots/2026-Q4/region_frequency.json",
+    "snapshots/2026-Q4/role_frequency.csv",
+    "snapshots/2026-Q4/role_frequency.json",
+    "snapshots/2026-Q4/role_frequency_by_region.csv",
+    "snapshots/2026-Q4/role_frequency_by_region.json",
+    "snapshots/2026-Q4/seniority_frequency.csv",
+    "snapshots/2026-Q4/seniority_frequency.json",
+    "snapshots/2026-Q4/skill_combinations.csv",
+    "snapshots/2026-Q4/skill_combinations.json",
+    "snapshots/2026-Q4/skill_frequency_by_region.csv",
+    "snapshots/2026-Q4/skill_frequency_by_region.json",
+    "snapshots/2026-Q4/skill_frequency_by_role.csv",
+    "snapshots/2026-Q4/skill_frequency_by_role.json",
+    "snapshots/2026-Q4/skill_frequency_by_seniority.csv",
+    "snapshots/2026-Q4/skill_frequency_by_seniority.json",
+    "snapshots/2026-Q4/skill_frequency_overall.csv",
+    "snapshots/2026-Q4/skill_frequency_overall.json",
+    "snapshots/2026-Q4/skills.csv",
+    "snapshots/2026-Q4/skills.json",
+    "snapshots/2026-Q4/technology_frequency.csv",
+    "snapshots/2026-Q4/technology_frequency.json",
+    "snapshots/2026-Q4/validation_report.json",
+    "snapshots/2026-Q4/validation_report.md",
+    "taxonomy/normalization.json",
+    "taxonomy/role_families.json",
+    "taxonomy/skills.json",
+    "taxonomy/taxonomy_version.json",
+    "technology_frequency.csv",
+    "technology_frequency.json",
+    "validation_report.json",
+    "validation_report.md"
+  ],
+  "skills": [
+    {
+      "skill_code": "PY",
+      "skill_name": "Python",
+      "skill_group": "Programming",
+      "description": "Meaning preserved from report: Python.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Python"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bPython\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SQL",
+      "skill_name": "SQL",
+      "skill_group": "Data & SQL",
+      "description": "Meaning preserved from report: SQL.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "SQL"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bSQL\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SWE",
+      "skill_name": "software engineering",
+      "skill_group": "Software Engineering",
+      "description": "Meaning preserved from report: software engineering.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "software engineering"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bSWE\\b|software engineering|full.stack",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DE",
+      "skill_name": "data engineering/ETL",
+      "skill_group": "Data Engineering",
+      "description": "Meaning preserved from report: data engineering/ETL.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "data engineering/ETL"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bETL\\b|\\bELT\\b|data engineering|data pipelines",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DM",
+      "skill_name": "data modelling",
+      "skill_group": "Data & SQL",
+      "description": "Meaning preserved from report: data modelling.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "data modelling"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "data modell?ing",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "WH",
+      "skill_name": "warehouse/lakehouse",
+      "skill_group": "Data & SQL",
+      "description": "Meaning preserved from report: warehouse/lakehouse.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "warehouse/lakehouse"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "warehous|lakehouse|\\bDW\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "STAT",
+      "skill_name": "statistics",
+      "skill_group": "Statistics & Experimentation",
+      "description": "Meaning preserved from report: statistics.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "statistics"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "statistic",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "ML",
+      "skill_name": "traditional ML",
+      "skill_group": "Traditional ML",
+      "description": "Meaning preserved from report: traditional ML.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "traditional ML"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bML\\b|machine learning",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DL",
+      "skill_name": "deep learning",
+      "skill_group": "Deep Learning",
+      "description": "Meaning preserved from report: deep learning.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "deep learning"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bDL\\b|deep learning",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "NLP",
+      "skill_name": "NLP",
+      "skill_group": "Deep Learning",
+      "description": "Meaning preserved from report: NLP.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "NLP"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bNLP\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "CV",
+      "skill_name": "computer vision",
+      "skill_group": "Deep Learning",
+      "description": "Meaning preserved from report: computer vision.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "computer vision"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bCV\\b|computer vision|3D vision",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "GEN",
+      "skill_name": "GenAI/LLMs",
+      "skill_group": "GenAI & LLM",
+      "description": "Meaning preserved from report: GenAI/LLMs.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "GenAI/LLMs"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bGenAI\\b|\\bLLMs?\\b|foundation.models?",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "RAG",
+      "skill_name": "retrieval-augmented generation",
+      "skill_group": "Retrieval & RAG",
+      "description": "Meaning preserved from report: retrieval-augmented generation.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "retrieval-augmented generation"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bRAG\\b|retrieval.augmented",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "EMB",
+      "skill_name": "embeddings",
+      "skill_group": "Retrieval & RAG",
+      "description": "Meaning preserved from report: embeddings.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "embeddings"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "embedding",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "VEC",
+      "skill_name": "vector search/database",
+      "skill_group": "Retrieval & RAG",
+      "description": "Meaning preserved from report: vector search/database.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "vector search/database"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "vector (?:search|DB|database)",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "AGT",
+      "skill_name": "agents",
+      "skill_group": "Agentic AI",
+      "description": "Meaning preserved from report: agents.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "agents"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bagents?\\b|agentic",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "TOOL",
+      "skill_name": "tool/function calling",
+      "skill_group": "Agentic AI",
+      "description": "Meaning preserved from report: tool/function calling.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "tool/function calling"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "tool (?:use|calling)|function calling",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "MCP",
+      "skill_name": "Model Context Protocol",
+      "skill_group": "Agentic AI",
+      "description": "Meaning preserved from report: Model Context Protocol.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Model Context Protocol"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bMCP\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "MAG",
+      "skill_name": "multi-agent",
+      "skill_group": "Agentic AI",
+      "description": "Meaning preserved from report: multi-agent.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "multi-agent"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "multi.agent",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "EVAL",
+      "skill_name": "evaluation",
+      "skill_group": "Testing / Evaluation / Observability",
+      "description": "Meaning preserved from report: evaluation.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "evaluation"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bevals?\\b|evaluation",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "GRD",
+      "skill_name": "guardrails",
+      "skill_group": "Testing / Evaluation / Observability",
+      "description": "Meaning preserved from report: guardrails.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "guardrails"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "guardrail",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "API",
+      "skill_name": "backend/APIs",
+      "skill_group": "APIs & Integration",
+      "description": "Meaning preserved from report: backend/APIs.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "backend/APIs"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bAPIs?\\b|backend",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "INT",
+      "skill_name": "systems integration",
+      "skill_group": "APIs & Integration",
+      "description": "Meaning preserved from report: systems integration.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "systems integration"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "systems integration",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DIST",
+      "skill_name": "distributed systems",
+      "skill_group": "Deployment & Infrastructure",
+      "description": "Meaning preserved from report: distributed systems.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "distributed systems"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "distributed",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "AWS",
+      "skill_name": "AWS",
+      "skill_group": "Cloud",
+      "description": "Meaning preserved from report: AWS.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "AWS"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bAWS\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "AZ",
+      "skill_name": "Azure",
+      "skill_group": "Cloud",
+      "description": "Meaning preserved from report: Azure.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Azure"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bAzure\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "GCP",
+      "skill_name": "GCP",
+      "skill_group": "Cloud",
+      "description": "Meaning preserved from report: GCP.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "GCP"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bGCP\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DBX",
+      "skill_name": "Databricks",
+      "skill_group": "Data Platforms",
+      "description": "Meaning preserved from report: Databricks.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Databricks"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "Databricks",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SNOW",
+      "skill_name": "Snowflake",
+      "skill_group": "Data Platforms",
+      "description": "Meaning preserved from report: Snowflake.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Snowflake"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "Snowflake",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DKR",
+      "skill_name": "Docker",
+      "skill_group": "Deployment & Infrastructure",
+      "description": "Meaning preserved from report: Docker.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Docker"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "Docker",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "K8S",
+      "skill_name": "Kubernetes",
+      "skill_group": "Deployment & Infrastructure",
+      "description": "Meaning preserved from report: Kubernetes.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Kubernetes"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "K8s|Kubernetes",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "CICD",
+      "skill_name": "CI/CD",
+      "skill_group": "Deployment & Infrastructure",
+      "description": "Meaning preserved from report: CI/CD.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "CI/CD"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "CI\\/CD",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "IAC",
+      "skill_name": "infrastructure as code",
+      "skill_group": "Deployment & Infrastructure",
+      "description": "Meaning preserved from report: infrastructure as code.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "infrastructure as code"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bIaC\\b|Terraform|infrastructure as code",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "MLOPS",
+      "skill_name": "MLOps",
+      "skill_group": "MLOps / LLMOps",
+      "description": "Meaning preserved from report: MLOps.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "MLOps"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bMLOps\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "LLOPS",
+      "skill_name": "LLMOps / AI Ops",
+      "skill_group": "MLOps / LLMOps",
+      "description": "Meaning preserved from report: LLMOps / AI Ops.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "LLMOps / AI Ops"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "LLMOps|AI Ops",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SERV",
+      "skill_name": "model serving",
+      "skill_group": "MLOps / LLMOps",
+      "description": "Meaning preserved from report: model serving.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "model serving"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "model serving",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "OBS",
+      "skill_name": "monitoring/observability",
+      "skill_group": "Testing / Evaluation / Observability",
+      "description": "Meaning preserved from report: monitoring/observability.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "monitoring/observability"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "monitoring|observability",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "TEST",
+      "skill_name": "testing",
+      "skill_group": "Testing / Evaluation / Observability",
+      "description": "Meaning preserved from report: testing.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "testing"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\btests?\\b|testing",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SEC",
+      "skill_name": "security/privacy",
+      "skill_group": "Security / Governance",
+      "description": "Meaning preserved from report: security/privacy.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "security/privacy"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "security|privacy",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "GOV",
+      "skill_name": "governance/responsible AI",
+      "skill_group": "Security / Governance",
+      "description": "Meaning preserved from report: governance/responsible AI.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "governance/responsible AI"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "governance|responsible AI",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "COMM",
+      "skill_name": "communication/stakeholder",
+      "skill_group": "Business / Communication",
+      "description": "Meaning preserved from report: communication/stakeholder.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "communication/stakeholder"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "stakeholder|communication",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "EXP",
+      "skill_name": "experimentation",
+      "skill_group": "Statistics & Experimentation",
+      "description": "Meaning preserved from report: experimentation.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "experimentation"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "experiment",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "CAUS",
+      "skill_name": "causal inference",
+      "skill_group": "Statistics & Experimentation",
+      "description": "Meaning preserved from report: causal inference.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "causal inference"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "causal",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "REC",
+      "skill_name": "ranking/recommendation",
+      "skill_group": "Specialised ML",
+      "description": "Meaning preserved from report: ranking/recommendation.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "ranking/recommendation"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "ranking|recommendation",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "OPT",
+      "skill_name": "optimisation",
+      "skill_group": "Specialised ML",
+      "description": "Meaning preserved from report: optimisation.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "optimisation"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "optimis|optimiz",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "TS",
+      "skill_name": "time series",
+      "skill_group": "Specialised ML",
+      "description": "Meaning preserved from report: time series.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "time series"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "time.series|\\bTS\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "BI",
+      "skill_name": "BI/visualisation",
+      "skill_group": "Business / Communication",
+      "description": "Meaning preserved from report: BI/visualisation.",
+      "origin": "report taxonomy",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "BI/visualisation"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bBI\\b|visualisation|visualization",
+      "text_pattern_flags": "i",
+      "core_text_extension": false,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "R",
+      "skill_name": "R",
+      "skill_group": "Programming",
+      "description": "Explicit text only; appendix code; explicit R text.",
+      "origin": "appendix code; explicit R text",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "R"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bPython\\/R\\b|\\bR\\b",
+      "text_pattern_flags": "",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DOM",
+      "skill_name": "DOM — undefined source code",
+      "skill_group": "Undefined in report",
+      "description": "The appendix uses DOM but never defines it. No expansion inferred.",
+      "origin": "undefined appendix code",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "DOM — undefined source code"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": null,
+      "text_pattern_flags": "",
+      "core_text_extension": false,
+      "undefined_concept": true
+    },
+    {
+      "skill_code": "CLOUD",
+      "skill_name": "Generic cloud (explicit text)",
+      "skill_group": "Cloud",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Generic cloud (explicit text)"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "cloud",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "FT",
+      "skill_name": "Fine-tuning",
+      "skill_group": "GenAI & LLM",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Fine-tuning"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "fine.tun",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "PROMPT",
+      "skill_name": "Prompt engineering",
+      "skill_group": "GenAI & LLM",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Prompt engineering"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "prompt",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "LANGCHAIN",
+      "skill_name": "LangChain",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "LangChain"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "LangChain",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "LANGGRAPH",
+      "skill_name": "LangGraph",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "LangGraph"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "LangGraph",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "LLAMAINDEX",
+      "skill_name": "LlamaIndex",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "LlamaIndex"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "LlamaIndex",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SEMANTIC",
+      "skill_name": "Semantic Kernel",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Semantic Kernel"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "Semantic Kernel",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "PYTORCH",
+      "skill_name": "PyTorch",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "PyTorch"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "PyTorch",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "TENSORFLOW",
+      "skill_name": "TensorFlow",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "TensorFlow"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "TensorFlow",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "DBT",
+      "skill_name": "dbt",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "dbt"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\bdbt\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    },
+    {
+      "skill_code": "SPARK",
+      "skill_name": "Spark / PySpark",
+      "skill_group": "Framework / Tool",
+      "description": "Explicit text only; explicit-text extension.",
+      "origin": "explicit-text extension",
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "aliases": [
+        "Spark / PySpark"
+      ],
+      "taxonomy_version": "1.0",
+      "text_pattern": "\\b(?:Py)?Spark\\b",
+      "text_pattern_flags": "i",
+      "core_text_extension": true,
+      "undefined_concept": false
+    }
+  ],
+  "role_families": [
+    {
+      "name": "Machine Learning Engineering",
+      "aliases": [
+        "ML Engineering"
+      ],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "GenAI / LLM",
+      "aliases": [
+        "GenAI/LLM"
+      ],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "AI Engineering",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "Data Engineering",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "MLOps / ML Platform",
+      "aliases": [
+        "MLOps/ML Platform"
+      ],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "Data Science",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "AI Platform / Infrastructure",
+      "aliases": [
+        "AI Platform/Infrastructure"
+      ],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "Data & Analytics",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "Other emerging AI",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "Analytics Engineering",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    },
+    {
+      "name": "Agentic AI",
+      "aliases": [],
+      "introduced_in": "2026-Q4",
+      "deprecated_in": null,
+      "taxonomy_version": "1.0"
+    }
+  ],
+  "comparability": {
+    "thresholds": {
+      "regions": [
+        "Finland",
+        "Rest of Europe",
+        "USA"
+      ],
+      "seniority": {
+        "Mid": "Mid",
+        "Senior": "Senior",
+        "Junior": "Entry / Junior",
+        "Entry/Graduate": "Entry / Junior",
+        "Staff": "Staff / Lead / Principal",
+        "Lead": "Staff / Lead / Principal",
+        "Principal": "Staff / Lead / Principal",
+        "Staff/Principal": "Staff / Lead / Principal",
+        "Lead/VP": "Staff / Lead / Principal",
+        "Senior/VP": "Senior",
+        "Mid/Senior": "Ambiguous: Mid/Senior",
+        "Senior/Lead": "Ambiguous: Senior/Lead",
+        "Entry/Mid": "Ambiguous: Entry/Mid"
+      },
+      "composition_warning_percentage_points": 10,
+      "sample_size_warning_fraction": 0.25,
+      "composition_warning_relative_fraction": 0.5,
+      "composition_warning_min_pp": 3
+    },
+    "interpretation": "Diagnostic warnings, not a representativeness score. Quarterly changes may reflect sample, employer, role, region, seniority, posting-detail or methodology differences.",
+    "comparisons": []
+  }
+}

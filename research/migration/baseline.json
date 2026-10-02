@@ -1,0 +1,3858 @@
+{
+  "snapshot_id": "2026-Q4",
+  "source_sha256": "d430a408d9044dcb9b6182c64e095686f93bd066089fab8f94df84d5bfcf96f3",
+  "job_fields": [
+    "job_id",
+    "exact_title",
+    "role_family_raw",
+    "normalized_role_family",
+    "company",
+    "country",
+    "region",
+    "location",
+    "seniority_raw",
+    "seniority_group",
+    "experience",
+    "posting_date_or_status",
+    "retrieval_date",
+    "core_evidence",
+    "preferred_only",
+    "normalized_skills_raw",
+    "normalized_skills",
+    "source_reference",
+    "source_reference_raw",
+    "source_url",
+    "source_line",
+    "source_row"
+  ],
+  "job_skill_fields": [
+    "job_id",
+    "skill_code",
+    "skill_name",
+    "skill_group",
+    "requirement_type",
+    "evidence_text",
+    "evidence_basis",
+    "region",
+    "role_family",
+    "seniority_group",
+    "source_reference",
+    "source_line"
+  ],
+  "jobs": [
+    {
+      "job_id": "F01",
+      "sha256": "1352d25884e18da7b86eed27448027412840a945cd9d46dbe2e74c347d054946"
+    },
+    {
+      "job_id": "F02",
+      "sha256": "ce7464435ede277d7b301b8e0726d2b6c8b06ae7d9e36f84fe910e5453d12b62"
+    },
+    {
+      "job_id": "F03",
+      "sha256": "4e99d51967e294c347f3bac552908a24a703592dd8222af13313ecab30ca9756"
+    },
+    {
+      "job_id": "F04",
+      "sha256": "ca5e0760bb7963567a9b229afb24e3c98f3ce4dd183afca53bb507535398f908"
+    },
+    {
+      "job_id": "F05",
+      "sha256": "9945f6e251897bb335fbed84276278b1e3d50bb3c47f972b29f15f6f59532a0e"
+    },
+    {
+      "job_id": "F06",
+      "sha256": "cf01d7eb555ab94f282fe35fd230f9dab3b9461b74ff41753511195420a665ba"
+    },
+    {
+      "job_id": "F07",
+      "sha256": "f15aefb033caa65fbdc046dbe0fed2c9255d1cf4f42260e92937311f129869c4"
+    },
+    {
+      "job_id": "F08",
+      "sha256": "693a6a0f1181d0106fa29d6b7125f2a055d1fd7efc55ef315589ca7a1464a3df"
+    },
+    {
+      "job_id": "F09",
+      "sha256": "c42d9e45814ca9088fa84ca3a68365acb42ffe0181f28ee421b94301e8d1fbcd"
+    },
+    {
+      "job_id": "F10",
+      "sha256": "8473ee34d234be1a440ca5a694756159997376d6958aeaf2f9af38a249502bcb"
+    },
+    {
+      "job_id": "F11",
+      "sha256": "31113d637e7668fe806dfe269ff16a809b0baebbcbd54ffd32216d60000e4de9"
+    },
+    {
+      "job_id": "F12",
+      "sha256": "e667ae400b275d63de4a79b29c42b71b8decec16dbf91007a2af51c38077168b"
+    },
+    {
+      "job_id": "F13",
+      "sha256": "c677c9562caf024fa8f2309fc9adfc37f237af57c45f68553fdfcfa963026082"
+    },
+    {
+      "job_id": "F14",
+      "sha256": "36ba38053c926de972aa3df05dcf829f3e9841baf5f56ce2532b4850a6a5c56a"
+    },
+    {
+      "job_id": "F15",
+      "sha256": "b0eec72cbcfe104e8b9277ebec8c57b3ce9b084f8aeef3a1650a69fdc09ef42a"
+    },
+    {
+      "job_id": "F16",
+      "sha256": "fd5ff5ff4725f972987aabffda12d4a85a181999a93f16992628a430f0fcbd2e"
+    },
+    {
+      "job_id": "F17",
+      "sha256": "308a80f70b8ccebf0e48405b488b9a9c88c1d7a09ea2232852279b9afc3756c6"
+    },
+    {
+      "job_id": "F18",
+      "sha256": "ba266c245a0ed8a83470a693933c68093a960e748b6f1883172a34b110bea4f4"
+    },
+    {
+      "job_id": "F19",
+      "sha256": "229225584fb67afb2e5342a9d5ebc6773d62c0ce232ea7bc01aa95f8552f5fea"
+    },
+    {
+      "job_id": "F20",
+      "sha256": "b72771fa0966d0889b7104c1f54c211d8094571058c6143b46725288356efe0b"
+    },
+    {
+      "job_id": "F21",
+      "sha256": "13df785e7a5bcfa51982ebf6163bb1f1ee50534c364ce31c0ff319a379962882"
+    },
+    {
+      "job_id": "F22",
+      "sha256": "9c4fa5236e880f77b1e6ca552185dee77d394c880d6b490b3191c3bfe5dbf02a"
+    },
+    {
+      "job_id": "F23",
+      "sha256": "e3aa5ba11c02914c6e955f8a361cf5c9dc24b83e7d8ce251cc5b4083c7e9a393"
+    },
+    {
+      "job_id": "F24",
+      "sha256": "d03ca79d836bcd302af73f54eeabe12482a2d47f51b0bb59599bd49a0959c735"
+    },
+    {
+      "job_id": "F25",
+      "sha256": "a9e6554bb8bfd78e74bb068505bdecdc8cab8b76b57fc7715b132005d4d4a9a8"
+    },
+    {
+      "job_id": "F26",
+      "sha256": "b1af16578bf0eedc4059420d1cc2a9c10fcdfd96ba7a52782ec864cc1201e38c"
+    },
+    {
+      "job_id": "F27",
+      "sha256": "967b6769b5310975662cec75fa6b54bd96accf87c229dba25f53acfbe23b4d30"
+    },
+    {
+      "job_id": "F28",
+      "sha256": "c3457e7305054c34f5c85c900fdf0097ecf977c112f0f62e0a0124392ec0e55a"
+    },
+    {
+      "job_id": "F29",
+      "sha256": "57df4c8aacdb81e2f54167b00ce95ad4f6b73d45307e01044378a590434c0c9c"
+    },
+    {
+      "job_id": "F30",
+      "sha256": "f02171ee0e16ef3f7d46cb60e3ce3679de07cc34031149a27df9e5e3d8de6b8f"
+    },
+    {
+      "job_id": "F31",
+      "sha256": "dada530112c679e47b2a82bd8c07001890a133a44cf64cc224b584d1d34951a6"
+    },
+    {
+      "job_id": "E01",
+      "sha256": "3eccda22cb3dce75b022aca97c974662b75c5d89eb5839e9f14e8cb2ff1c12f0"
+    },
+    {
+      "job_id": "E02",
+      "sha256": "bea19639d854a556226f3f4ff3dd5e5a8e2b408943ac1bb64ba7f28a198c84e4"
+    },
+    {
+      "job_id": "E03",
+      "sha256": "5cee198da9ed993b8ff3c69538f2c2eb28ea0c42656533b1918ee55c2097d9b0"
+    },
+    {
+      "job_id": "E04",
+      "sha256": "f8ac6330b228731dd5d62853aaac94ed0e06b424a0d2bf721490a57a52a1cfb9"
+    },
+    {
+      "job_id": "E05",
+      "sha256": "f44d955f551d552e23293199e6ff60ae289a2157ab56beeb91071f56a8dc25a2"
+    },
+    {
+      "job_id": "E06",
+      "sha256": "a3987105a907019b155ce767c92e4719409f5ce947ab52b35ddeb38a37a4543d"
+    },
+    {
+      "job_id": "E07",
+      "sha256": "04f0ced71c0312ea226bcae5986ad8edbbf722397a3519b204ea2b1e7bbedd73"
+    },
+    {
+      "job_id": "E08",
+      "sha256": "7a9de725ab89a3b030188ca7cec2ff3768921dbbffbcb2721752bb0bce44c435"
+    },
+    {
+      "job_id": "E09",
+      "sha256": "60f1485b306fab1c62ecd56948c1c186bb2585c351a801f18efe5816273a78a9"
+    },
+    {
+      "job_id": "E10",
+      "sha256": "826da3bb52ad54b01c3ef2b5bfeb6142587d633c0e33388c7f8df46499651443"
+    },
+    {
+      "job_id": "E11",
+      "sha256": "c4f01f3afe4bd48029cfea701a60005c63677b5a5557b7989c65aecaa4982975"
+    },
+    {
+      "job_id": "E12",
+      "sha256": "7750a44c6390c28e94c2c80156fa07a8e37d432a9dd0b2fcf4cdb81788e7c945"
+    },
+    {
+      "job_id": "E13",
+      "sha256": "6b8921f78f32fb063b258d100b59463a97bbce5a815c2c8fb1af4a8e659f30c0"
+    },
+    {
+      "job_id": "E14",
+      "sha256": "03701c05edbd849012f919924f6a7fcd8b6e699c5e51a13544881aca479d7880"
+    },
+    {
+      "job_id": "E15",
+      "sha256": "86a1705fdce53ab3221228200f38aeebb8f1b7e1ab8da3d5efdaa7ad2086253b"
+    },
+    {
+      "job_id": "E16",
+      "sha256": "37b7bea3255ab608fa60d4dfeb3831c7faba838b2ddc58c5b7ac1c6c02dd6211"
+    },
+    {
+      "job_id": "E17",
+      "sha256": "1803fb8a72ba3abf0beeedf0584b18974ccfd7aa7c2b13417958033e2abb761e"
+    },
+    {
+      "job_id": "E18",
+      "sha256": "d66a68425e5e23cf7422b361398a720cdf212e8e1cfefc489323caa0ccd559a2"
+    },
+    {
+      "job_id": "E19",
+      "sha256": "cc1e392072c80eb8855fdfb7a709770aeb112e4b4a3d50cc4dac1e8f0b3ed03d"
+    },
+    {
+      "job_id": "E20",
+      "sha256": "c95b9cedbae7d61cc74da5ddbd1e9e6eed1725e1dd027c2f7e161a4559c45c27"
+    },
+    {
+      "job_id": "E21",
+      "sha256": "aecbdf2752b46a12ce8e8245255c5736dd9109fc41defa9ef08c873a1ea931ff"
+    },
+    {
+      "job_id": "E22",
+      "sha256": "1e2085533d4c4ed3b45be797018e901d1921d7d3e9668c790816cc3c67da5509"
+    },
+    {
+      "job_id": "E23",
+      "sha256": "2fbe5805ebaa13d35c5338e3c1c4cd65cab4cf714c1eeb87700d09cc66d8ede5"
+    },
+    {
+      "job_id": "E24",
+      "sha256": "c3091bb067ed99fedf9f0e812d0936462c9f2c01093e1f3ed9b1c7ffcb52c994"
+    },
+    {
+      "job_id": "E25",
+      "sha256": "720a2327541fd921f084a3ec787fecce1c6b8fa0af91038b8a2c59d79369296b"
+    },
+    {
+      "job_id": "U01",
+      "sha256": "7162547aa4a54c3e0e0c27fc680bc73ae20d397fa06ccae281412eeca913b42b"
+    },
+    {
+      "job_id": "U02",
+      "sha256": "3bfa0ab08c883d0a912ed645a3391448f487a7b2cfab5dd0864425968c4a9e4a"
+    },
+    {
+      "job_id": "U03",
+      "sha256": "637bb95cf2c9d973d710ef077654521361c48bdf2fdd33dba2cb03b452cf7b7d"
+    },
+    {
+      "job_id": "U04",
+      "sha256": "e5757ad67874b0aa2c94e03e643cb515a2398f7602cfa558d3df383aa76395cd"
+    },
+    {
+      "job_id": "U05",
+      "sha256": "d3c5429a29106caeeff5097b856da5a3b0aa391078239115eeee60614341fc08"
+    },
+    {
+      "job_id": "U06",
+      "sha256": "96f4d73edb1d8308cc745accd26c8d683d0d34a13e9e85cf6a3b84931b45f4d5"
+    },
+    {
+      "job_id": "U07",
+      "sha256": "2872f442d5309a5e375cb6423be89148c9b4aa14945afc60ed32d51208a8bc89"
+    },
+    {
+      "job_id": "U08",
+      "sha256": "5d169203013d7d6a9dc92ec03cf9ff2b5fde148bcece35411037d5b0dcf669ea"
+    },
+    {
+      "job_id": "U09",
+      "sha256": "fd275b178eaafb05f2bb139da445e1d49bc16fbbd1754e93ae6c633aa6006d18"
+    },
+    {
+      "job_id": "U10",
+      "sha256": "d9b6f186936e0e4914a06583e7aa07946dc2c8499af697b2574b9f406c0a358f"
+    },
+    {
+      "job_id": "U11",
+      "sha256": "cccd272c4f1adcba4e8d2d2ced62cbf5a710d5554124f4055baaaebecf6b498e"
+    },
+    {
+      "job_id": "U12",
+      "sha256": "a02ef229bb1ccee5c6944b74a39934b04912ebb9314f6c1223b887da68e289ab"
+    },
+    {
+      "job_id": "U13",
+      "sha256": "bc5ff28aaa75dd0433bce8045c4313bcbffdacfdebaf86943d889d42fb05f37f"
+    },
+    {
+      "job_id": "U14",
+      "sha256": "1bf6e5b3ce02cecb4fcb5e100a550cd3125c6d2473b055243ea7caa2285dd12b"
+    },
+    {
+      "job_id": "U15",
+      "sha256": "1ba5ce05a136fd1b817143603cd0906d2a662a0506a6b6f662077a687751c0ae"
+    },
+    {
+      "job_id": "U16",
+      "sha256": "17f94e4c6ba6095a68ec7a99a5e60edf49bd82e8bc1e29531e9a91eec2d09cc8"
+    },
+    {
+      "job_id": "U17",
+      "sha256": "7f8b6e5d92cb32949c5174f04d598894c43f7b1f1a581c382f58c5218aa18d9e"
+    },
+    {
+      "job_id": "U18",
+      "sha256": "1870139fdd2397826244de2a37ba1f140bfc57ce594b5629f28bfa166c3cd357"
+    },
+    {
+      "job_id": "U19",
+      "sha256": "b4a996e02737f12b2a7182c17210df9ea6bfadd0563a61a65546c6c72202e54e"
+    },
+    {
+      "job_id": "U20",
+      "sha256": "18cf177fa9ae553a35586c57584ff524cccfadfbbabfe4c3fed1e303fec465e5"
+    },
+    {
+      "job_id": "U21",
+      "sha256": "fd28bab49f8da19ff019a35fb5503350db3b164c3251d3849ff4065b685738ed"
+    },
+    {
+      "job_id": "U22",
+      "sha256": "64bb3e2af797d4b694d56a476bcfa935d027d13e835f45f0ca40362bfce81a9e"
+    },
+    {
+      "job_id": "U23",
+      "sha256": "2490d0c3ddf60f3472710e7a67f13c88e32c80cd6b95a9830b7b088cbab94782"
+    },
+    {
+      "job_id": "U24",
+      "sha256": "b358a47d6a5514f2ebf195f9aaaa061e141bc4d74be34c45dfdc21ab6f680c9c"
+    },
+    {
+      "job_id": "U25",
+      "sha256": "0fd834de738c64fc25dc6a3ab4b63feed92dd838687275c7f1234e7ac390e1b2"
+    },
+    {
+      "job_id": "U26",
+      "sha256": "5eb3d9b0c5d13d8fc54bb0a9d0a2d14c706d6c3b24ad9a2182d60ac6177976f2"
+    },
+    {
+      "job_id": "U27",
+      "sha256": "240e9e0d7ccdfd5f3006b3b80e9c6b3e47e935fdfb678c37d25c44c0de8e49a5"
+    },
+    {
+      "job_id": "U28",
+      "sha256": "196990ef59281b29439beb489480b07184fe1daf96ebb6e6cec9eceb528532af"
+    },
+    {
+      "job_id": "U29",
+      "sha256": "50c7b6e4ea8e70a192d680d2a4090349bf2a68975b2995e1dd9ba269818352b0"
+    },
+    {
+      "job_id": "U30",
+      "sha256": "e6c648bf96a807cab39cbad97701d611e4a3be0715d3ee4f3903a344cf246321"
+    },
+    {
+      "job_id": "U31",
+      "sha256": "fcd40a39451636a72999e7ecbcb3c0df49714417ebb5603b722c59dc71f715bb"
+    }
+  ],
+  "job_skills": [
+    {
+      "key": "F01:PY:core",
+      "sha256": "988bb7326dd74de2f351559facadfcaf03ba99c90a68de751a584211a302ec39"
+    },
+    {
+      "key": "F01:SQL:core",
+      "sha256": "e9de965ad88459660ec7bb77eaa64f5bae53df6e3034f1c589799839c67ca53c"
+    },
+    {
+      "key": "F01:ML:core",
+      "sha256": "7b66d0b4964e62fc35fdc3d74b527a08909e81699e8dfe2b711318ccb699a72e"
+    },
+    {
+      "key": "F01:SWE:core",
+      "sha256": "8cf7f6f375c197fe3ddecaac40fdbb857234db55eef1df30a6505e0c192c29bd"
+    },
+    {
+      "key": "F01:AWS:core",
+      "sha256": "0363efc2442f15f90521c8dfe015b4807a81838bca9b493e83e991a39062654f"
+    },
+    {
+      "key": "F01:AZ:core",
+      "sha256": "89a46f47874262e5a53e86d4dc5add5c190dc777cd8253c7c8f439996ce4c8db"
+    },
+    {
+      "key": "F01:GCP:core",
+      "sha256": "d724a0ef6f3a10d0e47155fb5b9b064e510f1e5dda42c1373bacd0b09d177b9b"
+    },
+    {
+      "key": "F01:IAC:core",
+      "sha256": "07f363461859439130e7b745f93bdc01dd81e15e57830fc715cc1d2ac756888b"
+    },
+    {
+      "key": "F01:COMM:core",
+      "sha256": "a2bd325508d558d62ed49bb08181ae3699e9fff1d4b2d2337b86679fa4c238a6"
+    },
+    {
+      "key": "F01:TS:preferred",
+      "sha256": "2f77fea22437160ab703c9e68ee19080484ef23ca5a515efde5f87787875052b"
+    },
+    {
+      "key": "F01:CLOUD:core",
+      "sha256": "316e18518784e09737bbf35ec1e1eb5344ef241c25c563ca0f6b2f9d3cf2a4ca"
+    },
+    {
+      "key": "F02:PY:core",
+      "sha256": "0034f8d50a3bb8bbb681ee90c373568e14e00b31b760c8c37ab3a6e13859c3e7"
+    },
+    {
+      "key": "F02:GEN:core",
+      "sha256": "a2c8fd492f88a42cfdea2c1d44597e75e70695995fdfaf6e4977334f77c4da36"
+    },
+    {
+      "key": "F02:RAG:core",
+      "sha256": "23514bbe904e153f4b836a44df0a820e70d62ad0cb9452c55f8d0bcd9bf7121b"
+    },
+    {
+      "key": "F02:EMB:core",
+      "sha256": "8ae2c2cafa6e0f86b20e576ad975a8c4e8aba7bf5f5204b03851936659b30bb4"
+    },
+    {
+      "key": "F02:VEC:core",
+      "sha256": "979ca64e269837dfca541e57f4bb09bf60af6fd508f408f01dacfc6e3f07f25b"
+    },
+    {
+      "key": "F02:EVAL:core",
+      "sha256": "65a572006935b554f190624c1a12c167d0179c50c85ee1ad7a430454bdf52243"
+    },
+    {
+      "key": "F02:GRD:core",
+      "sha256": "36eb282a4225475bf50b2286a481b1e535d79a2aef818b33b014eef3c80c2f00"
+    },
+    {
+      "key": "F02:AGT:core",
+      "sha256": "89ca41c011d78b55a87733bad9b695d53520f68133b9d63c556ccd171bf36a8e"
+    },
+    {
+      "key": "F02:SWE:core",
+      "sha256": "ee3f92aed1f076146d16b3286cfbb92c3c41c0f7af26ac2fd78577598e4887ac"
+    },
+    {
+      "key": "F02:API:core",
+      "sha256": "92f51568367b8f118951c889ad825f37f14db8f96387c91a5d8defa5512654fd"
+    },
+    {
+      "key": "F02:AWS:core",
+      "sha256": "b54e56d905f1f5800b6082e84cc393697a7978528f260f83ebcaa0e35e93ecea"
+    },
+    {
+      "key": "F02:AZ:core",
+      "sha256": "faaff1674be80e7aff4f68316c2a833332663c9761c686495020f130293ce9d4"
+    },
+    {
+      "key": "F02:GCP:core",
+      "sha256": "54d81d8e59b0779002167303c8ef5536d28a8726a52d65ccc8c8988c86cf6b0f"
+    },
+    {
+      "key": "F02:DKR:core",
+      "sha256": "fc1f7e6871923963d0bb04e10d623bbbf2614b30f94ec14beddd160c4f06dfe2"
+    },
+    {
+      "key": "F02:K8S:core",
+      "sha256": "116ec92808087e21d6725f6bc2da0d193ff0b678d4703df2c63e61f2f0bbcff7"
+    },
+    {
+      "key": "F02:CICD:core",
+      "sha256": "efe5a61cb04765856fae7d5c7351150af738efa734820bce6783358340738533"
+    },
+    {
+      "key": "F02:TEST:core",
+      "sha256": "f5b66e44186e4787a4179775830a3d735f269249b5837b352bc218a5bec84182"
+    },
+    {
+      "key": "F02:SEC:core",
+      "sha256": "69e6aa07abc92390c5b1710854bcb45473e3dda266ba08baabf9bd8f997c662b"
+    },
+    {
+      "key": "F02:GOV:core",
+      "sha256": "4ea838b106c5935baa1a3f126f8a89221ab37dd08a61ee46cc275486de0c05e0"
+    },
+    {
+      "key": "F02:TS:preferred",
+      "sha256": "8a5dda49064298b38ad60945da28566ca2ef42530acd55ef202dbddabf85eda1"
+    },
+    {
+      "key": "F02:LANGCHAIN:preferred",
+      "sha256": "21414c7c116be0b959ae56d041df12d49a1c059497c36594ec2b29aaa69d050b"
+    },
+    {
+      "key": "F02:LLAMAINDEX:preferred",
+      "sha256": "c9126788fa103898cfb6e09ef6441aada69ec402f24229babde8c295a275a1e4"
+    },
+    {
+      "key": "F02:CLOUD:core",
+      "sha256": "aae909875f60c5b2f36c190abc6c3cd569f9e38379e00c12ef1289e71d4411ad"
+    },
+    {
+      "key": "F02:PROMPT:core",
+      "sha256": "aa92938554ca638bef7aeb8b58eb700061827d33021e7a52845e8258c93d0cc7"
+    },
+    {
+      "key": "F03:PY:core",
+      "sha256": "b39428733dc24f7946f4a4f47d9aafe580188d86d65ba950098978ae1340beea"
+    },
+    {
+      "key": "F03:GEN:core",
+      "sha256": "edb1d59864476f9c52a0603f68b74f55899b28e5d23d7cac497b4312f14a73db"
+    },
+    {
+      "key": "F03:AGT:core",
+      "sha256": "34cb2af0ba456cb440a3aec1aa407e842e76af8be4491a02347ef74f2b64ada4"
+    },
+    {
+      "key": "F03:TOOL:core",
+      "sha256": "5ca4364f87a6f126e05d584e63e5d1fbcb08d7be352e2bdb3a4c2455dabaa225"
+    },
+    {
+      "key": "F03:EVAL:core",
+      "sha256": "9b278b0691de55e53db23dac07c10136729ce4ae66f54afbbe9a2f22e3292de7"
+    },
+    {
+      "key": "F03:SWE:core",
+      "sha256": "b37937da8ff325c7a44767a19a44176cc7fd6739196835681b85b3800b218bb6"
+    },
+    {
+      "key": "F03:API:core",
+      "sha256": "bab3d4c54ca4c5c5513fb5f34c8e8ef389be5e06f6ee9042051ecaf71e159a67"
+    },
+    {
+      "key": "F03:DE:core",
+      "sha256": "b2ddb7d6a3eaef9ff313b95873abd4ff93eb4178890f096cc6d469e903ef1fd2"
+    },
+    {
+      "key": "F03:AWS:core",
+      "sha256": "922c17c2ff49adedecc658debd3f5d7c003773286b554ca504d4e579b9071a70"
+    },
+    {
+      "key": "F03:AZ:core",
+      "sha256": "23a5528620a1e1d25afe3e314d25a6605f31043668c3ecacc970ea22729d0586"
+    },
+    {
+      "key": "F03:GCP:core",
+      "sha256": "868dbbcfca3194ffa6eea0a7b999fa0c7ae6fa022020bbecc38daf305d98d2b5"
+    },
+    {
+      "key": "F03:OBS:core",
+      "sha256": "559e49cc6499513009b75d3f2b86d51ea0e3505adc20118adac35d1999645cce"
+    },
+    {
+      "key": "F03:MLOPS:core",
+      "sha256": "8168d6187ccdf99124179c65b0302073877c1c74e57984761c2dcf3ea4ac9719"
+    },
+    {
+      "key": "F03:GOV:core",
+      "sha256": "baf78d6bcb5b820c4fd6f31082fe3aa7a76ff43a0e1ae577c5dac1927f53d141"
+    },
+    {
+      "key": "F03:COMM:core",
+      "sha256": "8380070e2c73782fde8c591c7600608c9b66f2230cae6a36e6ac98b04f392fc4"
+    },
+    {
+      "key": "F03:DL:preferred",
+      "sha256": "4929bcabaa25990112c3c07025be5fe532010ba77b3ff48e2aaaef4db63cab84"
+    },
+    {
+      "key": "F03:LANGCHAIN:preferred",
+      "sha256": "63370d95a25ed591882b2748b5bb0cb1642fc750ac3f3aecb526d4976800186a"
+    },
+    {
+      "key": "F03:LANGGRAPH:preferred",
+      "sha256": "53019acd2bbbc9edfe5b4bd94e843d90b54c8144b361c58f64f4e8d15f48f9b4"
+    },
+    {
+      "key": "F03:CLOUD:core",
+      "sha256": "9bcd62b0a3a73fa2be81776ec1063781f7ffc78ef7156fb126e3d38e27e02be1"
+    },
+    {
+      "key": "F03:FT:core",
+      "sha256": "4828386d3076eada40d95465ae8ec8594fae1acd516f69e2d13d813c7f153f39"
+    },
+    {
+      "key": "F04:PY:core",
+      "sha256": "1755065d87a9b11239748976fa2fdeb5c94d87749c4221c56e2973cdde59ef77"
+    },
+    {
+      "key": "F04:DE:core",
+      "sha256": "33104b6654205dcc77b4a544ebcdd803952cb8cb28b7d8a3423fb1d4dc27a07a"
+    },
+    {
+      "key": "F04:DM:core",
+      "sha256": "21361b8f819eea5f9cb3463fd161f0feb34f9ea49baa4f5c7616eda7dda906e0"
+    },
+    {
+      "key": "F04:WH:core",
+      "sha256": "3bcb8d78a7ada168a0432263408afad5bda41d2d54f3034e8da40ce447aad3f8"
+    },
+    {
+      "key": "F04:AWS:core",
+      "sha256": "fe8bddf56e5e962515514a08c269ea76200d874f8f4bb8e8ec91c1b29bc6fd6e"
+    },
+    {
+      "key": "F04:AZ:core",
+      "sha256": "488b2809f8b4a7bb7a2a7f54e71d5d6b6b06713a0a3f3099407505fa4fd26e11"
+    },
+    {
+      "key": "F04:DBX:core",
+      "sha256": "57a8f8850efc3b3c7b721e7b343199d46fa0e151c45ab30eca6f8685486f872e"
+    },
+    {
+      "key": "F04:CICD:core",
+      "sha256": "9cdaa1934c89adb7526adf8a77bdab9938ff187adc9c6e15003b51da7013ad07"
+    },
+    {
+      "key": "F04:IAC:core",
+      "sha256": "b8b1f71f73a6a7539e288d9939f0dbd14d324d97e7cea01d7a265658b6001fd9"
+    },
+    {
+      "key": "F04:COMM:core",
+      "sha256": "df69384b2a288244489fea930c74259964a4227206ee44ade19027aeeb862d30"
+    },
+    {
+      "key": "F04:MLOPS:preferred",
+      "sha256": "efa9fa1400b37dbf616d11e1d9a3fbe84df892587d1584e10da57ae0897f37d1"
+    },
+    {
+      "key": "F04:FT:preferred",
+      "sha256": "4dea97f452d65237d45056e403ab0fb567df8fef53f72df29481f134897af91c"
+    },
+    {
+      "key": "F04:CLOUD:core",
+      "sha256": "98acaf33029bc1e12116eb7bfdb333b8b87fbd244da8798c0d730970985e019b"
+    },
+    {
+      "key": "F05:PY:core",
+      "sha256": "f8f82307917cf57a156fa0528321a29a0d697100268ab153f15cfec44940c250"
+    },
+    {
+      "key": "F05:ML:core",
+      "sha256": "af8ab2e1b8437b305b3e3aee46a8e53208dc6167759059e626600a7264c64cd1"
+    },
+    {
+      "key": "F05:DL:core",
+      "sha256": "5cb4bb4b6acadb0cc113321f9e70ad4f5c70e1265ef29aa2a6c4edcd1e1b52bf"
+    },
+    {
+      "key": "F05:NLP:core",
+      "sha256": "47cbb58ad7326fcd33cdfcfbd4d11abf11988f69b2cbfd377e8e1b10036b8434"
+    },
+    {
+      "key": "F05:CV:core",
+      "sha256": "0edeed629c4ac5340c3dc0f80ecec30e926c90659207e3f85a49325752e97163"
+    },
+    {
+      "key": "F05:MLOPS:core",
+      "sha256": "64f25cefa7b25c6dced00f036d7080bab456c2f8e28fe0ef72d59436288ba514"
+    },
+    {
+      "key": "F05:DE:core",
+      "sha256": "24070478dc28e17fef20b16f7b316cea89efad160dc5e520b4595527c8435f40"
+    },
+    {
+      "key": "F05:AWS:core",
+      "sha256": "daaf0456c7cca9c76c1bdf9b5c2b05157bc3e65da894b9cb7eb5ebbb5fac4d99"
+    },
+    {
+      "key": "F05:GCP:core",
+      "sha256": "bb5a27b5f6c2cc3539b5670840116832ca68eeebb85b13e28246291c4367022c"
+    },
+    {
+      "key": "F05:SEC:core",
+      "sha256": "42ab1bb11d14e4637fc13d34867d30c4831e77221653cd3475f568bb21950ab4"
+    },
+    {
+      "key": "F05:OBS:core",
+      "sha256": "345989140141e06ef29e0ac1b1e83e5f6349add85fcaac1623afc24e354b0ceb"
+    },
+    {
+      "key": "F05:SWE:core",
+      "sha256": "850fdb288900203955fcac9647b03b727e71ca8157eaabddbda4f1f6d51fc9cb"
+    },
+    {
+      "key": "F05:CLOUD:core",
+      "sha256": "d9f2a1189695b9938d0818eb26c6f6183e402635a2e7d7413ebfc9568bc86579"
+    },
+    {
+      "key": "F06:PY:core",
+      "sha256": "50f9e217ad58d61677b78e9a26676a74daee28e8a33cf12f999ca1c236da741f"
+    },
+    {
+      "key": "F06:STAT:core",
+      "sha256": "4f3966152564bbc4282134c50b447a1cbb4323d3e4374a6052686917bb85d3a2"
+    },
+    {
+      "key": "F06:ML:core",
+      "sha256": "9c852dfaa7747966292b4b2c6fe963b9932d1cbfaa78e1ca999c7bf8590fae51"
+    },
+    {
+      "key": "F06:DL:core",
+      "sha256": "4eedfc0273bcdf3f834c27be46fe44a12b0d9d58b4947c13c421a53200d6c6fc"
+    },
+    {
+      "key": "F06:AWS:core",
+      "sha256": "46cf4808492842bfc4856a05060c1c5910cf8c62cb5052280030ff1a71d89349"
+    },
+    {
+      "key": "F06:GCP:core",
+      "sha256": "c25ec86e8d7e37fcb2a5a202d0b3083dcd437b7a2045de40e2d6f7487a9bfd39"
+    },
+    {
+      "key": "F06:MLOPS:core",
+      "sha256": "fb85b2087778b00fe32020041dc4c5c63f8684a4beb5258b4487e38ad9d91adb"
+    },
+    {
+      "key": "F06:EVAL:core",
+      "sha256": "0326f9a59eb376a0de6c740e635b70d469a3315fa70c0c82f773439182ee5cde"
+    },
+    {
+      "key": "F06:OBS:core",
+      "sha256": "c37db2bcaf06702161cc204d33bd9749d823d3e729b9dd3b14fa2bcd42a34c8e"
+    },
+    {
+      "key": "F06:COMM:core",
+      "sha256": "5f9e602ebb8147e30c3c31469deb0310d31768dc5ae1131e707efaf7279d9f22"
+    },
+    {
+      "key": "F07:SQL:core",
+      "sha256": "180e3e9722c32e688cdfb95494ee61535a84a91399edfdd254f98a704f6c612d"
+    },
+    {
+      "key": "F07:ML:core",
+      "sha256": "a9c3cfc82a572044388bc9fbb777c259cb666d17defa8b2ae377fb17f3bce823"
+    },
+    {
+      "key": "F07:GEN:core",
+      "sha256": "5c5ad548227d8e8095d416f610f6c8d564e3fa42a3d0da8f1b1ca3224f849713"
+    },
+    {
+      "key": "F07:AGT:core",
+      "sha256": "8c4a9b61c9d3c77d3ea7f8d9f14ee32e546bcd12b12b6f6d8718d287a8334a26"
+    },
+    {
+      "key": "F07:RAG:core",
+      "sha256": "1053c55c172ff6bfe00537c435ac3017b6c0bcda4a609602156bc99acaa2e07f"
+    },
+    {
+      "key": "F07:SWE:core",
+      "sha256": "4ef550fd2592b795cab7caab41c14e0dcb6519bb5830f17d343e1c3e40921ac5"
+    },
+    {
+      "key": "F07:COMM:core",
+      "sha256": "ae2c4125b964af8ebbe100c5f67c3dfa239905fe2cbb57f1cf26ca75f888a4ae"
+    },
+    {
+      "key": "F08:ML:core",
+      "sha256": "70e76412fd4cc4cf03a56ace4baa4e6b070179ce4b6aba7b87fe09718e2a350f"
+    },
+    {
+      "key": "F08:GEN:core",
+      "sha256": "776731bf212f9c7fa301c6454841626972998223bfca4e1c8d6180b41e076b43"
+    },
+    {
+      "key": "F08:SWE:core",
+      "sha256": "4fad62294da7e0600c73e68a9bf9cf3fa4b439cb6ab98e5837aa04479f488b92"
+    },
+    {
+      "key": "F08:GOV:core",
+      "sha256": "b8654949eaa4868c0c7bca2445102ac12a1bb07d828fb2aab8bdcb63dddce17d"
+    },
+    {
+      "key": "F08:COMM:core",
+      "sha256": "89b99fcb226dfbff7e5216452ddc751c07bbead3c224d5bc19c194775f0b83eb"
+    },
+    {
+      "key": "F09:DE:core",
+      "sha256": "1939a78ef9aaa98864eace9156a1f51095482bcc6f6d2827f0cd2f1ec1b9216c"
+    },
+    {
+      "key": "F09:DM:core",
+      "sha256": "bc1f3fe6ec8a051caa71700725706148ccd5ee8857355a6422be1c2675b6deba"
+    },
+    {
+      "key": "F09:SNOW:core",
+      "sha256": "13a958f47137b5b7a0a5cbb698ca936cdae63114b62e8b714a7498f06831092b"
+    },
+    {
+      "key": "F09:DBX:core",
+      "sha256": "3b2cec3b99783ce044bf223564e52a870742c5d623b2a681c91a8b91c45b45d6"
+    },
+    {
+      "key": "F09:SQL:core",
+      "sha256": "b3ab8209c19be8d008e4198651f988f73f62055e970508c7c36f01e88be09355"
+    },
+    {
+      "key": "F09:COMM:core",
+      "sha256": "4b4ab505557f773d2c3394e4e81bbd460b1f29f5a721548aae271b3b167e2c61"
+    },
+    {
+      "key": "F09:DBT:core",
+      "sha256": "bfc4a964039c6850804a55c688455618ffd27150c2415d1ad337a7bbf2b032e4"
+    },
+    {
+      "key": "F10:DE:core",
+      "sha256": "2ac10735fdcf1305474426405c57bce4b4f66ac182f6f0255e7dbb65c399a577"
+    },
+    {
+      "key": "F10:DM:core",
+      "sha256": "cac8e2959d5029c1c5e4c33905817a9e31e71fbab6473ac5cbc906f4cbfcc801"
+    },
+    {
+      "key": "F10:COMM:core",
+      "sha256": "ee212d405958804bb7517bc37be87dfbfe3265b01f5ad1896125169133b859e6"
+    },
+    {
+      "key": "F11:STAT:core",
+      "sha256": "5526913998d1bb369e75bf2814530ceab1291b2d6bd101a5bfed84b47cd39d69"
+    },
+    {
+      "key": "F11:OPT:core",
+      "sha256": "96de6377b49d8906da1caa29d1aa424f5c9a323ac4357b5d43f05eaebf867183"
+    },
+    {
+      "key": "F11:GEN:core",
+      "sha256": "b13e5da69cc3715fafdb12c85b59f510bb24c90f7da9321bfa7e96b950d71e34"
+    },
+    {
+      "key": "F11:RAG:core",
+      "sha256": "b7cf4fae9660cebea6be89fff86bb6487e2be2631f19657861f581e12a618150"
+    },
+    {
+      "key": "F11:AGT:core",
+      "sha256": "e7a5ec459bf3ace50f0f2c69fa1d556540c79dc6907db33dfd6cc613f02d3684"
+    },
+    {
+      "key": "F11:TOOL:core",
+      "sha256": "aee012fdcaa2cbec78dcdfef67a78aa9eb7b8a5e079dce2c114c059f0d59be06"
+    },
+    {
+      "key": "F11:EVAL:core",
+      "sha256": "f432477cef2f8b542b048b2521acfd05c68da29bb3393220b3915b432d521acd"
+    },
+    {
+      "key": "F11:DE:core",
+      "sha256": "561741f403592a1bbb5c0739705b89fd718fc2275237b6f7fa81b6cd718b85fe"
+    },
+    {
+      "key": "F11:AWS:core",
+      "sha256": "13048f53572ab22acea89e43c52d0c604652f47e9e175658a1c0d34f7d858068"
+    },
+    {
+      "key": "F11:GCP:core",
+      "sha256": "2cf161a54d24588d10617ac0a9d90f9ed6fe39e9982f854a07cd0718d7e787a3"
+    },
+    {
+      "key": "F11:AZ:core",
+      "sha256": "d3700683208a7f94ba83744a63808a6f770df7639557ce3531d568125d05834e"
+    },
+    {
+      "key": "F11:CLOUD:core",
+      "sha256": "8463f71fb5deff70cd79390e28b50e3abba4e9cfc85eb924bc06093dc6f941d1"
+    },
+    {
+      "key": "F11:PROMPT:core",
+      "sha256": "11dbb20c18cc06a41a207ac84089367b94003def9528720ae96156704b9f4b48"
+    },
+    {
+      "key": "F12:SWE:core",
+      "sha256": "4824a8302f60c3f7fe0dcecd949fba50ee7037f146ad256f89cc99a30a32da13"
+    },
+    {
+      "key": "F12:API:core",
+      "sha256": "27d17b6a62676c987eafcee25931823555cada283c9e1bf64a360a1327e7d3b4"
+    },
+    {
+      "key": "F12:DE:core",
+      "sha256": "f2b1c80eff2fc17e6e8b9000f4e37fd6c2ba6bca396d4eb68c26302d4e24454b"
+    },
+    {
+      "key": "F12:GEN:core",
+      "sha256": "68fe76b0e00be295260412766f28ccf92f8a37f62bf458ba3a847471ee34db3a"
+    },
+    {
+      "key": "F12:RAG:core",
+      "sha256": "3d20b2f80d5a1a46aeb2a5adf3773b06f21f8e2b389ea2dc3ab4743bb51beb94"
+    },
+    {
+      "key": "F12:AGT:core",
+      "sha256": "90070c0b670287943ad3db0978b83f7f8bdb688fa2eb6341e4c9bd0ae53dee96"
+    },
+    {
+      "key": "F12:TOOL:core",
+      "sha256": "6f4c18af0711eb77598a187d01c4aa806fd23b750e3f3af49653bcd140d9812d"
+    },
+    {
+      "key": "F12:EVAL:core",
+      "sha256": "1976b8ea533be12e7cab8d49d86f582ff177109102b2f72adfa847b48dbe092b"
+    },
+    {
+      "key": "F12:PROMPT:core",
+      "sha256": "ef15699462248aaf7c264691223ff86d236f75b0762efa486f29d356cb4521ad"
+    },
+    {
+      "key": "F13:PY:core",
+      "sha256": "9f7b1a849ba3551606204e192e495bc553d51d3069e196a3377c0ae612bfb485"
+    },
+    {
+      "key": "F13:SQL:core",
+      "sha256": "1e45ce7a6b1722eb0ca990b9e7299de97982d40a005ac291529565591eec5e7b"
+    },
+    {
+      "key": "F13:ML:core",
+      "sha256": "92288e9e34478e2a59d797221f35bf1bae26ce74947f0e1ec92e41376035474d"
+    },
+    {
+      "key": "F13:STAT:core",
+      "sha256": "3d9bc49e3d10036f14bd10b676378b114b3939493461961277aed4758c8a31d8"
+    },
+    {
+      "key": "F13:TS:core",
+      "sha256": "582b8b2ad9117c9bf66ff4e21d4ad544698484cb4474efbcc22d31b434012737"
+    },
+    {
+      "key": "F13:MLOPS:core",
+      "sha256": "94eac36301fe8e7724c28f2e463b35126d457bd1c5b2b53a98c829ef87010f63"
+    },
+    {
+      "key": "F13:EVAL:core",
+      "sha256": "6dc4450335d8896dc472fed8b85b03ce95e14f39875db54e7fa4a0453eef1a01"
+    },
+    {
+      "key": "F13:OBS:core",
+      "sha256": "0735ad26d3b0c5b8bdde16ad8ef96dec529e48df67fe576104c806627fb7d0ee"
+    },
+    {
+      "key": "F13:DBX:core",
+      "sha256": "4f1ef09b01a7ed23e784d081c536b62357300f70dd2fc254a95824ed070b1cd8"
+    },
+    {
+      "key": "F13:SNOW:core",
+      "sha256": "aba8c62e7896a5455eb662dd4e9939f5076535b804716d867411337475373f3c"
+    },
+    {
+      "key": "F13:DKR:core",
+      "sha256": "7925d1ccf8b7027cdefd7c9c7eb7b4038b66b0c52841a5b2063ace07fac448cf"
+    },
+    {
+      "key": "F13:CICD:core",
+      "sha256": "10152abc5e087ea7f30368878b2a8286b540329c9d4bf406b9964ac99b225f77"
+    },
+    {
+      "key": "F13:AZ:core",
+      "sha256": "5f513ca8a7e97dc37de0e78935323e8b784ca4ce76ee0dada3c2390254b41b6c"
+    },
+    {
+      "key": "F13:AWS:core",
+      "sha256": "cb8c06cce33017f5e2e2f83af23899b65fe816176d2e4ab158ca16ba0e0782f5"
+    },
+    {
+      "key": "F13:DL:preferred",
+      "sha256": "33e3ea31d4b7198f5cb1178e8b9a8dfef75b1c7ee34a2d9556443fc1f8babbf4"
+    },
+    {
+      "key": "F13:OPT:preferred",
+      "sha256": "041e398c1e295f3cadeccdb8c874400a7ac19e8e3fb7291f322d2693937ef65b"
+    },
+    {
+      "key": "F13:CLOUD:core",
+      "sha256": "72068562c7b61a4b806e95a11da3d436bd934aa15a41a69f947b1aa3f5f36d18"
+    },
+    {
+      "key": "F14:ML:core",
+      "sha256": "514750b9506a5e2aa9cb3023cd0a41ae7a670698f779ea44d27fe8c94f025c79"
+    },
+    {
+      "key": "F14:REC:core",
+      "sha256": "cdd6cbeb023b8334fae469872879c21903803af3efcf9f9b3cf86f6606d03fc8"
+    },
+    {
+      "key": "F14:MLOPS:core",
+      "sha256": "599eed9f65241700a448bd392133756b7af68d0c1171ab2a5de896a769bf1d28"
+    },
+    {
+      "key": "F14:SWE:core",
+      "sha256": "5eb4777da89a57a4952dbca3d565a464d48b843ff2b86677a265e927c87d35dd"
+    },
+    {
+      "key": "F14:DE:core",
+      "sha256": "6fec71b96f4f06578637c3dd04354923e2fff43505224dcc6ae77a1e66520362"
+    },
+    {
+      "key": "F14:OBS:core",
+      "sha256": "c67a5cacd509aa723fe2807eefc0fc15fa40a0b17ea9b9ae6104cbb1f1365ece"
+    },
+    {
+      "key": "F14:COMM:core",
+      "sha256": "653b315399531ccc054da92b98d721cec76304d482a081836746070f77764142"
+    },
+    {
+      "key": "F15:DL:core",
+      "sha256": "72904b0a3f24f6d3f72982089f5d14c96ea55fcbcb4761ecc9f2e03313ddc8a0"
+    },
+    {
+      "key": "F15:GEN:core",
+      "sha256": "59b53569a96b62db542233882aa52d9fe20a2b20fb1ba698c30c42e7e3c8aee1"
+    },
+    {
+      "key": "F15:EVAL:core",
+      "sha256": "48c4a68dc2f70133a28b673664aeaeac109eab9cdbed47bb6644471ac0618a6e"
+    },
+    {
+      "key": "F15:CV:core",
+      "sha256": "f11eeda01f67a27e99ea5f4a05c25c5da41d790433b6286ad11391e629c99cf5"
+    },
+    {
+      "key": "F15:OPT:core",
+      "sha256": "a123884105a518a076d2e9a4e76c3c5cae25561c36549d8ea6e9dfdf50ba1742"
+    },
+    {
+      "key": "F15:SERV:core",
+      "sha256": "12b89a0190accf0c969e5583e0c6e8ade58d074aa6a8fde82a050b70cec31a59"
+    },
+    {
+      "key": "F15:SWE:core",
+      "sha256": "ca710bc88f6d8c4f3d600a95d652343feec62c97b833282f7677a221cf7409aa"
+    },
+    {
+      "key": "F15:FT:core",
+      "sha256": "767a019ee320c94d03197071d175dba90d9cf2e625e74028cf57532fe272179d"
+    },
+    {
+      "key": "F16:CV:core",
+      "sha256": "d66d0343f9bb33def2dbec0c8aea3937750880d780c1a9d819ba8a4c56377302"
+    },
+    {
+      "key": "F16:CV:preferred",
+      "sha256": "8a00efdaa83b96b0ee66748774f418457ea36411940a0386a22a75ddb0d5bf9f"
+    },
+    {
+      "key": "F16:DL:core",
+      "sha256": "0433fd37c046cbb649e55721e5197d26f8b86a68353e60e0802505dfd347f25b"
+    },
+    {
+      "key": "F16:ML:core",
+      "sha256": "0fce66d0a4d259ac3920fb9789c49f5c89e302a056d51864165724a8d825727b"
+    },
+    {
+      "key": "F16:EVAL:core",
+      "sha256": "f5e4a4ed60b61ba1b07241e3e74c675aea58b174d472b0acf185007948d5c241"
+    },
+    {
+      "key": "F16:SERV:core",
+      "sha256": "f6863812b7b38dc922f3b3b785fb71962656216f0a744c13db9eee7c206f84b0"
+    },
+    {
+      "key": "F16:SWE:core",
+      "sha256": "c66b255fc35aa749d65b9473ecbdb447269d54d285a64d8b57a4c8a01da9ad73"
+    },
+    {
+      "key": "F16:COMM:core",
+      "sha256": "ca8bd1d6f054dc75a97afae8c8148e1ce1929bd08175f7a8ca177aad4f4d22c5"
+    },
+    {
+      "key": "F16:OPT:preferred",
+      "sha256": "bc15e46d4f78f9c2a81c690b6c2451b2853cc9e37e8e95023756e38828aa6069"
+    },
+    {
+      "key": "F17:CV:core",
+      "sha256": "35621a04761e8f25d9af6addf4023fd4baba7f7453aace0d5c7b5a10c1d8afa6"
+    },
+    {
+      "key": "F17:DL:core",
+      "sha256": "45d9213a4f332f859851016cd50260a89e208b286871e73c7b117800ad597f5f"
+    },
+    {
+      "key": "F17:ML:core",
+      "sha256": "931a653cb7a38c2a028dbd251f6a13e6ba8f68087ea97a0023b037866d06fa3d"
+    },
+    {
+      "key": "F17:EVAL:core",
+      "sha256": "2d54ce1c1360c6dd03d9073078c23385c31996eb72e8e4d5ac48cd29386acb14"
+    },
+    {
+      "key": "F17:SWE:core",
+      "sha256": "62ba0d3c44da86880018fccc3bacef09070956cab3efd1a7b1840ab9079b2ce9"
+    },
+    {
+      "key": "F17:COMM:core",
+      "sha256": "6dcae65a6069a4832078ada424aeb60cbdbec0886950d4a1843ea8df0db9ed5d"
+    },
+    {
+      "key": "F18:PY:core",
+      "sha256": "3e3e3dbc801698a7e0bfd97e615d28ba8df01af3d4a580b28e87aa5a748ca3c3"
+    },
+    {
+      "key": "F18:AGT:core",
+      "sha256": "06ff1edddf379ac3ad40e08f2f04d123c622aa849376edcb37709c32391e5fe1"
+    },
+    {
+      "key": "F18:MCP:core",
+      "sha256": "11e478afe0e3d1224bcc9214b3d2d4f499e467e36405be5349051475839364c4"
+    },
+    {
+      "key": "F18:API:core",
+      "sha256": "51889b771c7b5bc24409f1cbcd60c3a3460eff9771c05e02825cf528afd83a2c"
+    },
+    {
+      "key": "F18:INT:core",
+      "sha256": "1bc3e32790d32c57ee4774c3c088fd7c5aa89e93dc53b1c6736e2687d637c66a"
+    },
+    {
+      "key": "F18:AZ:core",
+      "sha256": "af7aabc548f5976e248de8ac750902b67ac0c438325322e9c0da4a007f3a399f"
+    },
+    {
+      "key": "F18:AWS:core",
+      "sha256": "4f4ec39cc6df31503557c3c8c8535e87dbe55a4cedbaf900fe2530fcca5eca1d"
+    },
+    {
+      "key": "F18:GRD:core",
+      "sha256": "ea1a1a751164870b3f4e3eccc35b4cdeee7e0e5e7e864ac5b0619681ce284b19"
+    },
+    {
+      "key": "F18:TEST:core",
+      "sha256": "8e8e00fb4cc9b9c0f3f158bf3f3b5886c9498b1eabf47f282be6167f1fb58548"
+    },
+    {
+      "key": "F18:OBS:core",
+      "sha256": "9fea5ce5230001816c14d38df18bdcf18e9ee5b903647cc392de1cd5a8c37f5e"
+    },
+    {
+      "key": "F18:GOV:core",
+      "sha256": "b95f3ae3dc99d5c4d7bc37d500987f25510f6f5756fc80bfa3690fb283ec33ad"
+    },
+    {
+      "key": "F18:CICD:core",
+      "sha256": "a76923d83de324b697ca82db4e806ff8049b7dfe16fa119c193a11064cf35414"
+    },
+    {
+      "key": "F18:COMM:core",
+      "sha256": "f7757072d22b1ba25fcad3b6d8c88f620f68d37cf9271bbc1f5f9c4baa317d96"
+    },
+    {
+      "key": "F19:PY:core",
+      "sha256": "e00811d131ca21f2b609f496a9e9db98c15e685245df6f34d70370a102ea9ae7"
+    },
+    {
+      "key": "F19:ML:core",
+      "sha256": "ad8a3e069b1b659a025ef7a24d15cc3dc297cfc22f4ec2a86d9445768b8e6278"
+    },
+    {
+      "key": "F19:STAT:core",
+      "sha256": "7dd217f71fdd0572230f28597af9407660c2dcbeff0a9aa07b8ae72342751332"
+    },
+    {
+      "key": "F19:AWS:core",
+      "sha256": "013142554a8617c2b8ff77ac866332c0a51e54549dd99d5dcf24dfb500af5868"
+    },
+    {
+      "key": "F19:AZ:core",
+      "sha256": "d6f7b8ea026d46b354e49f47f777aca7ed0593798c34acfc4ea6140e2c91d380"
+    },
+    {
+      "key": "F19:GCP:core",
+      "sha256": "b443386d11e56c6f98fc78bb3e4eef84e2d17ef26d82d3e4feaec05008075180"
+    },
+    {
+      "key": "F19:AGT:core",
+      "sha256": "2a5bf75e7172f562897573fd4adfa20d5ce3f079f7b2df4e75bd051ab1cdfdb1"
+    },
+    {
+      "key": "F19:AGT:preferred",
+      "sha256": "7ae37b952e2b3c5f1f9e5c84bea376c3fefa55162cddd81891a3a83f65096e57"
+    },
+    {
+      "key": "F19:EVAL:core",
+      "sha256": "b62f6f3850b10972faa30758502e8df463a1a22693deaade409b1b5e47d94e54"
+    },
+    {
+      "key": "F19:OBS:core",
+      "sha256": "1d50599ad65fb3dea873bbe5e5de5f1db5864bc36532be62b49f6b61f06d06fb"
+    },
+    {
+      "key": "F19:COMM:core",
+      "sha256": "1c09e3fd7549cbe7d61a91e3ae43257a9005bd66e16ed5cc6ba7f150b8f5fce3"
+    },
+    {
+      "key": "F19:MAG:preferred",
+      "sha256": "8ded218d84c21e0647bf193de54f596df128fb924b20747c4496deaa0b95ed7e"
+    },
+    {
+      "key": "F19:LANGGRAPH:preferred",
+      "sha256": "34fec96422015af102fec05d3d542cf586631208e1ebd515b2201a4b67d7ab3f"
+    },
+    {
+      "key": "F19:CLOUD:core",
+      "sha256": "7c1cd4b5495532da5fd5e58c5367a2e082462535edd053ca6febd63a158ada3e"
+    },
+    {
+      "key": "F20:PY:core",
+      "sha256": "ae4573481f2a16c282888f61ffb6e0ef36f07d24424ba115cff17979ca2bc168"
+    },
+    {
+      "key": "F20:SWE:core",
+      "sha256": "da93ffe993759ab8323a34037819db3c1218f2f22ede31cced9844b67af8a135"
+    },
+    {
+      "key": "F20:AGT:core",
+      "sha256": "e310fda4139be5600add873ab9363dbde5ca8e4214e1915d05f6cfa16d6989a4"
+    },
+    {
+      "key": "F20:AGT:preferred",
+      "sha256": "aab07b9d8c01db2679427139914cce72bbc9a44424c53dec113db4d3223111bf"
+    },
+    {
+      "key": "F20:MCP:core",
+      "sha256": "f9c1ced13649d98763f4eed9602d469b0a362c61b9d4e5039099feea7c6503e9"
+    },
+    {
+      "key": "F20:TOOL:core",
+      "sha256": "c22033ab76a888c6d7618498f9c8b149553325441f93741a1a0ab2879ebb0cf3"
+    },
+    {
+      "key": "F20:API:core",
+      "sha256": "b8ac15ec6ef3e5ec565c8d172936cd0ee1bca275f33ff16145695bd6d907c7cd"
+    },
+    {
+      "key": "F20:AWS:core",
+      "sha256": "46a0fa589e2a4537f50b1db4791b4830ec1560cfbcc338a7a95dea0155aeefc1"
+    },
+    {
+      "key": "F20:AZ:core",
+      "sha256": "049d640eedfddc2e1ff815694bcced14501178fff65cd409e8687bfbb899ba9f"
+    },
+    {
+      "key": "F20:GCP:core",
+      "sha256": "29504ac3d6d95e8720edf03b9e843fda860297c05b872d5ba40b529648bcf01c"
+    },
+    {
+      "key": "F20:DKR:core",
+      "sha256": "17f6600e94531b55023fa7dc6e14b97fe20ef8c52b32274d5ae4024271518799"
+    },
+    {
+      "key": "F20:K8S:core",
+      "sha256": "80482f4411977d022bcc5658bd2e586fe6d9f29d03075cf08fca8c1188b0f42e"
+    },
+    {
+      "key": "F20:TEST:core",
+      "sha256": "c1a449ee979ab4b773e8dc3f3c841cba93380f510297d2c6b2858e8e934f6b0b"
+    },
+    {
+      "key": "F20:OBS:core",
+      "sha256": "dfef9608c22afda8854320ea4bf218b8d976ec4c5ab8b119ba223dc23bc7e18e"
+    },
+    {
+      "key": "F20:CICD:core",
+      "sha256": "43b3494bdbbd2494f5d3f39a338e68ffd911e6c6e1204cc9d2eb0d6c284e9a1b"
+    },
+    {
+      "key": "F20:GOV:core",
+      "sha256": "b567e177594282bcd2841d9ec2dedc75f09881ff18039c6b8c32a8d762f395d5"
+    },
+    {
+      "key": "F20:MAG:preferred",
+      "sha256": "0318c0097d31e8c89b8804e14ba22a906ce53586fd01c623ab55dbcf56d8b545"
+    },
+    {
+      "key": "F20:CLOUD:core",
+      "sha256": "b241db6bdd652d29cc40e71f2d07e0a78fdb3b5cc20cd705de760205743168b6"
+    },
+    {
+      "key": "F21:ML:core",
+      "sha256": "dfbf457fc77c448bd3a6a805b1f08a62da3e2dd60e322083bb350f9e0dff4204"
+    },
+    {
+      "key": "F21:SWE:core",
+      "sha256": "967ad18de20d71a550fbe7b29d02e56a2361b6d8f45a7842ef0a16036fe1272b"
+    },
+    {
+      "key": "F21:EVAL:core",
+      "sha256": "74ee3f595b23699d84aa0d9336d1da23e14778e507f09e2ace77e87ae08f4a52"
+    },
+    {
+      "key": "F22:DE:core",
+      "sha256": "2a6a22033743adc060a8872845de25790a581b1e7d9f0a4519ef89d314ecc75c"
+    },
+    {
+      "key": "F22:DM:core",
+      "sha256": "48a1453f262f4fd1d36784f98af342971bc76aec889fafc2c62323acbd9b243b"
+    },
+    {
+      "key": "F22:WH:core",
+      "sha256": "b10a350b3074c7fe5c0b23dbd7de4050ff0f4e7c206544aa8af84abf9de9aa5c"
+    },
+    {
+      "key": "F22:AWS:core",
+      "sha256": "4790f4945b5d73119a2a49ffa1b848bd297155f1842935bd6473a791a30e650e"
+    },
+    {
+      "key": "F22:AZ:core",
+      "sha256": "187c023f1fd4c366e62fc1fc6ffa41305070bf91ad7808dbf08aff77df1ffb58"
+    },
+    {
+      "key": "F22:GCP:core",
+      "sha256": "b44149f29606be3237fc49ed17a774f12fb06cc60aecb732d81f08a081226a68"
+    },
+    {
+      "key": "F22:DBX:core",
+      "sha256": "c845e2fca9a1f74f8777e964a5ef0c9233a61e04eee666fe3d45b43c7cacec1f"
+    },
+    {
+      "key": "F22:SNOW:core",
+      "sha256": "214b7f95628bb1b9ad0519dbb2ae3e01c32a2eb1b446755bbeaad1441bb2e55d"
+    },
+    {
+      "key": "F22:SEC:core",
+      "sha256": "d6be8386ec8cf46b1e5e58e531803bdfb40e2a13fb4a1b762847dea5c48be045"
+    },
+    {
+      "key": "F22:GOV:core",
+      "sha256": "a937e076d7e63f1e0377ebf843f8341e4bacfb1c025dca37e11cfb5657fc82ad"
+    },
+    {
+      "key": "F22:COMM:core",
+      "sha256": "d40243326449b4b08cce1788090c2786d839b8323267c49a1b5d0cd73d5c62ef"
+    },
+    {
+      "key": "F23:SWE:core",
+      "sha256": "4cd66c8ae6c654af1442f67773d31c17db2850125ab988b41225aaef6505b8fe"
+    },
+    {
+      "key": "F23:PY:core",
+      "sha256": "ef3dad06b0cee083beeae7177a5b3312cb825f82ba5d54c3d5300be389273a73"
+    },
+    {
+      "key": "F23:AGT:core",
+      "sha256": "76dcc20789f03811d121fcd4d59c2de7d3d406ec1577b97a19a3f1fe4c256a13"
+    },
+    {
+      "key": "F23:AWS:core",
+      "sha256": "c88565d71c6fff3e413f7a6a94e5ce411d7d0d0e5d6cd6f99c49d1ee840a23e2"
+    },
+    {
+      "key": "F23:AZ:core",
+      "sha256": "52a6bf7b14a79f883897ef15ee5caab22f71733cb87bfee102b8df1099137a18"
+    },
+    {
+      "key": "F23:CICD:core",
+      "sha256": "e406781287fefffddf703d0b32c606ce5d62948c96345fd421ad5f5745b62c2d"
+    },
+    {
+      "key": "F23:IAC:core",
+      "sha256": "a3c9f11bc2f870b13d39c9b502e3a88f716f0753e8fd6e4882c51bed343e82fa"
+    },
+    {
+      "key": "F23:MCP:preferred",
+      "sha256": "ef6e7dd69013d6fe0fda74a2bb98feb3d3666041ac241bb6364b631fa657dca7"
+    },
+    {
+      "key": "F23:LANGCHAIN:preferred",
+      "sha256": "303118c00214f217741499f2b1ef6350b8c2c77f78015ce43dad0ae4d5b98ae8"
+    },
+    {
+      "key": "F24:PY:core",
+      "sha256": "f1f1967cd65aedaf07b85582aa45a03b0e4ee3a3e2da3792ea8adc20e2bc14f4"
+    },
+    {
+      "key": "F24:GEN:core",
+      "sha256": "62bf1e5ab1fd229cfbe836f435ce78e08088413a8dcd55e7cf48ee51e7a5492e"
+    },
+    {
+      "key": "F24:RAG:core",
+      "sha256": "9ec51057cf5677aab833dd0a664354e684a9e152647022bae07c94b42244d21d"
+    },
+    {
+      "key": "F24:AGT:core",
+      "sha256": "4b72b35dde6f8017a109bc37270fcfd64599968cbe5afb1a2be7b6983a3134c1"
+    },
+    {
+      "key": "F24:MAG:core",
+      "sha256": "7c6249b3c145bbec6b9de2f991edca511b12b7469fd97dac115be180e05dec4b"
+    },
+    {
+      "key": "F24:AWS:core",
+      "sha256": "1ae044ff6c767ea81c19c61b32ca862485cf75474ebb9b28fb7a1b3491b4c54e"
+    },
+    {
+      "key": "F24:AZ:core",
+      "sha256": "4fe294c8ee54d2234bc90e4541936dc087416cfd6494a1b9cb366c3a105200eb"
+    },
+    {
+      "key": "F24:GCP:core",
+      "sha256": "6c6016b28416dacea5a1246bb3d2f3de2b40f73113e5424cb7d5cfe8b5ef9275"
+    },
+    {
+      "key": "F24:IAC:core",
+      "sha256": "6d7400d3e894f47f26f1b843094c70336009da7f3097bad963aec612d56623b9"
+    },
+    {
+      "key": "F24:DBX:core",
+      "sha256": "aefc7c5c4ff23a4ea7392042295f7dee3bfdb4589bc5d6f1171b72c6931becea"
+    },
+    {
+      "key": "F24:MLOPS:core",
+      "sha256": "d89bcfed468852a8aa606339f0c81eaccf548fc10090517adeab762ac3ebd530"
+    },
+    {
+      "key": "F24:LLOPS:core",
+      "sha256": "b26fa5f3a96743149e16c208b1a3454887299b05fe1004cb1a7700fdc7939d2a"
+    },
+    {
+      "key": "F24:EVAL:core",
+      "sha256": "cba405c961196b09f2b46bfbb23f9b4af2622c18985eaf4e10969cf5553c1048"
+    },
+    {
+      "key": "F24:GRD:core",
+      "sha256": "22a07af593a2367cf577b9cda0512eddf554fbf08b776dfdde8c9ef9f9555b67"
+    },
+    {
+      "key": "F24:CICD:core",
+      "sha256": "b5426b085167d8aec7326a334b7b8727e33528644eda5c33f71f8f099d3a027b"
+    },
+    {
+      "key": "F24:SEC:core",
+      "sha256": "91d8fc7f03287db9d735a710b7f79ec4b4112df6cef9ca777f815ebd07b6cf09"
+    },
+    {
+      "key": "F24:COMM:core",
+      "sha256": "80e6186a2bd6320c1ca17474021a375601185621aba90e808988edd1f3ca450d"
+    },
+    {
+      "key": "F24:CLOUD:core",
+      "sha256": "4bf32944fd87d284a6c9d86a42307a87a5f8a5a841dbee6652b20c4fe9728f1e"
+    },
+    {
+      "key": "F25:AGT:core",
+      "sha256": "b0e3b711968deebe854c0efac6f4eb5778eda8f25c11ef7a819f951a5c67d1d4"
+    },
+    {
+      "key": "F25:GEN:core",
+      "sha256": "1b246d0274fe01c476b97595ec64475d59112cedbcd996e07cfe17c257f9ca04"
+    },
+    {
+      "key": "F25:SWE:core",
+      "sha256": "84acb33f2d0c9aa71b9b703402e0b38b2136c5b77322c76780223cf7e58e0bad"
+    },
+    {
+      "key": "F25:PY:core",
+      "sha256": "ad948bfac6a674824a6364b977414f0ecd21dd884ba4e6b1f3766b791b4a7fae"
+    },
+    {
+      "key": "F25:API:core",
+      "sha256": "bc2c9c6821f2c5443d31c6f132ead91ecccde8287c353201e059480ef3f50828"
+    },
+    {
+      "key": "F25:INT:core",
+      "sha256": "3df862a98f6e4f125cbf6e2a4962c3e844d343695a8f44dbc2766bc220b71a38"
+    },
+    {
+      "key": "F25:SEC:core",
+      "sha256": "c8cc39d270a8f0215238fa206068ffd202ff4f86ab7145f030c2b5b2722fe955"
+    },
+    {
+      "key": "F25:GOV:core",
+      "sha256": "d7004548a31150352116f8a788464221f3e8c6256dccb9cd698d0f74ce16e838"
+    },
+    {
+      "key": "F25:DL:core",
+      "sha256": "24ca6dd8161792ddb44c3a662a5fffe81cd70a24b0a0d18897c9f868576d9675"
+    },
+    {
+      "key": "F25:COMM:core",
+      "sha256": "5d51fef8ef00d8cffe30b24c750b2b4fd8675c11fe55067333a2af34847c92ec"
+    },
+    {
+      "key": "F25:PYTORCH:preferred",
+      "sha256": "960cb8b992fbf22a6388abafd808b5ba3b26038fb3c71a8e5f5cdc01605aecf0"
+    },
+    {
+      "key": "F25:TENSORFLOW:preferred",
+      "sha256": "1aadd1b4449b690e5c8ee0b34fc7d8355b93fef9407a0d54b54dbe6e59c1110e"
+    },
+    {
+      "key": "F25:CLOUD:core",
+      "sha256": "67f25c1e796d09d771102a79d4e71285dfd08f9de4b516cfeaf43f0f7d6e3921"
+    },
+    {
+      "key": "F26:PY:core",
+      "sha256": "d63126ffe1937ed7546802dc18cb6d7013650f8e9338585e7ab5b4aadcd7992c"
+    },
+    {
+      "key": "F26:GEN:core",
+      "sha256": "f9d6c6876e952947058715eaeeb56e0c80a36bb09130120f93431e0ed6fbc44d"
+    },
+    {
+      "key": "F26:RAG:core",
+      "sha256": "faa00131002e9b288649c09b3a8aa0d6152cddebd8c1a5f83fae4c8ec0ae785c"
+    },
+    {
+      "key": "F26:EMB:core",
+      "sha256": "fbb49c458547a7330b1fb21b86a0f699d57ec8e51ce7f6488346587a84754f3e"
+    },
+    {
+      "key": "F26:VEC:core",
+      "sha256": "81d83d197bc299bc0e20e160bd1b5f5cdc0eda8f7816f8a73a525ccd721313d0"
+    },
+    {
+      "key": "F26:AGT:core",
+      "sha256": "9841b6815bf95df598814fe37c93cebade0a33dec9014588a21d45a1ab43d79b"
+    },
+    {
+      "key": "F26:AGT:preferred",
+      "sha256": "2bde9a4452782af298cce1070040cdb11184f2ba925cad580ff60fe77b36aad6"
+    },
+    {
+      "key": "F26:TOOL:core",
+      "sha256": "82edc509a21dfa158e9b9a67b0016d03ee582f54f097fc1b9c50dfd249dcabe7"
+    },
+    {
+      "key": "F26:MCP:core",
+      "sha256": "b7dd1e3a49352dd2170b0cd7a09c8abb5067229469ec7d3632c91b041d9a8fe3"
+    },
+    {
+      "key": "F26:EVAL:core",
+      "sha256": "65741bf9f0d0f477b55738d872136f4bc555469ae8f09c7e82979211587b4a3d"
+    },
+    {
+      "key": "F26:GRD:core",
+      "sha256": "d9f5c20c48629dbaa3ba5389fe97ebcf170a2d9d9d063369127965e0d654f862"
+    },
+    {
+      "key": "F26:AWS:core",
+      "sha256": "340c3633d700a0c3f3d3e8f31319f4af94a4c868c7792017bb34adb0451fa0ea"
+    },
+    {
+      "key": "F26:CICD:core",
+      "sha256": "14a5be163e9eadec83de06d80a2e6046c4f1eb2c32b757790c22bcece5a86e4d"
+    },
+    {
+      "key": "F26:LLOPS:core",
+      "sha256": "482993321246f1a918f03464e456d6a61d3f808267be50501b078f6bacf2b31d"
+    },
+    {
+      "key": "F26:OBS:core",
+      "sha256": "2fbb83410fa13539aae0cad347d82b55467117280810a6a4e3b8cd5309df6a60"
+    },
+    {
+      "key": "F26:SEC:core",
+      "sha256": "da97ef6875d2977748e6272ba4181c777c51605018c8eece03107d14de4aca6a"
+    },
+    {
+      "key": "F26:COMM:core",
+      "sha256": "30e4bd9380d087f150e3e58a2de777f862907e47efc1792d7cdf87c75d476790"
+    },
+    {
+      "key": "F27:PY:core",
+      "sha256": "ac1fdedf6b104abaf514079dd9cadfd1a32910530ab065951976c311fa280c6f"
+    },
+    {
+      "key": "F27:SQL:core",
+      "sha256": "5487025ce7ee9d4298221800f15f046e44e76db630e852da5125ed4d8483957f"
+    },
+    {
+      "key": "F27:ML:core",
+      "sha256": "e9320cbaa7730110b49199f82a738436c5386ca3159edcb9351341c052bc823c"
+    },
+    {
+      "key": "F27:GEN:core",
+      "sha256": "4c0fce616245569c4379fa02b3374bded0a8b1b3f760def032f1242133cf265e"
+    },
+    {
+      "key": "F27:AGT:core",
+      "sha256": "4b15572b5850698ff9186d425e59059d6324875fabfffc4f8fdf819e30237e92"
+    },
+    {
+      "key": "F27:RAG:core",
+      "sha256": "5893eb639555664fc5802677b06b9399a22197c57b42315f52a7b95ea599496a"
+    },
+    {
+      "key": "F27:AZ:core",
+      "sha256": "61d54e4c0b986c52a8ea798e57205bc4f47a3130756401f70cd9ce30c5632d66"
+    },
+    {
+      "key": "F27:CICD:core",
+      "sha256": "a8e9e8f73a38bf1eee630bbf5f169f6a9d45ddc4baafc3d1673da5c998668dd5"
+    },
+    {
+      "key": "F27:MLOPS:core",
+      "sha256": "bc931bce92aa0987a97c15f1adfd4475f5a209c8fcf3c7682b8d5f5f95d1b43b"
+    },
+    {
+      "key": "F27:OBS:core",
+      "sha256": "258124ca3ec2aaef6a779f024648d9b56f960adb99785a5399fec3299a658fa7"
+    },
+    {
+      "key": "F27:API:core",
+      "sha256": "4f55bbf872e00723faaf15c7c5a8f1cba16b21eeb4b70f8629da4b77597b298e"
+    },
+    {
+      "key": "F27:INT:core",
+      "sha256": "f24ee233100104b0021836300449d1327e3c3e9c8d66163a6cf9596237b4857e"
+    },
+    {
+      "key": "F27:DE:core",
+      "sha256": "330d8d1127892164436c60e2b85c200e1c97397e388e7c0f01e3756d3e05f096"
+    },
+    {
+      "key": "F27:COMM:core",
+      "sha256": "a3e4e6a0d261c1a636127e9a7898b3272d182401fbd4345073678958cdec6ba5"
+    },
+    {
+      "key": "F27:GOV:preferred",
+      "sha256": "fd7126720744d0ee61d733523119d23b0b6648e92731d9b898bfe1bdc9289226"
+    },
+    {
+      "key": "F28:PY:core",
+      "sha256": "023dbde0b84c2a7fbcff5ca4dbbc6a08aab3d5f04c1d6886560702e9ef571ff9"
+    },
+    {
+      "key": "F28:STAT:core",
+      "sha256": "c2ad34e29a39b04a81d75bae077e001d71341b4b71fda419e7a6d1a6f14c4d8b"
+    },
+    {
+      "key": "F28:OPT:core",
+      "sha256": "61678902157c01d7b454079c1b3a7ef79dbd3317444e5d38433be01412bd85b1"
+    },
+    {
+      "key": "F28:ML:core",
+      "sha256": "313bb03ba32000c50f9e2ad8b08ea25ad8a259ed1b182a7845cb2b5b6265b106"
+    },
+    {
+      "key": "F28:MLOPS:core",
+      "sha256": "d384608a5ceec44f11a598731acbac1232fbb7a10302dc56dbd8c3800efe4c74"
+    },
+    {
+      "key": "F28:COMM:core",
+      "sha256": "b24a85b0a72ec7831508e46a1599cce003bdfd5a501230c87cd79581a2a9f52e"
+    },
+    {
+      "key": "F28:DL:preferred",
+      "sha256": "d750c88e10183b1c2e9832e95829b7fd3d9c89068e23c92836696123bb86b06e"
+    },
+    {
+      "key": "F28:CV:preferred",
+      "sha256": "eac01acbbdd4fdd41c604e10ef6f4da746941817f0c3fa4a6397768fe9f1879d"
+    },
+    {
+      "key": "F28:GEN:preferred",
+      "sha256": "f6804c62d81c9e9ef509bcb9efc301da14664e5d6d033c501e05a680b552c5c7"
+    },
+    {
+      "key": "F28:AGT:preferred",
+      "sha256": "e82460bfa927b2773bdd97f8d505c260b41cad0ac8585410aacb2d0c1fa1d13d"
+    },
+    {
+      "key": "F28:DBX:preferred",
+      "sha256": "4c060c6d0ba32afe33ff356f150b028f030378be922e8177db980f681dfefa7e"
+    },
+    {
+      "key": "F28:DKR:preferred",
+      "sha256": "75e900ef534e75a337c4b332ad950ead5c234c7d285e6593b05e5552b01db038"
+    },
+    {
+      "key": "F28:IAC:preferred",
+      "sha256": "286994a3c3e19cfc2065ffcf060735bbcd96844c64e70402856cab8d0a234c23"
+    },
+    {
+      "key": "F28:TS:preferred",
+      "sha256": "0f42b27509fdb9705431d3096449f82dff80f803b2b9ad3adc577d52523bb7d7"
+    },
+    {
+      "key": "F29:SQL:core",
+      "sha256": "4cf5df79425c731257b0e010f2dc91afb9f2e7e192e46aaa8b73014d3ec7e56d"
+    },
+    {
+      "key": "F29:PY:core",
+      "sha256": "59d1f8ede8c23fccb9eda9592f168d5f2f49a1f3a4b68eafdb38961a0d45614e"
+    },
+    {
+      "key": "F29:DE:core",
+      "sha256": "26bd587a28daf2c7bc6414a023c8a101626d6bd26b629b38d165d0e6eb2db780"
+    },
+    {
+      "key": "F29:DM:core",
+      "sha256": "2cb0f02d93c311af223d6f21f2fbc6f086a3b067e77539d8a7664bc61301d882"
+    },
+    {
+      "key": "F29:WH:core",
+      "sha256": "822ad3ad91f605124269dcd42e1b66511ef808d957fc40bedc9bc35d795963a7"
+    },
+    {
+      "key": "F29:DBX:core",
+      "sha256": "d98cfee421f998b068e40cb9f2fc00df4e7853ebf21640c2de2a00f330b8883d"
+    },
+    {
+      "key": "F29:AZ:core",
+      "sha256": "5ce3e7b5298887063e875085cd4e87dd5d0d10e2b43104f1ef9240fc3c8eabad"
+    },
+    {
+      "key": "F29:CICD:core",
+      "sha256": "b5fc9f9427adf33f553d8647362d5d78a0ffe2798c4c8bca4ce6ec6529a728a0"
+    },
+    {
+      "key": "F29:SEC:core",
+      "sha256": "0f8623f16f31fcb0dc474785d25df737b1d03ffca37fd741be7b196794247d4b"
+    },
+    {
+      "key": "F29:COMM:core",
+      "sha256": "ee1ac8d0429b48ae498429a2fe0c53e24fa903234bb9eeec819d939404ecfe41"
+    },
+    {
+      "key": "F29:GEN:preferred",
+      "sha256": "cd30082b339773edce1dfbbcba67507d14e1f23340631e667a074d6f29d02829"
+    },
+    {
+      "key": "F29:SNOW:preferred",
+      "sha256": "cd7a2f9fe28b0f85b7399ed061f28c6d3dac7944c3bfadb777114eb5289cf30a"
+    },
+    {
+      "key": "F29:IAC:preferred",
+      "sha256": "2efdbaa9a9d2b3e82c944d995f7f013d7a54e990ed8f4c93669cd804d779e50a"
+    },
+    {
+      "key": "F29:MLOPS:preferred",
+      "sha256": "445b07d5bf4530f56c547c01dc650ef5ba186a4fb4f2063ae42c5a32abbceb82"
+    },
+    {
+      "key": "F29:BI:preferred",
+      "sha256": "20d9147614ee6fff020a23c5cc0d07e549019dd44e6d20c92d5ececb1d008d06"
+    },
+    {
+      "key": "F29:DBT:preferred",
+      "sha256": "92f014ebf0d556be2b7328240fb72274ee7606cab8e7baf7c14f03e3c90033f0"
+    },
+    {
+      "key": "F29:SPARK:core",
+      "sha256": "3a3a3531be0e00c8560180cfdc0efb90b75a36815aa5402554679b140405bfc1"
+    },
+    {
+      "key": "F30:BI:core",
+      "sha256": "4c7f46bd4222e0baf8b27c4acafcc5a40ac29452f09f4f0da5e86a110ea54fd1"
+    },
+    {
+      "key": "F30:DE:core",
+      "sha256": "cd8eb954f04e9454d09005f7d8d92dd127c341f6f591ba54ae5878b2556567b6"
+    },
+    {
+      "key": "F30:COMM:core",
+      "sha256": "924d1c2f4fddef8739198ef3dee45e9eb8926d4e452601763153fa51a2a9655d"
+    },
+    {
+      "key": "F30:PY:preferred",
+      "sha256": "1c0f1a9a5a3cefb10204cfd0052adde08002d2aeb134904d655f4065fd8df3fb"
+    },
+    {
+      "key": "F30:SQL:preferred",
+      "sha256": "3418dcc73d6ebfc57c9db050e895572f128cfa87e2162430fb6142f6edad5df9"
+    },
+    {
+      "key": "F30:STAT:preferred",
+      "sha256": "868adc022db7427e2a2a7f8ddef5fda16eccb479670ab8a851c0aa9a4c2e4075"
+    },
+    {
+      "key": "F31:COMM:core",
+      "sha256": "a0664dab3f58bd859c9662f6c9b5ff6d05808fba6b27debf15ee59ad600db238"
+    },
+    {
+      "key": "F31:GOV:core",
+      "sha256": "8a2f42d50e584346fe4d9b6d9b1994c0455e2a280a8b4fa5d31ed3e3bd3f2bf4"
+    },
+    {
+      "key": "F31:GEN:core",
+      "sha256": "791448700aed4ebf43ab8b2bbaa9f9ab3f6cc583511839bb4bf4240307730ef0"
+    },
+    {
+      "key": "F31:ML:core",
+      "sha256": "dde91fcebea0b24b70c34c8182c2f38791f97903398f1d22a9cd925faf83fc3b"
+    },
+    {
+      "key": "E01:PY:core",
+      "sha256": "f9bd2f1fadf2cc68d08e023cba047ab7a0cff934508c24b1750e9ad96367719f"
+    },
+    {
+      "key": "E01:ML:core",
+      "sha256": "2f3225f1863315227a6fb094117d7e7be24e161b5465c3aa9b3b608440c88ce9"
+    },
+    {
+      "key": "E01:DL:core",
+      "sha256": "147efccc85251e45e5893c50fc405b049f09630f86d734c43f1c292c65857b06"
+    },
+    {
+      "key": "E01:NLP:core",
+      "sha256": "e7f353767724c44f3c6c00a7ade9fb828f9431a3158a285523de2a4b7b2b37b7"
+    },
+    {
+      "key": "E01:GEN:core",
+      "sha256": "9e0775e68cba34a8970a32287acecd04970198e1b4e13f6e690617bdb213a135"
+    },
+    {
+      "key": "E01:REC:core",
+      "sha256": "42b68e85e131572b7d15be8f99e0b9bcb8b1f2420f617cf169aa4eaa81fa0f63"
+    },
+    {
+      "key": "E01:VEC:core",
+      "sha256": "e4d1446993e267c3ded0992364562884b97a8c5f8c58f5e1387e2b02ec6dec5b"
+    },
+    {
+      "key": "E01:MLOPS:core",
+      "sha256": "7b4b22b0111f87f5393d8ce5c46f177111fee73e328d204c566c994dedd884ac"
+    },
+    {
+      "key": "E01:SWE:core",
+      "sha256": "ce0ea67883633d4b9d5ba8f69f840ee9f2f205cfae1defc2229bb4c32cfc5ae6"
+    },
+    {
+      "key": "E01:COMM:core",
+      "sha256": "8ea5ad1c8cb0c37be03165ed5585f0ad62a47f34e44c6ba61040312637590d6f"
+    },
+    {
+      "key": "E02:GEN:core",
+      "sha256": "d29cf74117d0fea964cb87857a879c1eef85d8c3fc3cc0540d369ae30ccad45e"
+    },
+    {
+      "key": "E02:SWE:core",
+      "sha256": "82ce533be1534619b5a6da76d6cd242b45a80d801fdf6a9459690a1502733f13"
+    },
+    {
+      "key": "E02:API:core",
+      "sha256": "a439c33bfde771390fa501d61cc226cdd1de0ef04545830f05f19c3ac2eb8ada"
+    },
+    {
+      "key": "E02:INT:core",
+      "sha256": "0c9580a9bc9e65cd99d7215c7d28e391c53e3448b017c791a7808e1360d757ec"
+    },
+    {
+      "key": "E02:COMM:core",
+      "sha256": "8a9d69b9ee6cf3d772ec9d488fceed9a94425b90b9be6d94c595015355a64381"
+    },
+    {
+      "key": "E03:GEN:core",
+      "sha256": "390bb88905528fd88dbc824a6d5e17847b3c9104d066823a69812ef2142de82c"
+    },
+    {
+      "key": "E03:MLOPS:core",
+      "sha256": "bacbe5ef39a644ee33c0dbe08c87f0f8b5ba9d024ab24409b64a3d9a9d49dfac"
+    },
+    {
+      "key": "E03:SERV:core",
+      "sha256": "9fcba06f3c4e4fa1cdf521308af1b50c27185a13eaee7d6c932bc92825f79caa"
+    },
+    {
+      "key": "E03:CICD:core",
+      "sha256": "9a7371bdd286e910eb56288d8a23a3a2c2e48abd4fc8b8d97bdc0c20b03e1ab5"
+    },
+    {
+      "key": "E03:OBS:core",
+      "sha256": "7685c25d2fe3c59a4004fef9f874ccab3b047c1d7983bdd27623aff02ed8845f"
+    },
+    {
+      "key": "E03:SWE:core",
+      "sha256": "ee1c5942de38e6141edae47ebf2bcb5cbd8613c982b0928e9a863b7c088a9556"
+    },
+    {
+      "key": "E03:COMM:core",
+      "sha256": "e656907d04442025384b455e48e129108d32d62221ab529b5fba7057060494cf"
+    },
+    {
+      "key": "E03:CLOUD:core",
+      "sha256": "ca8880689540b21c4789af296b4d608a27ae1702124f97c8fa95bd4de1ef609b"
+    },
+    {
+      "key": "E04:ML:core",
+      "sha256": "af797148f6020ad6c7fff6bf4909e0ec9f29e56e8b1b30fa0d9d7e5f4e37b025"
+    },
+    {
+      "key": "E04:DL:core",
+      "sha256": "8e47c4af434d301a4473f341853675765a2d16151e9a5b19d25ef1f4091a0933"
+    },
+    {
+      "key": "E04:NLP:core",
+      "sha256": "c9a8861f092b2061d32f73cc7ae2063058994d0849e7717214e7a3d9efa37e9b"
+    },
+    {
+      "key": "E04:CV:core",
+      "sha256": "7435c972437d059210c60ccada2bfff1cd90f7ffa1c9f4e09894c4b86fefba1c"
+    },
+    {
+      "key": "E04:REC:core",
+      "sha256": "0529af0c4a35b986ab6edc86e0e45a1d7e245e05c27bba540c38f3ccbdcb277a"
+    },
+    {
+      "key": "E04:EVAL:core",
+      "sha256": "3047d5f40d73ed1fb2c54f60416ccd1c5fe45ca95f181123de5167ab786421af"
+    },
+    {
+      "key": "E04:GOV:core",
+      "sha256": "40cba9c2fbe311c8181d6d4fb3bae4ae6023b4e631103f203ae9edb0e4a31870"
+    },
+    {
+      "key": "E04:SWE:core",
+      "sha256": "e8f12ec3ae2290b08d1b171fec319f67e089db287d5ed6b302c430d8b2559d0f"
+    },
+    {
+      "key": "E04:DE:core",
+      "sha256": "ce293179d92272d0d895debdc8b6a291f8c67b0e14c0816e1685efc34b2b961f"
+    },
+    {
+      "key": "E04:COMM:core",
+      "sha256": "cdbf851272758c97af5d3880de6eca7b11c3a640973f8e7941f339bbb69a8478"
+    },
+    {
+      "key": "E05:SQL:core",
+      "sha256": "ab64f734f3b66328ab1dd4d96faf75b136fa55bb32e3804aca1eb90cd8123047"
+    },
+    {
+      "key": "E05:DE:core",
+      "sha256": "350760803aaf70369a6357608b2db8d9f327fbb58b4ce3fe3f69731d6efb0615"
+    },
+    {
+      "key": "E05:DM:core",
+      "sha256": "dbaf27b70e211dce924d871d4696d658b359deb3fa65703fc04af95abbe9967f"
+    },
+    {
+      "key": "E05:AWS:core",
+      "sha256": "dd6e85b2d9040f15936a8ebc78a813e1326c2498f501983e68c7ab5a3dd00bca"
+    },
+    {
+      "key": "E05:DBX:core",
+      "sha256": "7e19038e9b6acf1e009539cd907cf2ccbaee24ec15b5319e2f9a1a76b9b63ca9"
+    },
+    {
+      "key": "E05:TEST:core",
+      "sha256": "8f86d338e2122e4347d045c5d66a0621b1d1aed9ee76d7d6071ffebc4e8eb3c1"
+    },
+    {
+      "key": "E05:GOV:core",
+      "sha256": "f7cb132a950af107f0a7f6a1eaec01d2f0552192c28726443764a60a9beb00ba"
+    },
+    {
+      "key": "E05:COMM:core",
+      "sha256": "0c71d3f0ae926e19546017af83b3b07a89bc19a1e723415c75e879529bdca2d2"
+    },
+    {
+      "key": "E05:ML:preferred",
+      "sha256": "637af48a5d3f0039c9143087f179d33ad2310f9608d9c72cef315a56f739461e"
+    },
+    {
+      "key": "E05:DBT:core",
+      "sha256": "f7b0a32f84d5353b3509524a37f792a24b7d1ca1c7845de2ec616b47cc0c2cad"
+    },
+    {
+      "key": "E06:ML:core",
+      "sha256": "9be18feebdf6e9075a96bef2da64b66e4fee9e89f6b7e409400a18a9ecd3f616"
+    },
+    {
+      "key": "E06:OPT:core",
+      "sha256": "af98d4fa8479414b25b998d7a83f56c79f099978a72895f1ac91467eae2866c3"
+    },
+    {
+      "key": "E06:DE:core",
+      "sha256": "fed985d7edcffaacb1eb0475766ae4ae110f292beec9b9fdab9363e563b31884"
+    },
+    {
+      "key": "E06:SWE:core",
+      "sha256": "1eaf8c132f42722798af9857a38ea130f2553e215593f83ad5c81bf6fcecf782"
+    },
+    {
+      "key": "E06:STAT:core",
+      "sha256": "0fc8d49cfc4c67f878dee631168dea3b62ceaff11d264487359eff5713087d29"
+    },
+    {
+      "key": "E06:COMM:core",
+      "sha256": "7c694b16a1c3ed40a5b8800adaf617cc32bc0040a549c491d498cdbe9cf8958b"
+    },
+    {
+      "key": "E06:DOM:unspecified",
+      "sha256": "738ab6a9aa124714957ce065ac1912f423a2d09cdde5479643507247b397243a"
+    },
+    {
+      "key": "E07:ML:core",
+      "sha256": "e31ed41555707c48d603158648b73e1e2c19b0668de21cd3cc410d795bb65dc2"
+    },
+    {
+      "key": "E07:OPT:core",
+      "sha256": "672a70b47f75f54fcdb10e691f0ed2050e21159fd22d2668e8ac504f2ebe9266"
+    },
+    {
+      "key": "E07:MLOPS:core",
+      "sha256": "90f58bfd5e7c2e6681ca7de0c543629f7c1f7ed4a96bd36ce3b38c7bdb055c92"
+    },
+    {
+      "key": "E07:SERV:core",
+      "sha256": "2ce88f0d7978e2f004162810925d79b8f7d3d2919a4b12483ea5ce7ce691a49d"
+    },
+    {
+      "key": "E07:OBS:core",
+      "sha256": "5dc5941be9db5f2ad6765b196a918e924a0fcfa079b7cca392dabeea39fddd8b"
+    },
+    {
+      "key": "E07:SWE:core",
+      "sha256": "401c42938c0ed1bd0a305a1e302e80fc885fcf86ae5a4e39d91feb3149b05894"
+    },
+    {
+      "key": "E07:COMM:core",
+      "sha256": "7381d2a70f3bbc8470359f2e1bc357ccc763252dd1408fab1ee906f617bc6bad"
+    },
+    {
+      "key": "E08:PY:core",
+      "sha256": "6a42252579f54fa649fa063dddf3ea064b4ef6c3fecb54fa2145dcf2342688d1"
+    },
+    {
+      "key": "E08:SQL:core",
+      "sha256": "8e8b6662aa29888aaeb9e95a7bd23f517bb2e0c8a8384e0c701085ab1c2d7c63"
+    },
+    {
+      "key": "E08:STAT:core",
+      "sha256": "c66665581d00b2569224b20ab89e2dab2eb2e83027e028a6d13ca7e7f1736bee"
+    },
+    {
+      "key": "E08:EXP:core",
+      "sha256": "c968d815132e2f844e587b38350ab04ffe05e80a1aa0039fe33ffde66f9a7ea3"
+    },
+    {
+      "key": "E08:ML:core",
+      "sha256": "0615d83f1221a91a53ee2b710ab07af3402c2d92e4e6ebe474d25440bbb18f33"
+    },
+    {
+      "key": "E08:OPT:core",
+      "sha256": "b93805b30b7dba1f6d48ccc0ab3383371ad0e0e7cbac2fdb56c92435c158d487"
+    },
+    {
+      "key": "E08:EVAL:core",
+      "sha256": "881980eb9b106e61afca8af346730038e4e7146fbbd22b2f10811cd2d502f203"
+    },
+    {
+      "key": "E08:SWE:core",
+      "sha256": "e944065f9563115944016f50f8869a796e9fe7cfbd3e3cc6e0a9c84e9fd7feee"
+    },
+    {
+      "key": "E08:DE:core",
+      "sha256": "22eb83d6c48b4bd65145ff5336e89f15445b6d44a21973ff83f09cd83d695c9a"
+    },
+    {
+      "key": "E08:GCP:core",
+      "sha256": "2b008c41335a84862a0b6a96735255b80b547719f8f4e86a76ae00a466c24f2e"
+    },
+    {
+      "key": "E08:COMM:core",
+      "sha256": "4b5d51479a2ed4e017ab9d1e020c64c61d82969154e39a7a0f086a08c4eaca9a"
+    },
+    {
+      "key": "E08:SPARK:core",
+      "sha256": "b895d2de4ce0fefd56d97be4b5340b67d0fe594791e7d311382df577e7b01614"
+    },
+    {
+      "key": "E09:PY:core",
+      "sha256": "f6f13fb576802a1bfbdb2e9bb3f8ccd96a439269d83c57e9d94c6f77819eff09"
+    },
+    {
+      "key": "E09:SQL:core",
+      "sha256": "947efd9779733659e8e729895a5d829af851ad82f39369b9df0e33f13aa53afb"
+    },
+    {
+      "key": "E09:GEN:core",
+      "sha256": "13a6ab326d527edc00283c6217b1c57fcb08ce8a0cb3528746e66c6fad7983de"
+    },
+    {
+      "key": "E09:DL:core",
+      "sha256": "aa34698e5984a280e8c0711a2f147a099933a1cd964efe301ce96d5abb68bb01"
+    },
+    {
+      "key": "E09:NLP:core",
+      "sha256": "ff02591a02fdd9f0511772b873d4be8ff6a8abf3222d43073f2f5b36487acae2"
+    },
+    {
+      "key": "E09:CV:core",
+      "sha256": "e4e29c19e2afad4066856d6ecb38448542f634e56749a9de33b2e7b5c6f3274b"
+    },
+    {
+      "key": "E09:EVAL:core",
+      "sha256": "00db58f1b2aeee3e75b57b10a21f7a5f09f8c3cb58e2cf09bb69488371225419"
+    },
+    {
+      "key": "E09:SERV:core",
+      "sha256": "0cf58d81c56ad35154795b05682a345c1b895d0b489ad6071ede88d614ef56a6"
+    },
+    {
+      "key": "E09:SWE:core",
+      "sha256": "502e4c80f3c797802ee129e2cdb049f3a7c32686e1c24d2f96487e27fcd1f274"
+    },
+    {
+      "key": "E09:DE:core",
+      "sha256": "e7549d6f35f61ab5145b0e9300c294683d5d86eaea2fa44bb0924df9a7fa0862"
+    },
+    {
+      "key": "E09:FT:core",
+      "sha256": "a048c5bca4db596aad66470abe9c155bb197bd69035a1d8d577455a1f519ccab"
+    },
+    {
+      "key": "E09:SPARK:core",
+      "sha256": "4dbac47e80447460598f4bf53f95c2bcbf6b5b16c21167ca405e4750380812b3"
+    },
+    {
+      "key": "E10:PY:core",
+      "sha256": "8fbfa0f88cc69cb723073709c18eb232ca3fb80d6f99545f549dbf5e34e99ee2"
+    },
+    {
+      "key": "E10:R:core",
+      "sha256": "b520b6fa153c6282a3ca859568fd1b1b265758bd332eee30735ffa5a9581bd43"
+    },
+    {
+      "key": "E10:SQL:core",
+      "sha256": "d76bfa5b336aed57b811db4f331af30840a0f7dec940848a902127de8f2bd74d"
+    },
+    {
+      "key": "E10:STAT:core",
+      "sha256": "57ebac8e8556a2ccd0c310c7220908c75b3530b4cc0fe85e9d0dfcf238913d9a"
+    },
+    {
+      "key": "E10:EXP:core",
+      "sha256": "6e12f22aa4f17bf62a0e439b94970c120a439927a63c2ca60ae9585eceda772f"
+    },
+    {
+      "key": "E10:ML:core",
+      "sha256": "dd9304473b59285ae2ea771a1b4713359f33ae9e48200f206a86dac1edbda788"
+    },
+    {
+      "key": "E10:GEN:core",
+      "sha256": "dfe0322c97e595f33f4f1fc8fc097c1e06a80648f084f13af9621bbf94fecbab"
+    },
+    {
+      "key": "E10:AGT:core",
+      "sha256": "e46411fba3ac84cf3ec3b02803e86856ceb80ada9d797c2fd169972720c7c4d2"
+    },
+    {
+      "key": "E10:SNOW:core",
+      "sha256": "36bd7fd0944fb57647f56680ab46d675f0cefca412fdbbcc02a0efcedf86d003"
+    },
+    {
+      "key": "E10:DE:core",
+      "sha256": "18185e13984f0db486431420505c9190df8a1f1d977685deac3bf3e5f3d85f45"
+    },
+    {
+      "key": "E10:COMM:core",
+      "sha256": "10656ba0c8fcdf3e652fa887b1a987d7c7613bc402c3d1c81df63dce5663b8f0"
+    },
+    {
+      "key": "E10:DOM:unspecified",
+      "sha256": "077882e61ff458a0a2a74fe5392599343d2d1c9d8746280f9c6c308bce40dd4b"
+    },
+    {
+      "key": "E10:DBT:core",
+      "sha256": "1891783ec52229630bba743599a879042431f3f5af9e5f0912c64bf654be342a"
+    },
+    {
+      "key": "E10:SPARK:core",
+      "sha256": "bd02b8c10130505f0b201408cb0c5c4e9385d3073af7900df8d8b3874a51d6c1"
+    },
+    {
+      "key": "E11:PY:core",
+      "sha256": "13dd9f50701c36d6abcad57bfc1575bce7b7d847a0cfe59558b170cb2b2658fc"
+    },
+    {
+      "key": "E11:SQL:core",
+      "sha256": "702f4a4ff7f0fb73ed9a9c55b4ead2a86382f82a45771a30553d2f79624c19ec"
+    },
+    {
+      "key": "E11:STAT:core",
+      "sha256": "d76f17f9e641c1946a4b6422faf263ed269fdd969326e7094f8b6b70a30d58b6"
+    },
+    {
+      "key": "E11:ML:core",
+      "sha256": "6df9665ac749a5862de5b9ca834fd9bc827a89ae825dc2b3e9118365f91c912f"
+    },
+    {
+      "key": "E11:MLOPS:core",
+      "sha256": "2b47c3a4f06c9e57b25b65e6b770a182921365df54375b0818ecb90d9644c906"
+    },
+    {
+      "key": "E11:EVAL:core",
+      "sha256": "1baab1db6a073f383c124f9427e604ff160e6bb061240aed889572794815dfad"
+    },
+    {
+      "key": "E11:DE:core",
+      "sha256": "f7791aab70fcc2d0480879920924875fc43d42dfbb4cebf4645bf435c2a4f7e6"
+    },
+    {
+      "key": "E11:COMM:core",
+      "sha256": "3e9702bd0dc8593c1fe850a1a31ca788e0d164cae7dad9d591e7460a09a90821"
+    },
+    {
+      "key": "E11:DOM:unspecified",
+      "sha256": "787fae72b88fb881dc0b3b4f0633dc6d28e58ac4675d6c6af90a00a556847b8c"
+    },
+    {
+      "key": "E11:NLP:preferred",
+      "sha256": "c39e6f0b88b11ab45d5d139b74b368355b48f9d3e570c0a375f2e72b68aa9947"
+    },
+    {
+      "key": "E12:PY:core",
+      "sha256": "f5cc8dbe769e8567651bb24b6411c36e7c0a9d63f47e3ea2d79578bc1c5ac55c"
+    },
+    {
+      "key": "E12:DL:core",
+      "sha256": "61a7c4fd99e2bc2aeab23847176eb7546e423c0d8dd52338a3ea9f3373707e7e"
+    },
+    {
+      "key": "E12:GEN:core",
+      "sha256": "9b5c8e6ce2ed688bc16bf61e09061044d543f39774b7a4f8c622ecf51ffc0b09"
+    },
+    {
+      "key": "E12:GEN:preferred",
+      "sha256": "ef079de715c0ce5f93c582b1afb7576ec2601c63fc71e04e2808e7a60129d76a"
+    },
+    {
+      "key": "E12:MLOPS:core",
+      "sha256": "357a7d4ebbf617f2eff2b1a4d4a4cfc79b6f4e6ed1362070baa414f9545ae3d2"
+    },
+    {
+      "key": "E12:DE:core",
+      "sha256": "4b4ae4021c8e7067cd01e6b8f7fc53f7c6ee5227d51ab95185984e191013a758"
+    },
+    {
+      "key": "E12:SWE:core",
+      "sha256": "025efba642605e667dae305b55202ad652fed9457a885467ecff33a646df0ca0"
+    },
+    {
+      "key": "E12:COMM:core",
+      "sha256": "dd1ab3d008fcd749f6477b1a5477460f2f094af88b32bdfa63549a5afd6f58fd"
+    },
+    {
+      "key": "E12:DOM:unspecified",
+      "sha256": "c0335646ef9b8600fcdb437995d434d080a216539ba76e83c9fc87dc7a3f43b1"
+    },
+    {
+      "key": "E12:EVAL:preferred",
+      "sha256": "ed851f8acbcb5d7da3c6986d6834edf86090e8fef6a7d93f955235f2113cdd84"
+    },
+    {
+      "key": "E12:FT:preferred",
+      "sha256": "592d06526ea8999da8792746b28c9cd1b7660d99db190b2f40fb19ae04225f17"
+    },
+    {
+      "key": "E12:PYTORCH:core",
+      "sha256": "1f03691bf97fb23beddbfeb138aa134db45eba5613cbb6d15a3f76958780f7b0"
+    },
+    {
+      "key": "E13:ML:core",
+      "sha256": "5db82227272a53e4816b3289a48f0d35b329c506fb0da10a0180d25124751052"
+    },
+    {
+      "key": "E13:STAT:core",
+      "sha256": "595d76a7a31913056b46eca0019f7564b14e04b3020b5cbe5e592cbb5824a464"
+    },
+    {
+      "key": "E13:EXP:core",
+      "sha256": "3c8144376d74b4a7802a7817c3e71c328964b4a70c3e2a424886873fae97e263"
+    },
+    {
+      "key": "E13:CAUS:core",
+      "sha256": "9245053af5db76f18e5bc1c8953ab62fcafabcdf93376ed76958c83c8782656a"
+    },
+    {
+      "key": "E13:DE:core",
+      "sha256": "ca21f1bbb73be3333484afa84bae04dfc7f2b02d2a2c69071a4b5498beb8af8d"
+    },
+    {
+      "key": "E13:OBS:core",
+      "sha256": "8434d861ec290c2f882eff0371329fc54f4fe2f9c0399009318473fa447e3262"
+    },
+    {
+      "key": "E13:COMM:core",
+      "sha256": "fdbb8ae5fe474f93bc5ca392321208e91a2c1521f1cc9f195dc74071045040ef"
+    },
+    {
+      "key": "E13:DOM:unspecified",
+      "sha256": "9c5513a814fdd119c9e0242d5aa6693172b24398c7374d29326559cf805d5901"
+    },
+    {
+      "key": "E14:PY:core",
+      "sha256": "95e3b143a26bf4eda1a9456938558ca7b025f0026e15f8a0719de637bac17a4b"
+    },
+    {
+      "key": "E14:ML:core",
+      "sha256": "02bccde419ca239f3eba79b0578b6b3ca751edc4e2e0c1620280133946bb56ce"
+    },
+    {
+      "key": "E14:DL:core",
+      "sha256": "55f783ea56380103ad2f7ebce9dfdc0714637b64a97782f43ede951bdb6b81cd"
+    },
+    {
+      "key": "E14:CV:core",
+      "sha256": "740aba3d8387ff3349803301a9f35ff09ac893eb46dbff069627f898fe7447c4"
+    },
+    {
+      "key": "E14:EVAL:core",
+      "sha256": "4ce344ec2d5e880084bbfd87846bbc06309e256a3b84390ce9ded09ab313c56c"
+    },
+    {
+      "key": "E14:COMM:core",
+      "sha256": "8116569de8532fe298a9c1e3a6c9730968316b0b76f7b9e84ff7fa5a0a6d2d10"
+    },
+    {
+      "key": "E14:DOM:unspecified",
+      "sha256": "8dd4093868abfcc2df2b9f9d31c206b575aec63503a6682433fe23798348ea7c"
+    },
+    {
+      "key": "E15:PY:core",
+      "sha256": "8218d584e62819354d48b9bd085faa10bfe2734c06987ffb21cb5fb7dcbd3062"
+    },
+    {
+      "key": "E15:GEN:core",
+      "sha256": "d1d89298b615eab8692e2adbef66afafd027b3d6e28773039b4e95a8f3423f9b"
+    },
+    {
+      "key": "E15:EVAL:core",
+      "sha256": "810c6f0ee342570b2a4ee1a283ac234b4e398c3a96d0e6556bf609f3ff4b1179"
+    },
+    {
+      "key": "E15:OBS:core",
+      "sha256": "9fdcf7042b11792dc38bc34a67cb5e2ca236253ede658b0b09628e5db3dd8a41"
+    },
+    {
+      "key": "E15:SWE:core",
+      "sha256": "55a0ba27e7b93ecc00b79c3b988512450006f59255fd139574211e15b5ce7f4c"
+    },
+    {
+      "key": "E15:GOV:core",
+      "sha256": "f5eaf6227ea63dbd5fe9286a7c3092c1c985f4e2bf09929fbb676ff17b3ffc4d"
+    },
+    {
+      "key": "E15:COMM:core",
+      "sha256": "097ba88cb200f0719db4544b278e3d39fd5e27c13c684ed787bb980930777ac7"
+    },
+    {
+      "key": "E15:DOM:unspecified",
+      "sha256": "5f635d2f23e12eee42b836fc8d661b6738364d9fce8bd639d6b6778665bd1213"
+    },
+    {
+      "key": "E15:AGT:preferred",
+      "sha256": "c436fbae4c73ceeefccf1647a49ff3bb55be985d95a016fb327b7355d5dc5128"
+    },
+    {
+      "key": "E15:FT:preferred",
+      "sha256": "4367a8f40b813ab9b1fbdf7760249228c04af75224df892bdc2e7e51845ce3d4"
+    },
+    {
+      "key": "E15:LANGGRAPH:preferred",
+      "sha256": "775a1a1ada377e462eb4c3bdd35cc1698e85e98c36173d279a78eb3bd37bf4ff"
+    },
+    {
+      "key": "E15:PROMPT:core",
+      "sha256": "89eb7956b31ec55b19338ec4b47afaae53f96d899bbbfcbdd39ee03219f04672"
+    },
+    {
+      "key": "E16:PY:core",
+      "sha256": "a25a38f893bd5296e9bd6d5f4e8567f9ca6ab55d6fe7809ead9f7ade0857ea99"
+    },
+    {
+      "key": "E16:ML:core",
+      "sha256": "5c5dfffa6e9d565fd1e32112b6e8a3c202d3fd2be035e11beb2c7255d5acbc4a"
+    },
+    {
+      "key": "E16:MLOPS:core",
+      "sha256": "e71b5172fe12ff50154bfd41ad8a3b20e740904b29c54e13eed723a4546da239"
+    },
+    {
+      "key": "E16:AWS:core",
+      "sha256": "6746354f1dd7ff0d028d574b7c397ec4e1459ce47288984024e13c3e824b746c"
+    },
+    {
+      "key": "E16:DKR:core",
+      "sha256": "dee11584461688801a504e042fd282556fd560e7ffc59807feffc91d369d6cb0"
+    },
+    {
+      "key": "E16:CICD:core",
+      "sha256": "b43b3aa6025b122512c1f916630e1d7e587eefa1190e0c23bb6ebd3ea43d42d0"
+    },
+    {
+      "key": "E16:IAC:core",
+      "sha256": "1658dd128b11e46b82e62c19b398a43a8d00c6669353d313771a3a6178601b39"
+    },
+    {
+      "key": "E16:TEST:core",
+      "sha256": "36d28142ae3ba235554f11b7b544aa0a2f8c5f1729cac41a554e0081330fbd91"
+    },
+    {
+      "key": "E16:OBS:core",
+      "sha256": "9703a0d043a62a9fcba23ad686f90d198ed2f6894aeba9b5ec9513c6304e6085"
+    },
+    {
+      "key": "E16:DE:core",
+      "sha256": "6cbdf1bbf36bbaaa2e2eac1427520fead39bad989b325bcb8e2baf295e36a663"
+    },
+    {
+      "key": "E16:SWE:core",
+      "sha256": "edf34b4b57ccd74d22d07e3f70f51115a128c8e569892fbdb4337efbea0743de"
+    },
+    {
+      "key": "E16:RAG:core",
+      "sha256": "0b6c287e85475f0430ad8533035d394b90d6b187405751a5517c61dfb9a43711"
+    },
+    {
+      "key": "E16:COMM:core",
+      "sha256": "307ce511bbf5a3607a5aea84a6b8a28cc724c2540e6c9924c08c2c1de45256f8"
+    },
+    {
+      "key": "E16:GEN:preferred",
+      "sha256": "8367181d605e7833ca3fdf121cca84bd0a62fa2347f7fc90c5cd13df8100eb4e"
+    },
+    {
+      "key": "E16:DBT:core",
+      "sha256": "878516f2cf412adeefb102487aa4970b775080121a52ce416ca0acda5de3e1fb"
+    },
+    {
+      "key": "E16:SPARK:core",
+      "sha256": "84cab04a844f75d50ea4d51ae638216d93907cab299900b638ee36abb7e91eba"
+    },
+    {
+      "key": "E17:PY:core",
+      "sha256": "4c9d5eb67d171ea71185be5a830551282df549fe623c50dd4a19423df0194b11"
+    },
+    {
+      "key": "E17:SQL:core",
+      "sha256": "edcb2a1635393113df4d454c30430ad9027e860950dda8f7c607d58563b8c52c"
+    },
+    {
+      "key": "E17:STAT:core",
+      "sha256": "8d0d7d754c19a3d2323cc2c052e18db1f223743206aefbfc24807faef6f90e16"
+    },
+    {
+      "key": "E17:ML:core",
+      "sha256": "a49f085bd58170a42b8733304e23b9e0323047cf14ae8da86b5c9b604ad47111"
+    },
+    {
+      "key": "E17:BI:core",
+      "sha256": "c9fd96e236d17412de20324b8fd78c73bdad4ad644b5d5e20934d1f7aa62a39e"
+    },
+    {
+      "key": "E17:EXP:core",
+      "sha256": "899dddfb537b47067221ac3e67e58fa37a2c36ac2459fdab5b27e231ccb97a2b"
+    },
+    {
+      "key": "E17:COMM:core",
+      "sha256": "d9176143583086ee43e81b1898e29620227d4d428d92ff2f9def35008168530e"
+    },
+    {
+      "key": "E17:DL:preferred",
+      "sha256": "5bc4a3c7452eb5182d0e307eaca7bdd2222e28b933b2e55012848414d346b23f"
+    },
+    {
+      "key": "E17:CAUS:preferred",
+      "sha256": "167e1470dabff3624d25c2643b430a791c4eee8eca1c0b548019f957661e2c1f"
+    },
+    {
+      "key": "E17:TS:preferred",
+      "sha256": "16cfa66a7b2ec0bb07d9fb8c6ef41ae3f734f4470ffda904c317f426551487f7"
+    },
+    {
+      "key": "E18:DIST:core",
+      "sha256": "b54fbb95925b041ed7e15fb5ccec4102e1881c35f896800c871fc514d9576c1f"
+    },
+    {
+      "key": "E18:DE:core",
+      "sha256": "009da2e605741843f9124500405c83dc4bbc6798460e4278db7b8ee681d63fec"
+    },
+    {
+      "key": "E18:MLOPS:core",
+      "sha256": "e632844a1a2ebead34ed6c4a0112d9cc42355359b94e25d52363f44e23dbecb9"
+    },
+    {
+      "key": "E18:SWE:core",
+      "sha256": "0a6a7c3972981dcb4e147f079648dbdd55ca9a155d243cf68370031ca2b1fb46"
+    },
+    {
+      "key": "E18:COMM:core",
+      "sha256": "3fa199d0ee13f42ea0beeaadbf6b1970d9a3fd76c5529adba38995d648195a77"
+    },
+    {
+      "key": "E18:CLOUD:core",
+      "sha256": "f39bb2500b6ef5605b65311b8aa0c5a48f573f8c92d43be65fbf8fa18ead447e"
+    },
+    {
+      "key": "E19:ML:core",
+      "sha256": "f8a5624acdf825b09b00302f3eefca397b44d80e7501704f6f9294966e7c3429"
+    },
+    {
+      "key": "E19:GEN:core",
+      "sha256": "24d6d101bf57d678650023ef42025de976016e6e37e3abd4c23c2d04ea8d8ab1"
+    },
+    {
+      "key": "E19:DE:core",
+      "sha256": "d67d79608f08bb733485054d57c0d4115fc73309e9a23519faad9501b9ce15e9"
+    },
+    {
+      "key": "E19:SWE:core",
+      "sha256": "a154137dfd2fb3ccf56d73da534b5b39399c7a1a0d0de37f94b2321a8ee67dd8"
+    },
+    {
+      "key": "E19:COMM:core",
+      "sha256": "886909dc7f96ca531d5758e22f50de35942f1eba5d81856612926e76e2693e39"
+    },
+    {
+      "key": "E19:DOM:unspecified",
+      "sha256": "7d303cd82a8c174880a60d5923fe1548b5bc4d0bf5be0b79b1479a5d04f4334e"
+    },
+    {
+      "key": "E20:ML:core",
+      "sha256": "ad618b981bf963d6e2fa5429a6be2960b10ea686d0f98bb3f727d9fbfa5611b7"
+    },
+    {
+      "key": "E20:DL:core",
+      "sha256": "dcc13b39db1304d8642e4a4e8541d9309fe17c5a1c8cb5a2907429955d3584c5"
+    },
+    {
+      "key": "E20:SWE:core",
+      "sha256": "45e490b8cf24699af07a696b1b0343acf0867f28e453446993989325adc29591"
+    },
+    {
+      "key": "E20:GEN:core",
+      "sha256": "52b470c3866014945e721a9ce8f6a8af163b3e35c66de5daf5cfdb769add8f8e"
+    },
+    {
+      "key": "E20:EVAL:core",
+      "sha256": "eeadf2259c14f39a386836d430bf3b8b5154ded2ceb82a69310a7da86bbb8b53"
+    },
+    {
+      "key": "E20:COMM:core",
+      "sha256": "7a72b76794a91879b2f01ba7168184f2b30f3e2fd9b951cb7dc352861b38f15d"
+    },
+    {
+      "key": "E20:PROMPT:core",
+      "sha256": "cc6f7eb9293d0811dbe111c7413d0cf24d3a9dcb0d6862a613470aceabb9285c"
+    },
+    {
+      "key": "E21:SWE:core",
+      "sha256": "30943e15787f570bd49048b94b009b9d00fef61b371df441e1a754e1a983aa1e"
+    },
+    {
+      "key": "E21:GEN:core",
+      "sha256": "022193a19913641755f507e52333880b7d920e06fd9ad11729b83f219bbc3d41"
+    },
+    {
+      "key": "E21:RAG:core",
+      "sha256": "29568143c785f3a5beb33eaf5cb7e5ad15755f26e3fa9f1bb86027f29d25363e"
+    },
+    {
+      "key": "E21:AGT:core",
+      "sha256": "3a3d6b1bcc571ed7e8e5231d84c11e2cd96f50fee24511563b3780708472cf02"
+    },
+    {
+      "key": "E21:CICD:core",
+      "sha256": "49cda387c0039eeebd35f5a6c13a6f314f900449f568579e8a3d7896941a3999"
+    },
+    {
+      "key": "E21:IAC:core",
+      "sha256": "2ecf97243ccf9761c621d6368c991d7679e38b61f99460d1313a849fe183cda0"
+    },
+    {
+      "key": "E21:SEC:core",
+      "sha256": "f0c04f46b5a362038eb5f86859d24c3031abe40cb820c9a2177c818eea9e4dc9"
+    },
+    {
+      "key": "E21:COMM:core",
+      "sha256": "b9d46fda687994904ee13a3b7a37840dc1d6adcae11c6445260da6190d244209"
+    },
+    {
+      "key": "E21:LANGCHAIN:preferred",
+      "sha256": "f4483de836e803f0275c529aa46b1f72d8b31f42b3a1adf573a9383eefbe8e89"
+    },
+    {
+      "key": "E21:SEMANTIC:preferred",
+      "sha256": "c8f3ff448c09c88231c2696d43862268b958dff63561b241b68d2480cd261d7d"
+    },
+    {
+      "key": "E21:CLOUD:core",
+      "sha256": "114a25b6dbfc55f3cb41be040102e94ef77de55142233346da8fd6cd61bbbc96"
+    },
+    {
+      "key": "E22:PY:core",
+      "sha256": "4da3c62267d70dcb6c42ddc3ef3711fd05b1fb5ee731f718408e7c2094190e17"
+    },
+    {
+      "key": "E22:SWE:core",
+      "sha256": "7b9f7fa51921a36f64e41642a2d8fa5855e313b2320497ccd2015467ee630bb4"
+    },
+    {
+      "key": "E22:API:core",
+      "sha256": "c93cc5a0a1c01962ca1b1ffcaa4e93a87567dd84c5339afbf4d690bacf0c05eb"
+    },
+    {
+      "key": "E22:GEN:core",
+      "sha256": "c19632a1e7abf5b8051479a25477108b871270f062944447ba7073e05a87c21b"
+    },
+    {
+      "key": "E22:RAG:core",
+      "sha256": "ee11333c1a23f3743df7002f382471560c09ee393794ab3adb955c8b3c762846"
+    },
+    {
+      "key": "E22:AGT:core",
+      "sha256": "a573099dc3a7abd4fa488a3f8dffc8d23876c6aa92fbd278a9242421f95bf089"
+    },
+    {
+      "key": "E22:MCP:core",
+      "sha256": "6cf7401415b825014e006890934c28ce392242d5ad140cb26a7dad04e4cc9210"
+    },
+    {
+      "key": "E22:EVAL:core",
+      "sha256": "28280bca804ceaf442642be169da79ea627e651a9df88ab652355c08a53def6f"
+    },
+    {
+      "key": "E22:SEC:core",
+      "sha256": "fc51a015502176fc78e39527ed33d54c20158b8bd4644627a198a4ff6560c57e"
+    },
+    {
+      "key": "E22:CICD:core",
+      "sha256": "59581569ed9fd75fc0c45262a8c7c9ffb8f7ff2d2dfb62478b8cab246f7afd24"
+    },
+    {
+      "key": "E22:IAC:core",
+      "sha256": "15346c3f1db0ed086d655679e5b7d44816e00917dc60d96ec01c2689f46eef2a"
+    },
+    {
+      "key": "E22:TEST:core",
+      "sha256": "c892e4be51c400f2744e11856d98fbf6c8a0d804f6a92b36b29e3e29dee9b8fb"
+    },
+    {
+      "key": "E22:COMM:core",
+      "sha256": "b1e5f474c68e7c707df797de310dbe46d97d0edeb50c920a93f06b3232ceb96f"
+    },
+    {
+      "key": "E22:LANGCHAIN:preferred",
+      "sha256": "5f659e2dd67a0d0b539556803da33af15b4b0c90858e89b395baf97693992fa5"
+    },
+    {
+      "key": "E22:SEMANTIC:preferred",
+      "sha256": "9c4894f0208848d65a1cae6d6502784d785753c5e28f8e5fbca7a5387d23327c"
+    },
+    {
+      "key": "E22:PROMPT:core",
+      "sha256": "394cf8475bb600b54a882918b4c09497d01b619e1c11626f4900cff94fcc3c49"
+    },
+    {
+      "key": "E23:PY:core",
+      "sha256": "5e132dc8748952c1eebe9504ef519dd6976f31ae308a93791d78d5b372b5f4a8"
+    },
+    {
+      "key": "E23:SQL:core",
+      "sha256": "d9b8e57c48e2c27027eccf56eaca51c8fdce73135c0d45ffc7727df06d91bd52"
+    },
+    {
+      "key": "E23:DM:core",
+      "sha256": "7db0c307e19b262ddcfc0cedb6e010a1329c115d11cbb4146a8d39c1ee7652bc"
+    },
+    {
+      "key": "E23:WH:core",
+      "sha256": "5f60b803379041b3a1bb309054997b0fd839f1cec478b2753a95b5512dd7a23f"
+    },
+    {
+      "key": "E23:DE:core",
+      "sha256": "d47df65d58033a815a42909d107412529197ebdbd914f1ba198c700372efa604"
+    },
+    {
+      "key": "E23:BI:core",
+      "sha256": "289ac3301b9609447a8150dcb268a0b67d41427a6c0173e92edc872234b65b51"
+    },
+    {
+      "key": "E23:COMM:core",
+      "sha256": "e4b4c45424245d4ffa9fc0e9d5a4089dcc32ca5890a6763d6f45df69e45e8062"
+    },
+    {
+      "key": "E23:CLOUD:core",
+      "sha256": "8d4f2823ab68861076af50bf9775ec5a69cd6b9aa33c1544949d172347cc88d0"
+    },
+    {
+      "key": "E24:ML:core",
+      "sha256": "e9e14b02613cee4b5a782c860982516e82dbacaffa5b55e9ae369d43b5974c08"
+    },
+    {
+      "key": "E24:STAT:core",
+      "sha256": "b27d5fdca6c15c94a33a2e0fc31fdd3c52b93df8d42095ecbe48cb63a01392d3"
+    },
+    {
+      "key": "E24:NLP:core",
+      "sha256": "0981d563e75581b6ecdffa33c545bdde67c297954bfcbfb636dff374e5da033f"
+    },
+    {
+      "key": "E24:DL:core",
+      "sha256": "b60305c225fdd690a147db4136c92a4ed4cf1b6728e9602410fe1fc80c6e845a"
+    },
+    {
+      "key": "E24:CV:core",
+      "sha256": "efae54f951a9beee2b73ad98565c5572b2ff2d58e6f8b762c9c7eba42b642f76"
+    },
+    {
+      "key": "E24:PY:core",
+      "sha256": "37958ae66ff3ab98e059e53f949f62b36b2576e9f7c340abbb035dc56f4db256"
+    },
+    {
+      "key": "E24:R:core",
+      "sha256": "74ca764a744af08e2c95a092fbd0034ce5a573457c9c60767f6893ef7f89b3bb"
+    },
+    {
+      "key": "E24:SQL:core",
+      "sha256": "f14aaf955049a1a23b3307898923f7b86f220688981d149f25ffed263e91a3fd"
+    },
+    {
+      "key": "E24:COMM:core",
+      "sha256": "f1ac6105c3e46e9a98cb6920b46c84d1b039c1298ba6c82412e2df8d6b94a878"
+    },
+    {
+      "key": "E24:AWS:preferred",
+      "sha256": "b2b7aca7475cbd985bd86e041e20b615e56efb4f8bb83b28931237168820df0b"
+    },
+    {
+      "key": "E24:AZ:preferred",
+      "sha256": "c61f9daf2c61041859aac7a553fbc33dc604ff39bef10848eb93d32ffb76fd3a"
+    },
+    {
+      "key": "E24:GCP:preferred",
+      "sha256": "dd7098ffdfd06998d3e9bfad61f4017c9714adbd14dc0659a8204e88cbefe497"
+    },
+    {
+      "key": "E24:SPARK:core",
+      "sha256": "570e660805c57890aa1d03fbf543b397ee1ecca87d99f519d43d33a9487b434e"
+    },
+    {
+      "key": "E25:MLOPS:core",
+      "sha256": "6add4e4b1eed5cb31e33540fa2fc16f7a0315e056dd176e57e63099d7f7688bc"
+    },
+    {
+      "key": "E25:SWE:core",
+      "sha256": "b3884d6785d06d1ccc62d7aea3acda53dcb5a9a1b4c92c5575ed0228aa26b087"
+    },
+    {
+      "key": "U01:PY:core",
+      "sha256": "aa70a3df79d1dff50b770788c5a382b0bf9a9397ba044edce059e876214d4d59"
+    },
+    {
+      "key": "U01:ML:core",
+      "sha256": "520bd6e83b930b8cb1b95bd9d6a1871024c78f5a3e03e8fd1d3b2a16601ea002"
+    },
+    {
+      "key": "U01:DL:core",
+      "sha256": "5f0e33ed0b6ea011d46292b4b07cf9fff686ac2b7497911315cc4fa2c8a928c8"
+    },
+    {
+      "key": "U01:NLP:core",
+      "sha256": "42c5ff66a9c8925f914915d722264ea59b76d37302908680cc9950099222c331"
+    },
+    {
+      "key": "U01:REC:core",
+      "sha256": "cb2278eb521206a78ca663b439cf5c3a53d24699bd96cb4facacd0a93d9e55af"
+    },
+    {
+      "key": "U01:GEN:core",
+      "sha256": "6ee98d14bedeec2ff6f03e85c40bedd8aa7cd972abce0c32d4a908fb26f9ce0d"
+    },
+    {
+      "key": "U01:RAG:core",
+      "sha256": "82fea53cbbda10cc81767b453bc9fe6057aec144a8af20770c1e0530afcf46a2"
+    },
+    {
+      "key": "U01:EMB:core",
+      "sha256": "427058766383305bf641d31c1fcf433d796d32c7150437729c96796c9d297b1a"
+    },
+    {
+      "key": "U01:VEC:core",
+      "sha256": "921b73a2b828e0b02c5c91c0981175106376b19a80217b245f9dd2bd3bd66830"
+    },
+    {
+      "key": "U01:AGT:core",
+      "sha256": "a175c3ebdeccf15ebab6782b0e9f9fe75c0a50de8d030089b47cc2b62bf7e0f4"
+    },
+    {
+      "key": "U01:SWE:core",
+      "sha256": "d72b3598b643e4d3591abc858802682085d2b4c2267a9d3973dd94c420b46acf"
+    },
+    {
+      "key": "U01:SERV:core",
+      "sha256": "aaae55b4ce25e373c47ef366d3017ef9b2f16e8f64340e10eb6878d0a429ae83"
+    },
+    {
+      "key": "U01:EVAL:core",
+      "sha256": "d38b25507df6527b03c35b1e6f0a590a273714541e2c2d9a1cdc51dd6d93fc5b"
+    },
+    {
+      "key": "U01:FT:core",
+      "sha256": "0fe1683ea46fbc772ee0471f462c00da0458698bbdc8670f96d1c334c7b2dfca"
+    },
+    {
+      "key": "U02:PY:core",
+      "sha256": "4a1e427b63fe2472f8a2c7f1db8c9ceb5801e554cdf6bc62a7c1d010a893ca55"
+    },
+    {
+      "key": "U02:DL:core",
+      "sha256": "930e7e194ee4c67d30914d85b02e439027c0f3f0bf2e5ea1607c73c85f2ed37c"
+    },
+    {
+      "key": "U02:NLP:core",
+      "sha256": "7ca1cb73642c378a91346452017127a062a4f66b54a1dc270cdda7a35dfe8da1"
+    },
+    {
+      "key": "U02:GEN:core",
+      "sha256": "62c117e3dc364c77667aeb85b84aff41ead7bea376e6bf4c7ebbde819d040e80"
+    },
+    {
+      "key": "U02:SWE:core",
+      "sha256": "f2e75f4545c79df824373d0acfd427267f881997321b8b5f4047227fda3673e0"
+    },
+    {
+      "key": "U02:EVAL:core",
+      "sha256": "d42c20eb7f4083ff7386add8b06f8e5c105ae5d3595328cc6054e2ed006475d5"
+    },
+    {
+      "key": "U02:SERV:core",
+      "sha256": "39e3b8509a95475f2eb9f6e80ea821d689103176522e7a675147550674359c8f"
+    },
+    {
+      "key": "U03:GEN:core",
+      "sha256": "6e2c1c95e7f762ac5f5d851956833e343d015449b59a2703fa7ea7bab895999a"
+    },
+    {
+      "key": "U03:EVAL:core",
+      "sha256": "861cdaf05a7117ffca81577f91801fd7cac2b8b26e54aaaf5ac87e03b6cbb540"
+    },
+    {
+      "key": "U03:DL:core",
+      "sha256": "db87f0c90b9690bad5107e60c894e34d16a7e0d819b89ae57702683675a03707"
+    },
+    {
+      "key": "U03:SWE:core",
+      "sha256": "5d6adfeef4c8615eed34d02d73ec62fa1722574c73b3b0d1037ac06cdd67847b"
+    },
+    {
+      "key": "U03:GOV:core",
+      "sha256": "8625bc959790b62863e7261d421269e69390a2e6c45035c89cf9471f16fa3ca6"
+    },
+    {
+      "key": "U03:COMM:core",
+      "sha256": "45c99d829c6385f5d57d5f77dac9e75ec046856a5074cbc6f44fd1d875fd34cb"
+    },
+    {
+      "key": "U04:ML:core",
+      "sha256": "efbbe67181d03035468ed23c5206520951ceeda14e20c4d1df8dc1d7619befea"
+    },
+    {
+      "key": "U04:GEN:core",
+      "sha256": "4a87aac9b6f49920831d73e4c045d686f343a3e6a1c6ca5a5228433d33e911fc"
+    },
+    {
+      "key": "U04:AWS:core",
+      "sha256": "5e5f0de580c9c9103bdaa81023422589cc0f9deb81c1e678defa20dec0b907c5"
+    },
+    {
+      "key": "U04:SWE:core",
+      "sha256": "26044505f834de5d320f8a68d123c5a5209f8900c32db0d960cadf6dd0c688e4"
+    },
+    {
+      "key": "U04:SEC:core",
+      "sha256": "7e7daf05c2e488de2c3238db9cbc176321665b14b6f4e621f57449c1aa871bb5"
+    },
+    {
+      "key": "U04:GOV:core",
+      "sha256": "02531a6d0a5d053708ec47551929f139dedab4d451d9830b7b7a1d3a08a55cb7"
+    },
+    {
+      "key": "U04:SERV:core",
+      "sha256": "2610787c200ce28fbb15ef89d6bd2a4922702a578da270463705a807f70b18c5"
+    },
+    {
+      "key": "U04:COMM:core",
+      "sha256": "560d824bad711ac2c963f21435fbfd2821e03cf5bf00e05693e83d9401f4234d"
+    },
+    {
+      "key": "U04:FT:core",
+      "sha256": "bcc5e6331d9ec50b9f22eafecb0118fd2e268738225c18771130de7bf2ab45ea"
+    },
+    {
+      "key": "U05:PY:core",
+      "sha256": "213b40ce5fd6d8e80cbe920d262a78d84bd55224e97cb82607843a3a0d72b537"
+    },
+    {
+      "key": "U05:ML:core",
+      "sha256": "fe9492f8943adaad53b488d3246f182e0bc19cbd47455703fcdf8e6083ef0e55"
+    },
+    {
+      "key": "U05:DL:core",
+      "sha256": "25f4837bc0d496ca104508fefefc4cf00b19b3708364d57cee5dc1a708b83cda"
+    },
+    {
+      "key": "U05:GEN:core",
+      "sha256": "d141aa0ce8548fd039eb1eb50654c5eb7fda80ab05154c69407a4453caadd3a3"
+    },
+    {
+      "key": "U05:EVAL:core",
+      "sha256": "91cc0e958e1d14924527e017cf0a542c8e516bced52a02358e84310d2d027b76"
+    },
+    {
+      "key": "U05:DE:core",
+      "sha256": "bc82077ed61b3be1200b1670d937d4553dbbafd6210698688ccc6fffe1754461"
+    },
+    {
+      "key": "U05:DIST:core",
+      "sha256": "d8267adab009a72df080d563b7a67be0a6ab368cb7631892bb6452432ec33754"
+    },
+    {
+      "key": "U05:AWS:core",
+      "sha256": "fb715540776b26299c8e46314c26036a95c7d7cc9420b32b91e1c50accb1d915"
+    },
+    {
+      "key": "U05:API:core",
+      "sha256": "1855a8d59b3be65d94ed28e5079077cfbae77caeb4bc3a22dff12b7f2d8a5601"
+    },
+    {
+      "key": "U05:SWE:core",
+      "sha256": "26f541c89a4f1786265353b08e826ae1d1451a866aecda6c3b86c30966059838"
+    },
+    {
+      "key": "U05:SERV:core",
+      "sha256": "3fe7c1d8f438c051d7221cfd03af40abf4c7724c5e27d9a8605d27a477e8e663"
+    },
+    {
+      "key": "U05:GOV:core",
+      "sha256": "a82c4db82f3dfda249cc4ba2ec8ad7b1bed3fce2277cedcf59ed29db433a6ae0"
+    },
+    {
+      "key": "U05:COMM:core",
+      "sha256": "d69eaf75a10940f45a8f2419deb75041ca21ef629e1acefa5c674cf6383e841e"
+    },
+    {
+      "key": "U05:PYTORCH:preferred",
+      "sha256": "849e0c4c656f303cf84c8b05d920159cb4e77d8f7a2bd740185a5ac65ae28589"
+    },
+    {
+      "key": "U05:TENSORFLOW:preferred",
+      "sha256": "093a634941255525e9e3ac419eefab55646ec01e3c6439342d823a9ac7cb5228"
+    },
+    {
+      "key": "U05:CLOUD:core",
+      "sha256": "3e659a3e2855ae1b1067e2b338fba612e2ae37c807d2e7dbba8981003191bbaa"
+    },
+    {
+      "key": "U06:PY:core",
+      "sha256": "cc7c7646c4dd0fce149263ccd22b9e1cac9d2f7ceb8d2e33057d02e33e66b7fa"
+    },
+    {
+      "key": "U06:CV:core",
+      "sha256": "e152499ec5c36ddb4d33501074f416ecdb5c66dd386a5d49e23057b50a92ad89"
+    },
+    {
+      "key": "U06:DL:core",
+      "sha256": "125687665d237fe75b8fc830c95ef817c4d80a8b33ad922af22df0902da83af7"
+    },
+    {
+      "key": "U06:GEN:core",
+      "sha256": "ae0520d248beb0af1d5314900df9143893ef44059a026dd298fa73bd8e3d15ec"
+    },
+    {
+      "key": "U06:EVAL:core",
+      "sha256": "22b43e8c2097b4147a56f7ed246f18196bc17b59818621908e593b607233b354"
+    },
+    {
+      "key": "U06:TEST:core",
+      "sha256": "49582e72d3dd594da4872d4cbe753df01ed059e41835ac118cf32cb14ecba87e"
+    },
+    {
+      "key": "U06:SWE:core",
+      "sha256": "db2e4bb1035d6a07b2da7bf11376aa940057890d4373b57f1c40d99ebbd6a6d2"
+    },
+    {
+      "key": "U06:INT:core",
+      "sha256": "1f700fc3f7741d0b221a35ff8183bb37759984174f882082f3caefb44b4facfd"
+    },
+    {
+      "key": "U06:SEC:core",
+      "sha256": "881c8b4ee2094ca9359461f10fe352ab274961c0d88a9e0edaee851de450fa49"
+    },
+    {
+      "key": "U06:GOV:core",
+      "sha256": "9f469fb8f075bfa72f2c2cc6c18d2520be273f31f98f09224a7d84da20a0a777"
+    },
+    {
+      "key": "U06:PYTORCH:core",
+      "sha256": "569e7f485ce90af524c257632fc5748ab5d74e096e233f473efef879463b4dba"
+    },
+    {
+      "key": "U07:DL:core",
+      "sha256": "897c8caf536c4b49247774b619418d1cef33fdaac5a4eb407f0a75702b5e7ea7"
+    },
+    {
+      "key": "U07:GEN:core",
+      "sha256": "661c41a124da13718ce2f4cf7423d001171f8d0fc748698f193468f5f8c52e55"
+    },
+    {
+      "key": "U07:AGT:core",
+      "sha256": "1c265d8076e8d690747d38fd048ca246ed1e5794633da63c88e2bdc431b27a08"
+    },
+    {
+      "key": "U07:OPT:core",
+      "sha256": "6348e7cf9c20106be1412def7ccc526709eabe16ec90d411aae71b55a61e6ee4"
+    },
+    {
+      "key": "U07:DIST:core",
+      "sha256": "c6aad0c5b715eb99b7883ad091e3ce795e57ec9b94e30b8e66bc18c63e3e83d2"
+    },
+    {
+      "key": "U07:SERV:core",
+      "sha256": "74f686c4f7074e5d9e24d16bf17b1508ef2f876d90b23036fae71f7d34abc513"
+    },
+    {
+      "key": "U07:SWE:core",
+      "sha256": "1b7c2f8b38949ea1f664ae36049043763501ec4b6bcaeafe3caee407a92982ae"
+    },
+    {
+      "key": "U07:OBS:core",
+      "sha256": "139502f07b14d58a12a1e9df70d2aee0331cff9147ce7bf369da880098e4e357"
+    },
+    {
+      "key": "U07:COMM:core",
+      "sha256": "3897864d8c1fdfda03ee2f30196433ec238dd66c04a135ac28250beaaebf378a"
+    },
+    {
+      "key": "U07:PYTORCH:core",
+      "sha256": "686509e48df544be2cf6af611917ef3e9ac49f563a6ffbe7e9035453e59f460b"
+    },
+    {
+      "key": "U07:TENSORFLOW:core",
+      "sha256": "82760dbf13812c914d2d97c2956150d6f54973f3c62ef450875f5ba913e60c12"
+    },
+    {
+      "key": "U08:ML:core",
+      "sha256": "4a9dbef9ee184813f2c78587e3d3f533ab4d4e79164df9d5cc2078d4f783e2c5"
+    },
+    {
+      "key": "U08:GEN:core",
+      "sha256": "1a2076bf28945d2ad86129d512987b7a979ece2873d24b84c4373881cc9122a6"
+    },
+    {
+      "key": "U08:NLP:core",
+      "sha256": "6ae4d5d392b319d5109646d58e0c2540345870c77b35d9ede37b65da8f4fbf5e"
+    },
+    {
+      "key": "U08:COMM:core",
+      "sha256": "27a1bbfd58f19427b13a16913dfad34f7b23f821911e7b42ccd0f0b897b62f20"
+    },
+    {
+      "key": "U08:DOM:unspecified",
+      "sha256": "4cb1297e2cd0f940f26afc5d19875309a17c245e19449bcc55ee113fb2707645"
+    },
+    {
+      "key": "U09:GEN:core",
+      "sha256": "e7ab703c68b136eafecde9a7ba32396b9204278eddaa7a2363e2c09b26c4703c"
+    },
+    {
+      "key": "U09:EVAL:core",
+      "sha256": "56b84ed60febd616275462278164c6eb49c405b29818847f971443fcbcb61bed"
+    },
+    {
+      "key": "U09:DE:core",
+      "sha256": "5206c5ccf7e544672a72117eb2c1d4f0db986446acb96fc12db9685fd3e6b128"
+    },
+    {
+      "key": "U09:AGT:core",
+      "sha256": "b921e0f7c73a30244dd62750c37fe4e061a27953301b240af1e01821781b65db"
+    },
+    {
+      "key": "U09:SWE:core",
+      "sha256": "054b8658c390567e8da2e1fa245d522963527e229fef8e9661d900c940f2389a"
+    },
+    {
+      "key": "U09:OBS:core",
+      "sha256": "ed41f447db7595389d4289e12be46420424059cdee4bdfbf03685f18e22fc03c"
+    },
+    {
+      "key": "U09:GOV:core",
+      "sha256": "1421dc138fb6250c170c53ec6fa66b01e1c88cab7804d9ed420591d9e2aaf306"
+    },
+    {
+      "key": "U09:COMM:core",
+      "sha256": "a7f8976a89b91b67d4e4b4f50dbd62fb0a576b9d4233e14662106a39f5c6acdf"
+    },
+    {
+      "key": "U10:ML:core",
+      "sha256": "06656e2cdefda04c34c2252c2b0a28b31ac64f9e16dcc275efac99e2d6986146"
+    },
+    {
+      "key": "U10:NLP:core",
+      "sha256": "a80a7624808d1e863b27aa73ee9dffa464cece1844f1257bc2040403e3bd55fa"
+    },
+    {
+      "key": "U10:GEN:core",
+      "sha256": "e24ed774ad50155707927bfd6bcf3b707b82a0a3fa4d063a878601a1ac08274b"
+    },
+    {
+      "key": "U10:DE:core",
+      "sha256": "5120ea694ae4fb9ba3f175b1d0c410476735c923f24458bc7fcc1e0098e5c285"
+    },
+    {
+      "key": "U10:API:core",
+      "sha256": "d0ba6798e69104fbfbe9de2e7251391ab51d1354828d37ab43052b8f8ab8b0b8"
+    },
+    {
+      "key": "U10:SWE:core",
+      "sha256": "5d5017eb31070ee21b948561528d01a8fe61219525385f6f1c7728551eb6ecbd"
+    },
+    {
+      "key": "U10:EXP:core",
+      "sha256": "a923cf06bf853ff89129e02592c97ac17df6c228050499919cff7799a1996a1e"
+    },
+    {
+      "key": "U10:REC:core",
+      "sha256": "ba921f94eb6e65c867f33d9c7bec12f4c52ff6081bbbac88e8420e6f1f72cf78"
+    },
+    {
+      "key": "U10:COMM:core",
+      "sha256": "464754cbfd8ac16be63d0a8862e7fb9d58bc546c7b1ac526145251d0e69aad6b"
+    },
+    {
+      "key": "U11:ML:core",
+      "sha256": "e5d1a09693c633ad6d3da6a4e041aad6182a55de0f94819acf49a10de0e55ebe"
+    },
+    {
+      "key": "U11:REC:core",
+      "sha256": "18269bc9586fc23c39c53f98ea31f0604c979066dfc9e7b22243bb76e75bfe58"
+    },
+    {
+      "key": "U11:SWE:core",
+      "sha256": "100ccadcdee33761fd81c420ffd77da1c2a59b48fe8e3573cad8fd3825f2579c"
+    },
+    {
+      "key": "U11:DE:core",
+      "sha256": "4976ee1ff5aec61cdff08818b0f49af881049489cce6ce9af9e373950f403f9f"
+    },
+    {
+      "key": "U11:GEN:core",
+      "sha256": "0451360dcd5564ca84cb52beeb51f8c618f2247c5c6089011d15d281b0a4b5a6"
+    },
+    {
+      "key": "U11:COMM:core",
+      "sha256": "386949a1d4e65fd07650c408cc364eb32bd8b97d24fdeb1d969df9cb7f32f525"
+    },
+    {
+      "key": "U12:PY:core",
+      "sha256": "d959137c7fc697c85fc20c2b92dd1ca1831c07dca5ff0f5a8c59ba52769fdc26"
+    },
+    {
+      "key": "U12:ML:core",
+      "sha256": "e82fdfff73a223f24370da49d896e23787ab7123d8a715f7be1ab72fd454d52c"
+    },
+    {
+      "key": "U12:REC:core",
+      "sha256": "4f27c7b1b61d44f624dae954dd239a86d3dc4c2c9f66950c78b88f4b95aba5bd"
+    },
+    {
+      "key": "U12:EXP:core",
+      "sha256": "29c24080b4923ba57ef844b857b6f9ed20f4cd89883246d4230e1084edb1772f"
+    },
+    {
+      "key": "U12:AGT:core",
+      "sha256": "f0d1f21453e38613306631c4a4fb80b7cd596ca517c65918200be852b8bf1ec3"
+    },
+    {
+      "key": "U12:EVAL:core",
+      "sha256": "e2d2fef04c4d5e6425677ef05cdb2ab57ac4ef16c54d7ede5990ed82e1f2e2c5"
+    },
+    {
+      "key": "U12:SERV:core",
+      "sha256": "e4f9979c6bd9c7e22a8adba1c47c9ca53902153d3d3f875125885595c01c7093"
+    },
+    {
+      "key": "U12:OBS:core",
+      "sha256": "c63dd575f11352e929e5106555ae369a70b7ac3a3c49a223db140d0e1762dc26"
+    },
+    {
+      "key": "U12:SWE:core",
+      "sha256": "7d90372876cd5699a8e32b0e52bc58398e0354cbe3e25f9a0433fd9a716127ec"
+    },
+    {
+      "key": "U12:COMM:core",
+      "sha256": "fd2e67872c0aed2aa70a5fdb226666030cc9e94c1d060efeca249dd229572a93"
+    },
+    {
+      "key": "U13:PY:core",
+      "sha256": "5e783e56efd48aaa748b64a2b42492f4f2518725adab832c34fa681b7355fb5b"
+    },
+    {
+      "key": "U13:DE:core",
+      "sha256": "2acf1ecb5fb85a11b1186eb4fc28d316e6c8c11fc5cb72f57946530595737983"
+    },
+    {
+      "key": "U13:DM:core",
+      "sha256": "4d42be9640ac958e299546fa003a73415e2bac506210a7d7cafee766e73c3bf8"
+    },
+    {
+      "key": "U13:BI:core",
+      "sha256": "59251eca79ed7c0ad369b5399bc6acb370960a79c09f0ae87e5ef493548c56b3"
+    },
+    {
+      "key": "U13:OBS:core",
+      "sha256": "a1ec07db10a50c79a6e70fbfe173ba6f60e466cc11f438b7ede7568c7fc6c446"
+    },
+    {
+      "key": "U13:COMM:core",
+      "sha256": "ccc7bc7f03ea5836a2ed1dedb4c9327cd4933641d055e5b1829e55fabe0c9f30"
+    },
+    {
+      "key": "U13:SWE:core",
+      "sha256": "b07083d4214334b680c087519648bf6db364ffaf6e73309ca58a9ae270be9f3b"
+    },
+    {
+      "key": "U14:GEN:core",
+      "sha256": "238f13b7464ed032e4c12eb36e1effe67b2dca2305a2f1e640ac6d359902db7d"
+    },
+    {
+      "key": "U14:ML:core",
+      "sha256": "4cf2ebdb8fc9dd9c5c60cab3f76b7c3f5a9a44138994f4d27e68b38838df7c57"
+    },
+    {
+      "key": "U14:EVAL:core",
+      "sha256": "1aba2b5532e549959870db689ece52f39ef6405bd5689eb1493c9f0c491a1434"
+    },
+    {
+      "key": "U14:SWE:core",
+      "sha256": "e93295454aa96c0fec1d74b92bf1b55cf068f2387d4c042abed13506aabba4b4"
+    },
+    {
+      "key": "U14:DE:core",
+      "sha256": "37c3dfa1652e4afd4f408007a8c2c01beb729734114e8e960a46ea47736848da"
+    },
+    {
+      "key": "U14:PY:core",
+      "sha256": "102d6157eb8dcce729c202da6569fbca62f499dcb67bd6130eeaf9f6ecaa280e"
+    },
+    {
+      "key": "U14:API:core",
+      "sha256": "58b76f4d4cbe46293fe9db0489e553431e8075c4286ecd75e2617ef34b6da465"
+    },
+    {
+      "key": "U14:COMM:core",
+      "sha256": "046120beebb67c5059466dd505e598840173793b01e374016eda608fbee138f1"
+    },
+    {
+      "key": "U15:PY:core",
+      "sha256": "fbc210e557ea108966e26bd51da76511881dc3edce78ccafb998ac9c3601a2cc"
+    },
+    {
+      "key": "U15:SWE:core",
+      "sha256": "e86f375abf524311e11b2347e606af1a62c167abccf1ddb43e8cbb0ad9cab475"
+    },
+    {
+      "key": "U15:DIST:core",
+      "sha256": "d998c75eb103b275954b6e2dcaf9743fad35e131b5f36803fda5cbab78e6f774"
+    },
+    {
+      "key": "U15:SERV:core",
+      "sha256": "cd53e9d676438715d0cfea5981d12f8bcc4d38e37c29f1b0e419fd69378f908d"
+    },
+    {
+      "key": "U15:DKR:core",
+      "sha256": "6f4710f3f1a03afb2517231230f78f9aaa16bdc6b61d20c7e51eb17e5721e402"
+    },
+    {
+      "key": "U15:K8S:core",
+      "sha256": "1dba9b2916e35f281206a26463c26cd566ba82f71a778462d192a93583c6ea43"
+    },
+    {
+      "key": "U15:CICD:core",
+      "sha256": "5352543631e034b7c5c34a6933503c163ad763e475c21652a924c85a31e4e65e"
+    },
+    {
+      "key": "U15:OBS:core",
+      "sha256": "890c0f34c1131a59c49ee8b67a1443d9ed2a2e7ceb020f9dde6800b26ea31ba8"
+    },
+    {
+      "key": "U15:TEST:core",
+      "sha256": "d7090f3d13c6f66befd615bacbc1c78619bde3a9650349450cf823e2b9e73733"
+    },
+    {
+      "key": "U15:SEC:core",
+      "sha256": "7948c56ee7dbe4457537c16753a702b7140a446649aacc5101bdb1943b81e59d"
+    },
+    {
+      "key": "U15:API:core",
+      "sha256": "f983ad9715f25d2e55c96f27e27be410d0816adaa4b1241e5e99426acaa103c9"
+    },
+    {
+      "key": "U15:COMM:core",
+      "sha256": "14b908b42f82340be2d4cadc4dbc9714006e5908a80b433e68257af46f86eb95"
+    },
+    {
+      "key": "U15:MLOPS:preferred",
+      "sha256": "303847d0e3572f12fe7bab51b242a7cf04379bf3bf99e39929e941601030cc69"
+    },
+    {
+      "key": "U16:ML:core",
+      "sha256": "35776c7947231104ee63d3a15a49b2dfe45d3e2761929836cfb0c7d566046edd"
+    },
+    {
+      "key": "U16:DE:core",
+      "sha256": "f2b0e94ee3bcc638b2759f232db4af24fb540469943f3879d62bebc5235ac8a9"
+    },
+    {
+      "key": "U16:INT:core",
+      "sha256": "d2e10d75aa0a813797f57a61ed5a4e4b7b6fc43df5b2d97c942413a9f0f7f59d"
+    },
+    {
+      "key": "U16:API:core",
+      "sha256": "5681a6d592cdcf6f4cb8eebe41fd34010a961fed6e51e6776a8c934f283bda5f"
+    },
+    {
+      "key": "U16:SWE:core",
+      "sha256": "ea8c080c2b801d9321858a0919bdcd8d45fff6e39ce858bdc06c0f8dd89b8541"
+    },
+    {
+      "key": "U16:GEN:core",
+      "sha256": "bbab01145eb7e56bdc7ab37dbdbce4b03b85676f4b9983e5163417e1ec688fe5"
+    },
+    {
+      "key": "U16:COMM:core",
+      "sha256": "330aa4b50eaf5cd3ed4c5f8a146d2d84c929f92cce3c29e7fa7355db3f63315c"
+    },
+    {
+      "key": "U16:DOM:unspecified",
+      "sha256": "cbd6ebb0fb16912b43a3cc9226d60c0278bab8580eb1279b99e33bb64876381f"
+    },
+    {
+      "key": "U17:PY:core",
+      "sha256": "1f8a99055e47e99e8f7b79436be0fca5e48bfe3d98f027a2a7c3af342e0ff34d"
+    },
+    {
+      "key": "U17:DL:core",
+      "sha256": "f9294d7dffd8297aea1b416e763388df58c3a61ec91076af0eae8277ba6f02c9"
+    },
+    {
+      "key": "U17:GEN:core",
+      "sha256": "61d80eec5cd99c3b460db1791f68872444d5b1589bcf69242ca5adf10344a5b7"
+    },
+    {
+      "key": "U17:AGT:core",
+      "sha256": "6955c982d9a44844c8245c035d9bfc7954fc0daa7f0d01402124cf495505dc72"
+    },
+    {
+      "key": "U17:SWE:core",
+      "sha256": "303459b794ffca890fe575173cc5d137677a00e3f3002e8d382c50c06e912b3e"
+    },
+    {
+      "key": "U17:GOV:core",
+      "sha256": "3daee83296954b0f9c5c89f643a0bbf7e7e1ecd9add3fa629d7634a87dc11ce9"
+    },
+    {
+      "key": "U17:COMM:core",
+      "sha256": "ec118541c76c60233fe5ee5ab3e15d392cf915e778ae0847c57103e227854a31"
+    },
+    {
+      "key": "U17:PYTORCH:core",
+      "sha256": "c5fb367664c264f8b97a4b7fc5d8e78c24b2add0b58324652b289f4534633450"
+    },
+    {
+      "key": "U18:SWE:core",
+      "sha256": "04d0c0170415a44046a2820bc4a7c9102a7cce81b12519c4fca60b35775244a8"
+    },
+    {
+      "key": "U18:GEN:core",
+      "sha256": "b63e381d73a29b289f292e5c27e81dd06f7507242786f9ccd8619b59b1627865"
+    },
+    {
+      "key": "U18:AGT:core",
+      "sha256": "cdb432bbbccaf43de86a7e8f70c2fd4a3eec1a50645182586bec95eed0e7db52"
+    },
+    {
+      "key": "U18:DE:core",
+      "sha256": "1bfddceda1dd16571e61f42599b02476f941045111c789f9757d6e3172ee5acc"
+    },
+    {
+      "key": "U18:SEC:core",
+      "sha256": "f21ab21deb4cdbdf2da5e78ba93fd3985d279a55ce2b389faf15acaa0fd3f1aa"
+    },
+    {
+      "key": "U18:GOV:core",
+      "sha256": "c87f0348d04a35b4fa21118f77efc47314411891632ae7e25f034d96faba40d5"
+    },
+    {
+      "key": "U19:DE:core",
+      "sha256": "86f06bef1f55907f329c889d849c89100cae916ac49f43c0404163666bd885db"
+    },
+    {
+      "key": "U19:DM:core",
+      "sha256": "c91dcb009f13abf7e2cdc582439dfedb3db7f7adcab33f29ff7ff8a921f1d018"
+    },
+    {
+      "key": "U19:VEC:core",
+      "sha256": "3245cdf2319cbc357d56ebafe1ce9c6223bf4ebad3bbc9891b327d59b227e127"
+    },
+    {
+      "key": "U19:AGT:core",
+      "sha256": "92156a57bfb37d12cf677c878bee8a63abfa22ef73015e94ed1217d9200dfe9c"
+    },
+    {
+      "key": "U19:MCP:core",
+      "sha256": "6178115dd3f89fbae96e7ec0460250f81e25236d17653c2e863a9271a583a354"
+    },
+    {
+      "key": "U19:DIST:core",
+      "sha256": "e5d99d1a4ec69866aaa93f6bf0315b897a9c91e03731890a38827d4ee3411339"
+    },
+    {
+      "key": "U19:AWS:core",
+      "sha256": "55e11a1d652b9ff222e7d891170bd2b6e46cc83b06eee0639977d76a2f1c7034"
+    },
+    {
+      "key": "U19:AZ:core",
+      "sha256": "82ff2c0630fd2362758985816a4406e5615156f079f5c5295540c3eedbb5d3f4"
+    },
+    {
+      "key": "U19:GCP:core",
+      "sha256": "db2a71232e335f0fb5a8e241b4bdf2bf6a33a98e766e772059b6e3d91b7f4124"
+    },
+    {
+      "key": "U19:API:core",
+      "sha256": "4f2a0688417b4bf6795dd854c1bce1a3de1db024731df1c9cb9b96a684ad38f9"
+    },
+    {
+      "key": "U19:SEC:core",
+      "sha256": "f89561cedb4fc65a1715e07c5051067fd3f074d953c898e30ceb49e9b170a79d"
+    },
+    {
+      "key": "U19:SWE:core",
+      "sha256": "60ece312e146b749a8fb42ceae1407c1bd2d120e955c5284794d2f1eb30c619b"
+    },
+    {
+      "key": "U19:COMM:core",
+      "sha256": "7126be3266b7217867dce77c35fd07cf927ff538ed96e08d9481ad4359f28918"
+    },
+    {
+      "key": "U19:CLOUD:core",
+      "sha256": "070133618d58d8abd895b54e6bc33103e18ab23798e933e7cd21fa38cb4dccbc"
+    },
+    {
+      "key": "U20:STAT:core",
+      "sha256": "59129aecd7875872091ca16969d5f2c3cb960c216e3aef4771346fddd179db9d"
+    },
+    {
+      "key": "U20:EXP:core",
+      "sha256": "5c80de599c989c605d3ebe94268ac445fb9f2697a7799656c77756725ac3e5a9"
+    },
+    {
+      "key": "U20:BI:core",
+      "sha256": "18386bb129577c905b3e7439751e014c3961813f3323e8e21969ddfbb65b17a3"
+    },
+    {
+      "key": "U20:COMM:core",
+      "sha256": "cfa4df40942f6235c440374e5f11663ce4f90563313cff6c29aa18309f488907"
+    },
+    {
+      "key": "U21:PY:core",
+      "sha256": "d1fa33adbd0e85fd1c5c2dbea7e12a9d0d6980ce9da9caf622301251407beb23"
+    },
+    {
+      "key": "U21:MLOPS:core",
+      "sha256": "7b51831ac60546a1deb4619947689250d724e5df29c37ed3d91455d0a4c7dd59"
+    },
+    {
+      "key": "U21:SWE:core",
+      "sha256": "c33cc9fd51e19192e68d7f58f0e1f87f05ca40abb6985bc20963d55941419b79"
+    },
+    {
+      "key": "U21:API:core",
+      "sha256": "698feaf796aa9181989fab854287ed8cceb334e4e622095ea82340968252603e"
+    },
+    {
+      "key": "U21:DIST:core",
+      "sha256": "cf11d95157754ea2882e56e478ebff454f39d703ea4737dcf2244ea3d04ec12b"
+    },
+    {
+      "key": "U21:SERV:core",
+      "sha256": "f43a9c098d7b9179097a39b6545fea253893a4e05e77040f0de082fd27f32a96"
+    },
+    {
+      "key": "U21:OBS:core",
+      "sha256": "19d20a6efd1dc3adacd143392a13424c76a333d9b549259c88c46e8a8aeb74f6"
+    },
+    {
+      "key": "U21:SEC:core",
+      "sha256": "10e9ce15f270686e76420538b76a687173447f16c51844eb5b738033641a350d"
+    },
+    {
+      "key": "U21:GOV:core",
+      "sha256": "d115dea3a0734a33cb70312b5118f3a3826ef6774b32f78f63565553a740caea"
+    },
+    {
+      "key": "U21:COMM:core",
+      "sha256": "ef2893292325441ce75f09f8e73b90e399d67b2d4cc6f0a2166a93de7a908ebd"
+    },
+    {
+      "key": "U21:CLOUD:core",
+      "sha256": "db449ce2d0dda781012f97a352cb23a39848e86a35726447eae52119425ef3bf"
+    },
+    {
+      "key": "U22:PY:core",
+      "sha256": "c9466d8418f500d11626a3f3fb718d8c52e5dc5b7b0eb8187d2e87ed127bb57e"
+    },
+    {
+      "key": "U22:SQL:core",
+      "sha256": "f212d07bc2bc85b4b2f192d8bde51757d88fb818d1d42e7b7210bfe5f393bd28"
+    },
+    {
+      "key": "U22:GEN:core",
+      "sha256": "b3b56c02fe3f4cba54b9b76a988fef384dd4a5bbff9f1f3873be6681724fd406"
+    },
+    {
+      "key": "U22:RAG:core",
+      "sha256": "8901a90fe702b2bbcd1de000e7245ec0cbd0f552545e09dc1cb48fc7d54adb66"
+    },
+    {
+      "key": "U22:AGT:core",
+      "sha256": "604f1087f7a75aa5bfd681ab4b1b187ec3c4db72f995332b64b38e94d10f495f"
+    },
+    {
+      "key": "U22:ML:core",
+      "sha256": "cca5bcb2e0da0a2f99faf09d5692d933cf7f010ff0f83dcea63d05ea7483f755"
+    },
+    {
+      "key": "U22:STAT:core",
+      "sha256": "a7e142eff29b9ca6fa6686ce21d326d910c5adcd8c6712e0dfc29f08e19715c9"
+    },
+    {
+      "key": "U22:SWE:core",
+      "sha256": "3cd51d9a5ad5cf42b1017f2054f533b370238edb1aa2bf7b37bbe87e394c3351"
+    },
+    {
+      "key": "U22:API:core",
+      "sha256": "d6da9279ff2185d1dcbd2009046cb666d66e756681bd09dda7231fc988537af7"
+    },
+    {
+      "key": "U22:COMM:core",
+      "sha256": "4cf1a3c0b4de29691b3d908daefc8eed5e42d8347bd4caa950c805416caa9012"
+    },
+    {
+      "key": "U22:DOM:unspecified",
+      "sha256": "7c8763d4c20d9fa1a25aaa897602691b5c813f67d6a137d604ca953445e3d8aa"
+    },
+    {
+      "key": "U23:DE:core",
+      "sha256": "e09b101f8e446ba327c9ad1363e320963701e9e9a87bbcf8a1b2426738f0cc1a"
+    },
+    {
+      "key": "U23:DM:core",
+      "sha256": "2b0cd3963154faee1830a26f134028569dd7f8ea23a7193da591b723eed9a759"
+    },
+    {
+      "key": "U23:WH:core",
+      "sha256": "2d08d0be2635698a1fd0ca89d1ea029c11285d5d06b67720dd3e06c18450fc8d"
+    },
+    {
+      "key": "U23:SQL:core",
+      "sha256": "5747fc8221cd3855498f9c127bbefa23b69bbc3fcd686146ea8d65bc5a70ddda"
+    },
+    {
+      "key": "U23:SWE:core",
+      "sha256": "5a39635d9f4c239feee59c612798a8c2efed995524fdfe40b9a35f6f8ff2bd00"
+    },
+    {
+      "key": "U23:COMM:core",
+      "sha256": "7e38a45d3a4b554173958a9e6452b61def71a3fe9ded8998b8dcbc1db072b795"
+    },
+    {
+      "key": "U23:CLOUD:core",
+      "sha256": "80f8342976cb5ffde862fb943197a46d447eb90d12b5c762e8873e90a17f4ec5"
+    },
+    {
+      "key": "U24:SQL:core",
+      "sha256": "417cd998d3b401ae08828444e8c38366c09d27225471213f765639816473f1d2"
+    },
+    {
+      "key": "U24:PY:core",
+      "sha256": "19076905947a63f4cd74f2625b0676de3978e0340ba85c459c2cfe4e14f51435"
+    },
+    {
+      "key": "U24:R:core",
+      "sha256": "cda812dc234a1118c35554093d8a4f10ab3739a3fe84673ae4a22bfc50e4e947"
+    },
+    {
+      "key": "U24:STAT:core",
+      "sha256": "3e1c7c4340061d51ea5f78ba5f9f07dbc973fcaefd204acdff9a79b1062e7a8c"
+    },
+    {
+      "key": "U24:ML:core",
+      "sha256": "7af8345904814e488f20e7ceabc92ae30ec9e44c3c3b320a6b3ebc15fe62c200"
+    },
+    {
+      "key": "U24:DE:core",
+      "sha256": "332b61a21373537893ae6c1b3eae70c1e18536fb9cb4e1ad64a436ad33c2069c"
+    },
+    {
+      "key": "U24:BI:core",
+      "sha256": "162dbe2515d56e3b96d68dc6c9b28bdf2ee8ce03085e8f0f7eb84fea9d0e3b2e"
+    },
+    {
+      "key": "U24:COMM:core",
+      "sha256": "89ecca9674191908db381d6f648bd18ae3a4cfad58826057dbb5ecc4d4f61ad2"
+    },
+    {
+      "key": "U24:DOM:unspecified",
+      "sha256": "851af785b78f7967294380bddde383c763e9a13b452ee95172165a4a0e307c78"
+    },
+    {
+      "key": "U24:GOV:core",
+      "sha256": "670fb8c29354e8d09dc1131d53a4c635aa79603fa0a5d957954b54dedbd65c50"
+    },
+    {
+      "key": "U25:PY:core",
+      "sha256": "c3d08ded8ad5de57790b6df6a58f9ac5b9b5b5cc6de8b2e3b14eb2b23da4dda4"
+    },
+    {
+      "key": "U25:GEN:core",
+      "sha256": "a8656777cd9f91625e64bc979987231da056bfd604d4aa710217b9d0fe1ef563"
+    },
+    {
+      "key": "U25:ML:core",
+      "sha256": "eea0ce0c3168300ad83e12f4a3ab6448b779482342be2fd33dffd83ce6d63611"
+    },
+    {
+      "key": "U25:API:core",
+      "sha256": "c33f29379a88c873692d366e2b25be68dd9e11d157d6bb1f2e7adacc3db4979f"
+    },
+    {
+      "key": "U25:AWS:core",
+      "sha256": "e89dd746b08a0783cc25bcfbabf750043ae54e38b37b8aaa57155dc0a3349700"
+    },
+    {
+      "key": "U25:SWE:core",
+      "sha256": "cfed59fbf3375866f037936362c180bb5fd8ffa8299703968d12875355663d26"
+    },
+    {
+      "key": "U25:DE:core",
+      "sha256": "8dfa8a5e9a3d3f86b5f3887d2f6d550e3bc6677796a7190f98dbc070e6d603c1"
+    },
+    {
+      "key": "U25:COMM:core",
+      "sha256": "5e8d5b5fd9e7a9d80d2a8c17705b8709350704388a75a3ebe7cee3cfb4a5e08c"
+    },
+    {
+      "key": "U25:DOM:unspecified",
+      "sha256": "3f473f5aa820afd21de11e7ec34698eebc913337a982fe3ebe8bb6b152074d9c"
+    },
+    {
+      "key": "U26:AGT:core",
+      "sha256": "1e82e9b1453510bc70760ba7434fbd3f7e79f68b85740dc4ecf94ee6c0428d25"
+    },
+    {
+      "key": "U26:MAG:core",
+      "sha256": "928496ff3cf1a7d910caeee4729b2e675d5b95df1c2a482823e54e6ffe4e2873"
+    },
+    {
+      "key": "U26:GEN:core",
+      "sha256": "3c258cc34d11230cd89a0c96fa603ffd1fd2f4783852e0f9c837f35bfb2c36f2"
+    },
+    {
+      "key": "U26:RAG:core",
+      "sha256": "30484b2cec7f1984f61b9cb6a9cd91ee3db6b59c3185bf1427bccc884605ef54"
+    },
+    {
+      "key": "U26:SWE:core",
+      "sha256": "e8312562ca53944883c10427f788f65863cfd0de1b77f64fb595f6e8f66dfb95"
+    },
+    {
+      "key": "U26:API:core",
+      "sha256": "52d595971e78a24ca0dafd5d9fabdfd07e3de88375ae98153acc1c4a056f30b3"
+    },
+    {
+      "key": "U26:INT:core",
+      "sha256": "e024728d954b17dcfe69ec40558f91e7f075e92778260a117cc7564755f0368a"
+    },
+    {
+      "key": "U26:SEC:core",
+      "sha256": "8f68ed49a2bd672fe7853a6bd705fc3e6557ab53e61258e3e394767d85eb9f1d"
+    },
+    {
+      "key": "U26:GOV:core",
+      "sha256": "f8d7d68a2b060347492a3e473167a58ce1a0a570c08af5ad01cc5f7d5a468659"
+    },
+    {
+      "key": "U26:EVAL:core",
+      "sha256": "e5dca04d8eba50d0066b4dc03e7ec62df293791c3a8a2e77d031ea0a0756b0c6"
+    },
+    {
+      "key": "U26:OBS:core",
+      "sha256": "9a69000f190a9e8d94e69084c21878bc584c671b3eaea53293bbc841ce8a7f47"
+    },
+    {
+      "key": "U26:COMM:core",
+      "sha256": "ce62ca72ccb41504174b5986d7b9006989f6d044e22175c079f8e75abde3afa5"
+    },
+    {
+      "key": "U27:STAT:core",
+      "sha256": "7f679971ebe7eb5ca040febcfba7079032ba04591006c76b6845310b0bcf60c1"
+    },
+    {
+      "key": "U27:ML:core",
+      "sha256": "4176df363a6e808265ad6d3e3265f8dd4c793c140a342aef5cede416c86dcfef"
+    },
+    {
+      "key": "U27:BI:core",
+      "sha256": "4248cbb026575ba08c076b0148dce771f4505eb0deb31422351e726e75a18b1c"
+    },
+    {
+      "key": "U27:DE:core",
+      "sha256": "59eaf53a2898eb5cb4de95b771d72041d23f814c48a98661592fc876e2afa04b"
+    },
+    {
+      "key": "U27:EVAL:core",
+      "sha256": "926d0d8824bf30eff3e5555be6a94362886276140032d90f0c852e71b6e8ade6"
+    },
+    {
+      "key": "U27:COMM:core",
+      "sha256": "b1310ef78d83bf47434af1f8c02fc356581a0f6e1d412a453560dcf15d73a3a1"
+    },
+    {
+      "key": "U28:ML:core",
+      "sha256": "bd63c12aa46335045585506f0fd9e822a7b4260e5fe8d4356d184f9b5253cba3"
+    },
+    {
+      "key": "U28:MLOPS:core",
+      "sha256": "4620cdd389ed771af4de4f03c8f6034c3a8eda6ece27b7faf19e2975c25e1a0c"
+    },
+    {
+      "key": "U28:SERV:core",
+      "sha256": "793ec96fe44fd54a9b8d4ffc804bed74d20c26160a103647a70c0fd28a92a6b1"
+    },
+    {
+      "key": "U28:OBS:core",
+      "sha256": "cb4bda2224c5fa4f5cbf5a0c1867c44be59e2154abf31945e9a90f8ec15267a4"
+    },
+    {
+      "key": "U28:DE:core",
+      "sha256": "36b626e73a851bea7f50b25fe6c85b44612eccdee9bc634b15722802277857ec"
+    },
+    {
+      "key": "U28:SWE:core",
+      "sha256": "e03c9f5ff47eae70c0572ab3f1b85cd92de5c9ae9b23172f632654517aa557cd"
+    },
+    {
+      "key": "U28:COMM:core",
+      "sha256": "24f759163eceec13861fbb570707d4c111a719cf901a4d46ff5d7d0157529895"
+    },
+    {
+      "key": "U29:ML:core",
+      "sha256": "48147648898f921494f37297437250fef1a930cdedf5f29c4b10170f941ece65"
+    },
+    {
+      "key": "U29:DE:core",
+      "sha256": "75e30476f10879fb2b0c4c7b63df06b48009d40194a24befb88bbdb8c9b455cc"
+    },
+    {
+      "key": "U29:STAT:core",
+      "sha256": "491065acbaf79b5559864e33bf094011c5dfd0113b4bf0f8e9ee9db5a17b846d"
+    },
+    {
+      "key": "U29:SWE:core",
+      "sha256": "b4d8595bb63a117e48e90cda37a2553d8e3d82bdc136edf57559937848d8548f"
+    },
+    {
+      "key": "U29:SEC:core",
+      "sha256": "d8562aecba445b9672926f0af96084942f49b62ad1cfa1b94ac39645b42c66c1"
+    },
+    {
+      "key": "U29:GOV:core",
+      "sha256": "17aa59d3be20789580a957c51ff4cb23d2a2c26d490ce2d7f5369cea7e6aeded"
+    },
+    {
+      "key": "U29:COMM:core",
+      "sha256": "f0f563d1143cc80853c83012013a340621d6e55687802ff1df1963813fd6e2b8"
+    },
+    {
+      "key": "U29:DOM:unspecified",
+      "sha256": "4b5e1700026571201004111a3c154421052454d32ef5f480533182c8fa4df1a8"
+    },
+    {
+      "key": "U30:ML:core",
+      "sha256": "41dfdfc69910a5e47d06ce653b5841d4dc75e6d34c0ff612aa5e1bb0a703f662"
+    },
+    {
+      "key": "U30:STAT:core",
+      "sha256": "207cee6917f021f201ecf0c06775e03e5659b5da92c70ae8bdffaf72f53ae696"
+    },
+    {
+      "key": "U30:DE:core",
+      "sha256": "2b7b3bb08cc0e32204e1c5643e1f93440348e260773f1e441a557e2cb7973f6c"
+    },
+    {
+      "key": "U30:COMM:core",
+      "sha256": "7f672577151d669e30f0837c70486fadb90f6ca985487789948ae0ee0cee633e"
+    },
+    {
+      "key": "U30:DOM:unspecified",
+      "sha256": "6a57c30efe5aab0ecf2aca0fc1de728d285d8aa4e02213759316a590ab20a9f3"
+    },
+    {
+      "key": "U31:ML:core",
+      "sha256": "3ec033294546c502068f986ea31aa8dc47dc78b68233c3b1e64cbdd85602707c"
+    },
+    {
+      "key": "U31:MLOPS:core",
+      "sha256": "39bf8fd0adc02b3363513c22cd15a7761523f27e3175f993167f4e80bb5c5ecf"
+    },
+    {
+      "key": "U31:SERV:core",
+      "sha256": "52ef1406459ac5a86c78b77a26e78228ef68c159318e09ac380ce698cdf0da2a"
+    },
+    {
+      "key": "U31:OBS:core",
+      "sha256": "d0f7ea67905d97e315be13cce6338053083e351ae4d30d3e896467df006312c4"
+    },
+    {
+      "key": "U31:DE:core",
+      "sha256": "f80f87dad6e073d8aa25aa37992b33e668ae3c9b8ec65e071232d2d4ed36413c"
+    },
+    {
+      "key": "U31:SWE:core",
+      "sha256": "39df801f5b1bfe487db1b34777b5ef3f76a91cb73960283093cc9ee5bea829c8"
+    },
+    {
+      "key": "U31:COMM:core",
+      "sha256": "4bfdc9f3497b2c95d5a6a534eaa02c6c5952b3e7c6954051186e42ac2dbd78c7"
+    }
+  ]
+}

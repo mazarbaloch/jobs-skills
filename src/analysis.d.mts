@@ -25,6 +25,7 @@ export interface Distribution {
   job_ids: string[];
 }
 export const regions: string[];
+export function identity(row: { job_id: string; snapshot_job_id?: string }): string;
 export function observations<T extends Observation>(rows: T[], type?: string): T[];
 export function selectJobs<T extends { job_id: string }>(
   jobs: T[],

@@ -6,18 +6,19 @@
     "denominator": 31,
     "percentage": 35.483870967741936,
     "job_ids": [
-      "F03",
-      "F07",
-      "F08",
-      "F12",
-      "F18",
-      "F20",
-      "F21",
-      "F23",
-      "F24",
-      "F25",
-      "F27"
-    ]
+      "2026-Q4:F03",
+      "2026-Q4:F07",
+      "2026-Q4:F08",
+      "2026-Q4:F12",
+      "2026-Q4:F18",
+      "2026-Q4:F20",
+      "2026-Q4:F21",
+      "2026-Q4:F23",
+      "2026-Q4:F24",
+      "2026-Q4:F25",
+      "2026-Q4:F27"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -26,13 +27,14 @@
     "denominator": 31,
     "percentage": 19.35483870967742,
     "job_ids": [
-      "F01",
-      "F13",
-      "F14",
-      "F15",
-      "F16",
-      "F17"
-    ]
+      "2026-Q4:F01",
+      "2026-Q4:F13",
+      "2026-Q4:F14",
+      "2026-Q4:F15",
+      "2026-Q4:F16",
+      "2026-Q4:F17"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -41,12 +43,13 @@
     "denominator": 31,
     "percentage": 16.129032258064516,
     "job_ids": [
-      "F04",
-      "F09",
-      "F10",
-      "F22",
-      "F29"
-    ]
+      "2026-Q4:F04",
+      "2026-Q4:F09",
+      "2026-Q4:F10",
+      "2026-Q4:F22",
+      "2026-Q4:F29"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -55,11 +58,12 @@
     "denominator": 31,
     "percentage": 12.903225806451612,
     "job_ids": [
-      "F06",
-      "F11",
-      "F19",
-      "F28"
-    ]
+      "2026-Q4:F06",
+      "2026-Q4:F11",
+      "2026-Q4:F19",
+      "2026-Q4:F28"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -68,8 +72,9 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "F26"
-    ]
+      "2026-Q4:F26"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -78,8 +83,9 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "F30"
-    ]
+      "2026-Q4:F30"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -88,8 +94,9 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "F02"
-    ]
+      "2026-Q4:F02"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -98,8 +105,9 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "F05"
-    ]
+      "2026-Q4:F05"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Finland",
@@ -108,8 +116,9 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "F31"
-    ]
+      "2026-Q4:F31"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -118,15 +127,16 @@
     "denominator": 25,
     "percentage": 32,
     "job_ids": [
-      "E06",
-      "E08",
-      "E10",
-      "E13",
-      "E14",
-      "E15",
-      "E17",
-      "E24"
-    ]
+      "2026-Q4:E06",
+      "2026-Q4:E08",
+      "2026-Q4:E10",
+      "2026-Q4:E13",
+      "2026-Q4:E14",
+      "2026-Q4:E15",
+      "2026-Q4:E17",
+      "2026-Q4:E24"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -135,14 +145,15 @@
     "denominator": 25,
     "percentage": 28,
     "job_ids": [
-      "E01",
-      "E04",
-      "E07",
-      "E11",
-      "E12",
-      "E16",
-      "E20"
-    ]
+      "2026-Q4:E01",
+      "2026-Q4:E04",
+      "2026-Q4:E07",
+      "2026-Q4:E11",
+      "2026-Q4:E12",
+      "2026-Q4:E16",
+      "2026-Q4:E20"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -151,11 +162,12 @@
     "denominator": 25,
     "percentage": 16,
     "job_ids": [
-      "E02",
-      "E19",
-      "E21",
-      "E22"
-    ]
+      "2026-Q4:E02",
+      "2026-Q4:E19",
+      "2026-Q4:E21",
+      "2026-Q4:E22"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -164,10 +176,11 @@
     "denominator": 25,
     "percentage": 12,
     "job_ids": [
-      "E03",
-      "E18",
-      "E25"
-    ]
+      "2026-Q4:E03",
+      "2026-Q4:E18",
+      "2026-Q4:E25"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -176,8 +189,9 @@
     "denominator": 25,
     "percentage": 4,
     "job_ids": [
-      "E23"
-    ]
+      "2026-Q4:E23"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -186,8 +200,9 @@
     "denominator": 25,
     "percentage": 4,
     "job_ids": [
-      "E05"
-    ]
+      "2026-Q4:E05"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "Rest of Europe",
@@ -196,8 +211,9 @@
     "denominator": 25,
     "percentage": 4,
     "job_ids": [
-      "E09"
-    ]
+      "2026-Q4:E09"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -206,18 +222,19 @@
     "denominator": 31,
     "percentage": 35.483870967741936,
     "job_ids": [
-      "U01",
-      "U02",
-      "U03",
-      "U05",
-      "U06",
-      "U09",
-      "U10",
-      "U11",
-      "U12",
-      "U28",
-      "U31"
-    ]
+      "2026-Q4:U01",
+      "2026-Q4:U02",
+      "2026-Q4:U03",
+      "2026-Q4:U05",
+      "2026-Q4:U06",
+      "2026-Q4:U09",
+      "2026-Q4:U10",
+      "2026-Q4:U11",
+      "2026-Q4:U12",
+      "2026-Q4:U28",
+      "2026-Q4:U31"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -226,14 +243,15 @@
     "denominator": 31,
     "percentage": 22.580645161290324,
     "job_ids": [
-      "U08",
-      "U17",
-      "U20",
-      "U24",
-      "U27",
-      "U29",
-      "U30"
-    ]
+      "2026-Q4:U08",
+      "2026-Q4:U17",
+      "2026-Q4:U20",
+      "2026-Q4:U24",
+      "2026-Q4:U27",
+      "2026-Q4:U29",
+      "2026-Q4:U30"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -242,13 +260,14 @@
     "denominator": 31,
     "percentage": 19.35483870967742,
     "job_ids": [
-      "U04",
-      "U14",
-      "U16",
-      "U18",
-      "U22",
-      "U25"
-    ]
+      "2026-Q4:U04",
+      "2026-Q4:U14",
+      "2026-Q4:U16",
+      "2026-Q4:U18",
+      "2026-Q4:U22",
+      "2026-Q4:U25"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -257,10 +276,11 @@
     "denominator": 31,
     "percentage": 9.67741935483871,
     "job_ids": [
-      "U13",
-      "U19",
-      "U23"
-    ]
+      "2026-Q4:U13",
+      "2026-Q4:U19",
+      "2026-Q4:U23"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -269,9 +289,10 @@
     "denominator": 31,
     "percentage": 6.451612903225806,
     "job_ids": [
-      "U07",
-      "U15"
-    ]
+      "2026-Q4:U07",
+      "2026-Q4:U15"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -280,8 +301,9 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "U26"
-    ]
+      "2026-Q4:U26"
+    ],
+    "snapshot_id": "2026-Q4"
   },
   {
     "region": "USA",
@@ -290,7 +312,8 @@
     "denominator": 31,
     "percentage": 3.225806451612903,
     "job_ids": [
-      "U21"
-    ]
+      "2026-Q4:U21"
+    ],
+    "snapshot_id": "2026-Q4"
   }
 ]

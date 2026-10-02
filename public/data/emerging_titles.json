@@ -5,10 +5,11 @@
     "denominator": 87,
     "percentage": 2.2988505747126435,
     "job_ids": [
-      "F18",
-      "F27"
+      "2026-Q4:F18",
+      "2026-Q4:F27"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI/ML Engineer",
@@ -16,10 +17,11 @@
     "denominator": 87,
     "percentage": 2.2988505747126435,
     "job_ids": [
-      "F07",
-      "F21"
+      "2026-Q4:F07",
+      "2026-Q4:F21"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI / Data Science Engineer I",
@@ -27,9 +29,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E19"
+      "2026-Q4:E19"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI Architect",
@@ -37,9 +40,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F24"
+      "2026-Q4:F24"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI Designer",
@@ -47,9 +51,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F31"
+      "2026-Q4:F31"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI Developer – LLM Applications",
@@ -57,9 +62,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F02"
+      "2026-Q4:F02"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI Full-Stack Developer",
@@ -67,9 +73,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F23"
+      "2026-Q4:F23"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI Lead Developer",
@@ -77,9 +84,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E22"
+      "2026-Q4:E22"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI Software Developer",
@@ -87,9 +95,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E21"
+      "2026-Q4:E21"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AI System Research and Development Engineer – Optimization",
@@ -97,9 +106,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U07"
+      "2026-Q4:U07"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "AIML – Sr Machine Learning Engineer, DMLI",
@@ -107,9 +117,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U03"
+      "2026-Q4:U03"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Applied AI Engineer, Fullstack Software Engineer – EMEA",
@@ -117,9 +128,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E02"
+      "2026-Q4:E02"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Applied AI Engineer, ML Infrastructure Engineer / DevOps – EMEA",
@@ -127,9 +139,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E03"
+      "2026-Q4:E03"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Data Engineer (SMTS/LMTS) – Knowledge Graph & AI",
@@ -137,9 +150,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U19"
+      "2026-Q4:U19"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Delivery Consultant – AI/ML, WWPS ProServe",
@@ -147,9 +161,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U04"
+      "2026-Q4:U04"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Forward Deployed AI Engineer",
@@ -157,9 +172,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U14"
+      "2026-Q4:U14"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Global Rates – AI Engineer – VP",
@@ -167,9 +183,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U22"
+      "2026-Q4:U22"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Lead Agentic AI Engineer – Vice President",
@@ -177,9 +194,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U26"
+      "2026-Q4:U26"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Lead AI Developer",
@@ -187,9 +205,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F25"
+      "2026-Q4:F25"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Lead Forward Deployed Engineering – Data Science & Integration",
@@ -197,9 +216,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U16"
+      "2026-Q4:U16"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Platform Intelligence Engineer",
@@ -207,9 +227,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U13"
+      "2026-Q4:U13"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Principal AI Architect",
@@ -217,9 +238,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F26"
+      "2026-Q4:F26"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Principal Software Engineer / Data Scientist, AI",
@@ -227,9 +249,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U18"
+      "2026-Q4:U18"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Research Scientist – Salesforce AI Research",
@@ -237,9 +260,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U17"
+      "2026-Q4:U17"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior AI Engineer",
@@ -247,9 +271,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F03"
+      "2026-Q4:F03"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior AI Platform Engineer",
@@ -257,9 +282,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E25"
+      "2026-Q4:E25"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior AI/ML Engineer",
@@ -267,9 +293,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F08"
+      "2026-Q4:F08"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior Forward Deployed AI Engineer",
@@ -277,9 +304,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F20"
+      "2026-Q4:F20"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior Forward Deployed AI Scientist",
@@ -287,9 +315,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F19"
+      "2026-Q4:F19"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior Industrial AI/ML Engineer",
@@ -297,9 +326,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F13"
+      "2026-Q4:F13"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior Machine Learning Engineer, AI Platform",
@@ -307,9 +337,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F05"
+      "2026-Q4:F05"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior Machine Learning Engineer, Query Intelligence",
@@ -317,9 +348,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U10"
+      "2026-Q4:U10"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Senior Machine Learning Scientist, LLM Fine-Tuning",
@@ -327,9 +359,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "E09"
+      "2026-Q4:E09"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Sovereign AI Model Engineer",
@@ -337,9 +370,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F15"
+      "2026-Q4:F15"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Sr. AI/Python Engineer – Vice President",
@@ -347,9 +381,10 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "U21"
+      "2026-Q4:U21"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   },
   {
     "label": "Trainee, People Insights",
@@ -357,8 +392,9 @@
     "denominator": 87,
     "percentage": 1.1494252873563218,
     "job_ids": [
-      "F30"
+      "2026-Q4:F30"
     ],
-    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty."
+    "selection_rule": "Explicit title contains AI, LLM, intelligence, agentic, or forward deployed; descriptive selection, not proof of novelty.",
+    "snapshot_id": "2026-Q4"
   }
 ]

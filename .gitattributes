@@ -3,3 +3,6 @@
 report.md -text
 research/original_deep_research_report.md -text
 public/research/original_deep_research_report.md -text
+research/snapshots/*/report.md -text
+public/research/snapshots/*/report.md -text
+tests/fixtures/*/research/snapshots/*/report.md -text

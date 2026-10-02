@@ -3,3 +3,5 @@ dist/
 test-results/
 playwright-report/
 *.tsbuildinfo
+tests/fixtures/.generated/
+data/ingestion_errors.json

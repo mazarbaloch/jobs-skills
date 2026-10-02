@@ -1,0 +1,324 @@
+{
+  "snapshot_id": "2026-Q4",
+  "label": "October 2026",
+  "retrieval_date": "2026-10-02",
+  "status": "published",
+  "methodology_version": "1.0",
+  "taxonomy_version": "1.0",
+  "notes": "Initial baseline labour-market study",
+  "expected_records": 87,
+  "expected_regions": {
+    "Finland": 31,
+    "Rest of Europe": 25,
+    "USA": 31
+  },
+  "source_sha256": "d430a408d9044dcb9b6182c64e095686f93bd066089fab8f94df84d5bfcf96f3",
+  "reported_statistics": [
+    {
+      "category": "records",
+      "label": "All jobs",
+      "stated": 87,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "region",
+      "label": "Finland",
+      "stated": 31,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "region",
+      "label": "Rest of Europe",
+      "stated": 25,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "region",
+      "label": "USA",
+      "stated": 31,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Machine Learning Engineering",
+      "stated": 24,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "AI Engineering",
+      "stated": 21,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Data Science",
+      "stated": 19,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Data Engineering",
+      "stated": 9,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "AI Platform / Infrastructure",
+      "stated": 6,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "GenAI / LLM",
+      "stated": 2,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "MLOps / ML Platform",
+      "stated": 2,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Data & Analytics",
+      "stated": 1,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Analytics Engineering",
+      "stated": 1,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Agentic AI",
+      "stated": 1,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "role",
+      "label": "Other emerging AI",
+      "stated": 1,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "seniority",
+      "label": "Entry / Junior",
+      "stated": 4,
+      "reason": "Mixed labels (e.g. Mid/Senior, Entry/Mid, Senior/Lead) remain ambiguous. They are not forced into a single level."
+    },
+    {
+      "category": "seniority",
+      "label": "Mid",
+      "stated": 9,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "seniority",
+      "label": "Senior",
+      "stated": 52,
+      "reason": "Mixed labels (e.g. Mid/Senior, Entry/Mid, Senior/Lead) remain ambiguous. They are not forced into a single level."
+    },
+    {
+      "category": "seniority",
+      "label": "Staff / Lead / Principal",
+      "stated": 22,
+      "reason": "Mixed labels (e.g. Mid/Senior, Entry/Mid, Senior/Lead) remain ambiguous. They are not forced into a single level."
+    },
+    {
+      "category": "core skill",
+      "label": "COMM",
+      "stated": 76,
+      "reason": "Counts use appendix codes, with preferred-only separation; narrative totals are not substituted."
+    },
+    {
+      "category": "core skill",
+      "label": "SWE",
+      "stated": 58,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "ML",
+      "stated": 45,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "PY",
+      "stated": 43,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "DE",
+      "stated": 42,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "GEN",
+      "stated": 41,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "CLOUD",
+      "stated": 33,
+      "reason": "Generic cloud is counted only when explicitly present in Core evidence. Named providers are separate; the appendix has no CLOUD code."
+    },
+    {
+      "category": "core skill",
+      "label": "EVAL",
+      "stated": 31,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "AGT",
+      "stated": 25,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "OBS",
+      "stated": 24,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "GOV",
+      "stated": 22,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "AWS",
+      "stated": 21,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "DL",
+      "stated": 20,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "API",
+      "stated": 19,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "MLOPS",
+      "stated": 19,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "STAT",
+      "stated": 18,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "SEC",
+      "stated": 17,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "SQL",
+      "stated": 16,
+      "reason": "Counts use appendix codes, with preferred-only separation; narrative totals are not substituted."
+    },
+    {
+      "category": "core skill",
+      "label": "AZ",
+      "stated": 15,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "CICD",
+      "stated": 15,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "SERV",
+      "stated": 15,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "RAG",
+      "stated": 13,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "core skill",
+      "label": "GCP",
+      "stated": 12,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "SWE",
+      "stated": 18,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "GEN",
+      "stated": 17,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "AGT",
+      "stated": 13,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "API",
+      "stated": 12,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "PY",
+      "stated": 11,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "CLOUD",
+      "stated": 11,
+      "reason": "The prose and structured appendix differ; original advertisements were not re-researched."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "ML",
+      "stated": 10,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "AI Engineering",
+      "label": "DE",
+      "stated": 8,
+      "reason": "The published claim differs from the structured appendix."
+    },
+    {
+      "category": "title",
+      "label": "Agentic AI in exact title",
+      "stated": 1,
+      "reason": "The published claim differs from the structured appendix."
+    }
+  ]
+}

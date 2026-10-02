@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "compatible_versions": [
+    "1.0"
+  ],
+  "notes": "Baseline meanings frozen. Add terms or aliases explicitly; do not silently rename historical concepts."
+}

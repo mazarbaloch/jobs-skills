@@ -1,0 +1,449 @@
+[
+  {
+    "label": "Solita",
+    "count": 8,
+    "denominator": 87,
+    "percentage": 9.195402298850574,
+    "job_ids": [
+      "2026-Q4:F22",
+      "2026-Q4:F23",
+      "2026-Q4:F24",
+      "2026-Q4:F31",
+      "2026-Q4:E21",
+      "2026-Q4:E22",
+      "2026-Q4:E23",
+      "2026-Q4:E24"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Wise",
+    "count": 6,
+    "denominator": 87,
+    "percentage": 6.896551724137931,
+    "job_ids": [
+      "2026-Q4:E11",
+      "2026-Q4:E12",
+      "2026-Q4:E13",
+      "2026-Q4:E14",
+      "2026-Q4:E15",
+      "2026-Q4:E16"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Citi",
+    "count": 4,
+    "denominator": 87,
+    "percentage": 4.597701149425287,
+    "job_ids": [
+      "2026-Q4:U21",
+      "2026-Q4:U22",
+      "2026-Q4:U23",
+      "2026-Q4:U26"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Recordly",
+    "count": 4,
+    "denominator": 87,
+    "percentage": 4.597701149425287,
+    "job_ids": [
+      "2026-Q4:F07",
+      "2026-Q4:F08",
+      "2026-Q4:F09",
+      "2026-Q4:F10"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Salesforce",
+    "count": 4,
+    "denominator": 87,
+    "percentage": 4.597701149425287,
+    "job_ids": [
+      "2026-Q4:U16",
+      "2026-Q4:U17",
+      "2026-Q4:U18",
+      "2026-Q4:U19"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Airbnb",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:U08",
+      "2026-Q4:U09",
+      "2026-Q4:U10"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Apple",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:U01",
+      "2026-Q4:U02",
+      "2026-Q4:U03"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Booking.com",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:E08",
+      "2026-Q4:E09",
+      "2026-Q4:E10"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "NestAI",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:F15",
+      "2026-Q4:F16",
+      "2026-Q4:F17"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Nordea",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:F18",
+      "2026-Q4:F19",
+      "2026-Q4:F20"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Norrin",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:F27",
+      "2026-Q4:F28",
+      "2026-Q4:F29"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Palantir",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:U13",
+      "2026-Q4:U14",
+      "2026-Q4:U15"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Walmart",
+    "count": 3,
+    "denominator": 87,
+    "percentage": 3.4482758620689653,
+    "job_ids": [
+      "2026-Q4:U27",
+      "2026-Q4:U28",
+      "2026-Q4:U31"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "AbbVie",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:U24",
+      "2026-Q4:U25"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Boeing",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:U29",
+      "2026-Q4:U30"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Futurice",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:F03",
+      "2026-Q4:F04"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Mistral AI",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:E02",
+      "2026-Q4:E03"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "OpenAI",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:U05",
+      "2026-Q4:U06"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Reaktor",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:F01",
+      "2026-Q4:F02"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Smartly",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:F05",
+      "2026-Q4:F06"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Upright",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:F11",
+      "2026-Q4:F12"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Vaisala",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:F25",
+      "2026-Q4:F26"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Zalando",
+    "count": 2,
+    "denominator": 87,
+    "percentage": 2.2988505747126435,
+    "job_ids": [
+      "2026-Q4:E05",
+      "2026-Q4:E06"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Air Apps",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:F21"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "AMAI",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E20"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "AWS",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:U04"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Brightly Works",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:F13"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Cabify",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E17"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Delivery Hero",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E07"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Doctrine",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E01"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "DoorDash",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:U11"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Feedzai",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E18"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "KONE",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:F30"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Medtronic",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E19"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Salesforce/Slack",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:U20"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "SAP",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E25"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Snowflake",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:U07"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Spotify",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:E04"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Stripe",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:U12"
+    ],
+    "snapshot_id": "2026-Q4"
+  },
+  {
+    "label": "Supercell",
+    "count": 1,
+    "denominator": 87,
+    "percentage": 1.1494252873563218,
+    "job_ids": [
+      "2026-Q4:F14"
+    ],
+    "snapshot_id": "2026-Q4"
+  }
+]
